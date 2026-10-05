@@ -34,7 +34,7 @@
 
 1. شاهد الفيلم، ثم جرّب سؤال الكعبة وافتح مصدر الجواب.
 2. افحص [المعمارية وحدود المزود](architecture/README.md) و[سجل الادعاءات](evidence/claims.json).
-3. راجع [أدلة التضمين والفهرسة](data-cards/rag/README.md) و[عينات SFT ونتائجها](data-cards/sft/README.md).
+3. راجع [قائمة المصادر المعتمدة وتغطية RAG](docs/SOURCES_AR.md)، ثم [أدلة التضمين والفهرسة](data-cards/rag/README.md) و[عينات SFT ونتائجها](data-cards/sft/README.md).
 4. اقرأ [مقارنة ٥٠ سؤالًا](evaluation/README.md): نتائج تشغيل تاريخية كاملة للمجموعة، مع فصل نجاح الطلب عن صحة الجواب.
 5. شغّل التطبيق واختباراته. اقرأ [ما أُنجز خلال التحدّي وما سبقه](challenge/README.md).
 
@@ -74,6 +74,6 @@ npm run check
 | `media/` | النص والتوقيت ومصادر إعادة تركيب الفيلم وحقوق الصوت |
 | `challenge/` | خط أساس مؤرخ وفروق التطبيق وحدود احتساب العمل |
 
-تحديث مواد التسليم الثاني: ٥ أكتوبر ٢٠٢٦، بيتا ٢٫٥ / فيلم R10. المستودع لا يجمّد حالة API المستقبلية. [القيود](docs/LIMITATIONS_AR.md) · [الحقوق والاعتمادات](docs/RIGHTS_AR.md) · [فحص الحزمة](docs/RELEASE_AR.md).
+تحديث مواد التسليم الثاني: ٥ أكتوبر ٢٠٢٦، بيتا ٢٫٥ / فيلم R11. المستودع لا يجمّد حالة API المستقبلية. [القيود](docs/LIMITATIONS_AR.md) · [الحقوق والاعتمادات](docs/RIGHTS_AR.md) · [فحص الحزمة](docs/RELEASE_AR.md).
 
 Salsabeel is the hosted model/API provider. This repository delivers the challenge application and selected evidence, not model weights, training infrastructure, full corpora, or proprietary provider internals. Arabic is the primary reviewer documentation language.

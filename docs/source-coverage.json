@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-05",
+  "scope": "Challenge reference-policy mapping and published evidence; not runtime configuration or full provider corpus inventory",
+  "requirement_documents": [
+    {
+      "document": "المرجعية.pdf",
+      "sha256": "23d776c729fcf68f9c33152a22f34edb4cd80efc7c2b7c15981aff7c5a1cb9c7",
+      "pdf_pages_1_based": [
+        3,
+        4
+      ],
+      "printed_pages": [
+        3,
+        4
+      ],
+      "redistributed": false
+    },
+    {
+      "document": "دليل المشارك.pdf",
+      "sha256": "7dcf525b7fbdee92b0eda80432ec03c9794614031e3584dcf5012977e5488994",
+      "pdf_pages_1_based": [
+        14,
+        31
+      ],
+      "printed_pages": [
+        14,
+        32
+      ],
+      "redistributed": false
+    }
+  ],
+  "runtime_allowlist_enforcement_verified": false,
+  "full_source_ingestion_inventory_published": false,
+  "full_corpus_rights_audit_complete": false,
+  "source_urls_live_checked_in_this_update": false,
+  "published_citation_sample": {
+    "path": "data-cards/rag/source-examples.json",
+    "count": 15,
+    "counts_by_host": {
+      "islamic-content.com": 14,
+      "dorar.net": 1
+    },
+    "does_not_prove_membership_in_embedding_wave": true
+  },
+  "reference_policy": [
+    {
+      "id": "outreach",
+      "reference_urls": [
+        "https://dawa.center/",
+        "https://islamic-content.com/"
+      ],
+      "use_rule_ar": "مرجعان شاملان للدعوة والمحتوى الإسلامي",
+      "published_evidence_status": "recorded_citations_only",
+      "example_case_ids": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "limitation_ar": "لا دليل منشور على استيعاب الموقعين كاملين"
+    },
+    {
+      "id": "quran",
+      "reference_urls": [
+        "https://quranpedia.net/"
+      ],
+      "use_rule_ar": "نص ورسم وترجمات معتمدة من مجمع الملك فهد أو الموسوعة القرآنية",
+      "published_evidence_status": "demonstration_only",
+      "example_case_ids": [],
+      "limitation_ar": "طبعة النص ومطابقتها للمرجعية غير مثبتة هنا"
+    },
+    {
+      "id": "tafsir",
+      "reference_urls": [
+        "https://dorar.net/tafseer"
+      ],
+      "use_rule_ar": "مصادر القرون الثلاثة الأولى أو تفسير الدرر؛ فصل التفسير عن النص",
+      "published_evidence_status": "demonstration_only",
+      "example_case_ids": [],
+      "limitation_ar": "لا جرد منشور للكتب أو التغطية"
+    },
+    {
+      "id": "hadith",
+      "reference_urls": [
+        "https://dorar.net/hadith",
+        "https://shamela.ws/"
+      ],
+      "use_rule_ar": "الصحيحان وما صح من كتب السنة؛ مصدر وحكم معتمد وطبعة معتمدة",
+      "published_evidence_status": "inventory_not_published",
+      "example_case_ids": [],
+      "limitation_ar": "لا سجل منشور شامل للطبعات والأحكام"
+    },
+    {
+      "id": "aqeeda",
+      "reference_urls": [
+        "https://dorar.net/aqeeda"
+      ],
+      "use_rule_ar": "مصادر القرون الثلاثة الأولى أو موسوعة العقيدة",
+      "published_evidence_status": "recorded_citations_only",
+      "example_case_ids": [
+        "P05"
+      ],
+      "limitation_ar": "مرجع واحد لا يثبت تغطية الموسوعة"
+    },
+    {
+      "id": "fiqh",
+      "reference_urls": [
+        "https://dorar.net/feqhia"
+      ],
+      "use_rule_ar": "كتب معتمدة في المذاهب الأربعة أو الدرر؛ دون فتوى شخصية أو ترجيح آلي مستقل",
+      "published_evidence_status": "inventory_not_published",
+      "example_case_ids": [],
+      "limitation_ar": "مثال الإحالة لا يثبت جرد الاستيعاب"
+    },
+    {
+      "id": "history",
+      "reference_urls": [
+        "https://dorar.net/history"
+      ],
+      "use_rule_ar": "مصادر القرون الثلاثة الأولى أو موسوعة التاريخ؛ ضبط الروايات",
+      "published_evidence_status": "inventory_not_published",
+      "example_case_ids": [],
+      "limitation_ar": "لا إثبات مستقل في عينة المراجع الحالية"
+    },
+    {
+      "id": "questions_and_doubts",
+      "reference_urls": [
+        "https://dawa.center/file/7937"
+      ],
+      "use_rule_ar": "بينات: أسئلة وأجوبة عن الإسلام؛ مرجع أساسي للحلول الحوارية",
+      "published_evidence_status": "inventory_not_published",
+      "example_case_ids": [],
+      "limitation_ar": "مقالات الجمهرة لا تثبت تلقائيا إدخال بينات"
+    },
+    {
+      "id": "terminology",
+      "reference_urls": [
+        "https://islamic-content.com/dictionary"
+      ],
+      "use_rule_ar": "معجم الجمهرة مقدم على الترجمة الآلية للمصطلحات الحساسة",
+      "published_evidence_status": "inventory_not_published",
+      "example_case_ids": [],
+      "limitation_ar": "روابط المقالات لا تثبت إدخال المعجم"
+    }
+  ],
+  "rag_evidence": [
+    "data-cards/rag/embedding-receipt.json",
+    "data-cards/rag/index-receipt.json",
+    "data-cards/rag/retrieval-experiment.json"
+  ],
+  "rights_register": "docs/source-rights-register.json",
+  "explanation": "docs/SOURCES_AR.md",
+  "not_disclosed": [
+    "provider weights",
+    "private training recipes",
+    "full source corpora",
+    "internal retrieval configuration",
+    "credentials"
+  ]
+}
