@@ -1,0 +1,17 @@
+{
+  "revision": "R11",
+  "changed_scene_seconds": [
+    100,
+    112
+  ],
+  "duration_seconds": 118,
+  "approved_narration_outside_scene_pcm_identical": true,
+  "both_outputs_decoded": true,
+  "speech": {
+    "tail_raw_seconds": 10.063125,
+    "tail_speed": 1.0537303664921465,
+    "scene_speech_seconds": 11.461020833333333
+  },
+  "narration": "نَعْرِضُ الْحَدِيثَ بِسَنَدِهِ. وَنُتِيحُ الْبَحْثَ الْقُرْآنِيَّ وَاسْتِكْشَافَ الْمَخْطُوطَاتِ، وَلَدَيْنَا الْمَزِيدُ مِنَ الْقُدُرَاتِ. وَنَمْتَنِعُ بِأَمَانَةٍ حِينَ يَتَطَلَّبُ السُّؤَالُ مُخْتَصًّا.",
+  "verification_limit": "Automatic speech recognition was used as a rough timing check, not certification of pronunciation."
+}

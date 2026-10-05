@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-05T15:58:08.437920+00:00",
+  "created_at_utc": "2026-10-05T16:07:39.430136+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -85,23 +85,23 @@
     },
     {
       "file": "app/public/beta/2-5/film-r10-music.mp4",
-      "sha256": "13f78a9feaa667a72cffb8da7dd7f8929f6988088810df89f622321af95fc43e",
-      "bytes": 9263485
+      "sha256": "8e63e4bad81a2668f09be37b5e917c2f52a01c3b30d00c72c020d2cb86f1e3aa",
+      "bytes": 10801236
     },
     {
       "file": "app/public/beta/2-5/film-r10-voice.mp4",
-      "sha256": "2930cdb322694165e2a6775fa82ae30ef4c7f8f84e6746eaa405859d11a2dc10",
-      "bytes": 8837280
+      "sha256": "9cd12ddd0872e5014bf114aef051c1afaee3617db6cce2ea172cfcbae44e6414",
+      "bytes": 10392004
     },
     {
       "file": "app/public/beta/2-5/index.html",
-      "sha256": "e501c251d17160d08b3ae0e2871728c4416246bc962e7f5edeaf4ef56c4fa8c0",
-      "bytes": 12947
+      "sha256": "071c51ac3d32d0af848a537925344952fe832c41f4e82daa08bade421a4b2a51",
+      "bytes": 13039
     },
     {
       "file": "app/public/beta/2-5/narration-r10.txt",
-      "sha256": "38efaef69cef8d09e4617e64f90ec5c9db7591a9c1444094e649853784733113",
-      "bytes": 4131
+      "sha256": "269261a3184219178389797eaf3cbc8d96f0efe87356e1b60e88159afd768f4e",
+      "bytes": 4198
     },
     {
       "file": "app/public/beta/2-5/poster-r10.jpg",
@@ -115,8 +115,8 @@
     },
     {
       "file": "app/public/beta/2-5/watch.js",
-      "sha256": "4880ad5a7bbfff7cf7e67bfd992cb18dbbadae8ab860ca1252a165efbdf6cf75",
-      "bytes": 3013
+      "sha256": "690a3b6d18fc3e537816a9e37fdbf0038f56af310ebc93ac1b09bb1cd70d9261",
+      "bytes": 3018
     },
     {
       "file": "app/public/favicon.ico",
@@ -725,8 +725,8 @@
     },
     {
       "file": "docs/RELEASE_AR.md",
-      "sha256": "bd393d770b29954e5e95f985cd5e5f619334793bf25884320ade12268109e7b5",
-      "bytes": 2230
+      "sha256": "ab10fcba3035802503a6de6a1087799a593a30f699df8d83dc3111792ae3c7fb",
+      "bytes": 2628
     },
     {
       "file": "docs/RIGHTS_AR.md",
@@ -900,13 +900,18 @@
     },
     {
       "file": "media/Narration_AR.txt",
-      "sha256": "38efaef69cef8d09e4617e64f90ec5c9db7591a9c1444094e649853784733113",
-      "bytes": 4131
+      "sha256": "269261a3184219178389797eaf3cbc8d96f0efe87356e1b60e88159afd768f4e",
+      "bytes": 4198
+    },
+    {
+      "file": "media/r11-verification.json",
+      "sha256": "b7c904276dd54cd1e806613526bfc6ee9e16c492bed3aded1a387c2b6a1ff1c1",
+      "bytes": 866
     },
     {
       "file": "media/README.md",
-      "sha256": "89db47bc97d43ac0430dc8d8b96f0bfe055e2f745fd6b15597d212f1acf805cc",
-      "bytes": 1795
+      "sha256": "70f75cc7c44f956d8a52a82748837dff0d9d47f7e662704a98464a2e8ac91345",
+      "bytes": 2341
     },
     {
       "file": "media/rebuild.py",
@@ -915,28 +920,28 @@
     },
     {
       "file": "media/release.json",
-      "sha256": "9085d8a8ffb8980a88af371aaf32641a327aa0011960ed48f561fdf7e5f5ed34",
-      "bytes": 605
+      "sha256": "c3f8f7d8e1e90cf3bd0a40edbd28b8bd1544ae28e533fe82c1086947ffab41b8",
+      "bytes": 748
     },
     {
       "file": "media/source/music-mix.flac",
-      "sha256": "1d7c57c4df8a29e39a97413b802abe25129b680eac60447b313e8d79bb270f59",
-      "bytes": 8330014
+      "sha256": "f4ae53cb383a88867312fba84896296ef6a8294798676bac0f20c3786e7dd1dd",
+      "bytes": 8321793
     },
     {
       "file": "media/source/picture.mp4",
-      "sha256": "7ac9ab43e14c409468c98f5a8245feb9bb894b57d57c480581ed3f1bb76ac2f9",
-      "bytes": 6230006
+      "sha256": "022f0eb69e0fcb02d735d84779f1be34d7283c933777def823fcf1a17535872d",
+      "bytes": 7766118
     },
     {
       "file": "media/source/voice.flac",
-      "sha256": "1077ee78ba3348e085181c779cb62af2abb3d17315f346c3b45b10a5ec41dfee",
-      "bytes": 4112006
+      "sha256": "0b85dbc863340240bf3b890f4f0f4720ff1ee76822835b33165c18eba5093eee",
+      "bytes": 4153172
     },
     {
       "file": "media/timeline.json",
-      "sha256": "c2729eee57ff6bda33482d2863bd8fae961864ff8748ec954e2d50413196316a",
-      "bytes": 6139
+      "sha256": "b7e43f37c4e85befe3ab96b6ef82589be8bb12499e0956dd8c1308a28e699e75",
+      "bytes": 6232
     },
     {
       "file": "operations/cost-model.json",
