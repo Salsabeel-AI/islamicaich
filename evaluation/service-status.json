@@ -1,11 +1,13 @@
 {
   "materials_release": "review-materials-v2",
-  "recorded_at_utc": "2026-10-05T12:09:29.250417+00:00",
+  "recorded_at_utc": "2026-10-05T15:58:08.435893+00:00",
   "app_baseline_commit": "ef1b73e8ae5cba78d7d9f4f7c22e68a757454bf3",
-  "live_service_revision": "not pinned or independently attested in this update",
-  "module_fix_workstream": "Owner reports fixes underway in a separate Claude session",
-  "product_acceptance": "pending retest",
-  "new_repair_success_claims": [],
+  "live_service_revision": "Five scoped updates recorded in day2-deployment-summary.json; full provider build not pinned",
+  "module_fix_workstream": "Deployment receipts and predeployment regression reports reviewed; full live regression running at cutoff",
+  "product_acceptance": "pending completion of live regression, phrasing acceptance tests and qualified content review",
+  "new_repair_success_claims": [
+    "Scoped updates deployed; each predeployment comparison passed its specified 127-question regression gates. No universal answer-accuracy claim."
+  ],
   "gates": [
     {
       "name": "تصحيح النص القرآني",
@@ -27,5 +29,7 @@
       "name": "سلامة النص والامتناع",
       "status": "pending measured service retest"
     }
-  ]
+  ],
+  "status_as_of": "2026-10-05T18:43:05+03:00",
+  "deployment_evidence": "../evidence/day2-deployment-summary.json"
 }

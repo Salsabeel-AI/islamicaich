@@ -1,0 +1,49 @@
+{
+  "as_of": "2026-10-05T18:43:05+03:00",
+  "type": "delivery-team projection of internal deployment receipts and regression reports",
+  "claim_boundary": "No model weights, manufacturing code, raw sessions or credentials are included. Hashes identify internal evidence; source artifacts are not distributed in this projection. Regression gates do not certify general factual accuracy.",
+  "changes": [
+    {
+      "change_ar": "تصحيح الاقتباس والإحالة الشخصية",
+      "deployment_local_stamp": "20261005T153439",
+      "timezone": "Asia/Riyadh",
+      "deployment_receipt_sha256": "325dc2fc1f6dfdbd3b323ce69e3cc8ea4d9c77cf9b979100a62908014ec0bfb4",
+      "comparison_report_sha256": "bdbd54a2a14a1487fd59cc6a481ad08a26eb78521db62ee851a0df32ab3502cb",
+      "predeployment_comparison_summary": "SUMMARY: 127 questions compared, 0 deterministic CHANGED, 0 ERROR, 0 generative sub-check failures, 0 skipped (outage)"
+    },
+    {
+      "change_ar": "توجيه الأسئلة إلى الدليل المناسب",
+      "deployment_local_stamp": "20261005T164335",
+      "timezone": "Asia/Riyadh",
+      "deployment_receipt_sha256": "a80a3421d83205a67b55d015d8c1e4498bdaa97d70252838685516a91b5021cc",
+      "comparison_report_sha256": "598471d0d3129cf779aa024781a69abd947b771a2637458344000e809f9d9ffa",
+      "predeployment_comparison_summary": "SUMMARY: 127 questions compared, 0 deterministic CHANGED, 0 ERROR, 0 generative sub-check failures, 0 skipped (outage)"
+    },
+    {
+      "change_ar": "معالجة التعريف والالتباس في العد القرآني",
+      "deployment_local_stamp": "20261005T164250",
+      "timezone": "Asia/Riyadh",
+      "deployment_receipt_sha256": "9db605cb0137353eac1b7b04a63b263f0ac0d74557f065123ee61badaf5e3c2d",
+      "comparison_report_sha256": "47c91fcb75dd89eed8c7949298aff63a711b9e1154155048fffdc410ce1f1c64",
+      "predeployment_comparison_summary": "SUMMARY: 127 questions compared, 0 deterministic CHANGED, 0 ERROR, 0 generative sub-check failures, 0 skipped (outage)"
+    },
+    {
+      "change_ar": "استرجاع أسباب النزول ومسار المصادر البديل",
+      "deployment_local_stamp": "20261005T184122",
+      "timezone": "Asia/Riyadh",
+      "deployment_receipt_sha256": "51a5b01dcac877dfa2221241762c937745cd44b989f9cbf6a5a99c423bb0617d",
+      "comparison_report_sha256": "47c91fcb75dd89eed8c7949298aff63a711b9e1154155048fffdc410ce1f1c64",
+      "predeployment_comparison_summary": "SUMMARY: 127 questions compared, 0 deterministic CHANGED, 0 ERROR, 0 generative sub-check failures, 0 skipped (outage)"
+    },
+    {
+      "change_ar": "تحديث فهم نية السؤال",
+      "deployment_local_stamp": "20261005T184248",
+      "timezone": "Asia/Riyadh",
+      "deployment_receipt_sha256": "39ce9b20dabc6cb4b988c4ad11eb30530c66af2baa25a0ce1f28cb591ce3ea8c",
+      "comparison_report_sha256": "0c8ad3adacc3dbe290135e4070280aaec1baa4f159eef7905ebac18811c433c9",
+      "predeployment_comparison_summary": "SUMMARY: 127 questions compared, 0 deterministic CHANGED, 0 ERROR, 0 generative sub-check failures, 0 skipped (outage)"
+    }
+  ],
+  "postdeployment_full_regression": "running at reporting cutoff; no final result claimed",
+  "qualified_content_review": "not certified in this update"
+}

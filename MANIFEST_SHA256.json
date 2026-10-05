@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-05T12:23:03.262980+00:00",
+  "created_at_utc": "2026-10-05T15:58:08.437920+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -704,6 +704,11 @@
       "bytes": 1528
     },
     {
+      "file": "docs/DAY2_PROGRESS_AR.md",
+      "sha256": "4cb159b86082bb26ce5193eb4eae93ab9cdf1346ed84cb607936b7d345146f9b",
+      "bytes": 3099
+    },
+    {
       "file": "docs/JUDGING_MAP_AR.md",
       "sha256": "c27f41d44cc17fd73750c2823fe1ce11fb46703dd4ff83f167c45a139b711081",
       "bytes": 2165
@@ -720,8 +725,8 @@
     },
     {
       "file": "docs/RELEASE_AR.md",
-      "sha256": "3493b31a6fea7b832cee28a21305c53839872afc828a895d41c249859ae18260",
-      "bytes": 1730
+      "sha256": "bd393d770b29954e5e95f985cd5e5f619334793bf25884320ade12268109e7b5",
+      "bytes": 2230
     },
     {
       "file": "docs/RIGHTS_AR.md",
@@ -770,8 +775,8 @@
     },
     {
       "file": "evaluation/service-status.json",
-      "sha256": "c3feca45f23f44d69b00fef39ee7f1a16c33acb267b4035bc9ede3034de4eb7a",
-      "bytes": 999
+      "sha256": "2d3ec5d5b9c6ef6def5585249ca0844cb2a123d947053ad3a452e5df2ccaef7e",
+      "bytes": 1435
     },
     {
       "file": "evaluation/summary.json",
@@ -787,6 +792,11 @@
       "file": "evidence/claims.json",
       "sha256": "cdcc2a00e4dbcedd468b542ec1733c5f9f3c36446ddc72f674c3e7286d95e2c2",
       "bytes": 3633
+    },
+    {
+      "file": "evidence/day2-deployment-summary.json",
+      "sha256": "e031269546c7da3cc358247bd5e929783cdd0eca9f7c9c4bfcc569fd2a243782",
+      "bytes": 3310
     },
     {
       "file": "evidence/materials-v2-checks.json",
@@ -955,8 +965,8 @@
     },
     {
       "file": "README.md",
-      "sha256": "d08f8a1a75d1db1387147f917ea734d2715b6b512075b8375770d54602549081",
-      "bytes": 6340
+      "sha256": "2ed581fd7098d8c8fee3b23815c15481ec0c5e2b50edf3e7d0d6009ad4cc270b",
+      "bytes": 6473
     },
     {
       "file": "scripts/compare_baseline.py",

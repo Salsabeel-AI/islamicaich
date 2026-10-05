@@ -22,6 +22,8 @@
 
 هذه أمثلة منتقاة؛ ليست نسبة دقة عامة. بعض المخرجات ما زالت تحتاج مراجعة، والتقييم الكامل للنص والاستدلال يحتاج مختصًا.
 
+[تحديث نهاية اليوم الثاني — المنجز وحالة الاختبار والخطة](docs/DAY2_PROGRESS_AR.md)
+
 ## العرض النهائي والتحقق
 
 [العرض PDF](presentation/Barq_Final_AR.pdf) · [العرض PowerPoint](presentation/Barq_Final_AR.pptx) · [خريطة معايير التحكيم](docs/JUDGING_MAP_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md) · [حالة الخدمة وإعادة الاختبار](evaluation/ACCEPTANCE_AR.md)
