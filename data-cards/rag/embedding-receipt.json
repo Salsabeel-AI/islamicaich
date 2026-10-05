@@ -1,0 +1,24 @@
+{
+  "source_file": "embedding-run-receipt.json",
+  "source_sha256": "0e429b36263912dd99a3292f0f5839a855e987e743543a9374d773525d92d707",
+  "evidence_type": "selected projection of owner-retained receipt; raw source is not in this repository",
+  "scope": "pre-challenge provider preparation; one frozen source wave",
+  "record": {
+    "phase": "green_embedding_complete",
+    "started_utc": "2026-10-02T19:42:57.601236+00:00",
+    "finished_utc": "2026-10-02T19:56:20.204423+00:00",
+    "mapping_sha256": "bac730b42d2bc3b6bc1a09a4d8e1450253cecadf4feb25f47bb85d14b45fe6eb",
+    "mapping_rows": 20622,
+    "model": "text-embedding-3-small",
+    "dimension": 1536,
+    "rows_embedded": 18062,
+    "already_embedded_at_start": 2560,
+    "remaining_null_from_frozen_ids": 0,
+    "total_embedded_from_frozen_ids": 20622
+  },
+  "not_proven": [
+    "answer accuracy",
+    "all corpus sources",
+    "current live index state"
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "case_id": "P01",
+    "question": "لماذا يعبد المسلمون الكعبة؟",
+    "url": "https://islamic-content.com/post/92169",
+    "title": "لماذا يعبُدُ المسلِمون الكعبةَ، والحجَرَ الأسوَدَ؟",
+    "answer_sha256": "deeb738d264ce3b93ada24295af7ad7ed39bb2f5a441977f6936e4a26df7985e",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P02",
+    "question": "هل القرآن من تأليف محمد ﷺ؟",
+    "url": "https://islamic-content.com/post/92321",
+    "title": "هل يصح أن النبي محمد قد كتب القرآن ونسخه من الإنجيل؟",
+    "answer_sha256": "46595254ae30776db44d6185c41dd01bfa910ab80b3baba10ed5109ad9df902c",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P03",
+    "question": "هل الإسلام انتشر بالسيف؟",
+    "url": "https://islamic-content.com/post/92891",
+    "title": "هل انتشَرَ الإسلامُ بالسيف؟",
+    "answer_sha256": "475c568e4ca817c7189a793946e84f10ffd44595817fa6a592130e3cf22c5137",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P05",
+    "question": "ما معنى التوحيد لشخص لم يسمع بالمصطلح من قبل؟",
+    "url": "https://dorar.net/aqeeda/20/%D8%A7%D9%84%D9%81%D8%B1%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81-%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF-%D8%A7%D8%B5%D8%B7%D9%84%D8%A7%D8%AD%D8%A7",
+    "title": "الفَرْعُ الثَّاني: تعريفُ التَّوحيد اصطِلاحًا",
+    "answer_sha256": "1ace1f3ae8025f9b9e101ac252abf848ec96f4b3df6f26f4310df9f649ab753a",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P11",
+    "question": "لماذا يمنع الإسلام الموسيقى ويحرم الناس من الفرح؟ أنتم متخلفون",
+    "url": "https://islamic-content.com/post/92816",
+    "title": "هل الإسلامُ يحرِّمُ الفرَحَ، ويدعو للاكتئابِ؛ بتحريمِهِ للموسيقا والمعازِف؟:",
+    "answer_sha256": "f5aa9c88102e43f1ff46db043ba5a4649837003ee87255158241a4ff92f97b8c",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P28",
+    "question": "لماذا يحرم الإسلام لحم الخنزير؟",
+    "url": "https://islamic-content.com/post/92808",
+    "title": "لماذا يحرِّمُ الإسلامُ لَحْمَ الخِنزِير؟",
+    "answer_sha256": "e9972e0e576d920377d8770836c3b6caa3a65fe4c2bbc114d2d82c85d132f77b",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P29",
+    "question": "هل الحجاب عادة وليس عبادة؟",
+    "url": "https://islamic-content.com/post/92840",
+    "title": "هل الحجابُ عادةٌ، وليس عبادة؟",
+    "answer_sha256": "8550e84915b48740a7cd250f5570dbc52a54f4733d0a8b72edfaf237f42f7701",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P30",
+    "question": "لماذا يقلل الإسلام من دور المرأة في المجتمع ولا يساوي بين الرجل والمرأة في الميراث؟",
+    "url": "https://islamic-content.com/post/92844",
+    "title": "لماذا يقلِّلُ الإسلامُ مِن دَوْرِ المرأةِ في المجتمَعِ، ولا يُساوي بينها وبين الرجُلِ في المِيراث؟",
+    "answer_sha256": "196c5aabe63f2098a9c85336eda776cedaa8c0d39ed83dbf003681cba3de853f",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P31",
+    "question": "لماذا لا يبيح الإسلام تعدد الأزواج كما يبيح تعدد الزوجات؟",
+    "url": "https://islamic-content.com/post/92845",
+    "title": "لماذا لا يُبيحُ الإسلامُ تعدُّدَ الأزواجِ، كما يُبيحُ تعدُّدَ الزوجات؟",
+    "answer_sha256": "f9a1c01c28bc3726648048dc2110056f66f5f3d6d067de8dc91a95065476ea2b",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P32",
+    "question": "ما هي عقوبة الردة؟",
+    "url": "https://islamic-content.com/post/92887",
+    "title": "ما هي عقوبة الردة؟",
+    "answer_sha256": "6d9e42ff230062160cfd57441e60a5f34c8abb945b5cec89efc204eff8bcfd02",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P33",
+    "question": "كيف يعامل الإسلام غير المسلمين؟",
+    "url": "https://islamic-content.com/post/93049",
+    "title": "كيف يعامل الإسلام غير المسلمين؟",
+    "answer_sha256": "d58e44bf9599c2f2e8f16d66ff737fb30432de4ce0f6189d84c303ce46cec3d1",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P34",
+    "question": "هل تحدى القرآن البشر على أن يأتوا بسورة من مثله؟",
+    "url": "https://islamic-content.com/post/92322",
+    "title": "هل تحدى القرآن البشر على أن يأتوا بسورة من مثله؟",
+    "answer_sha256": "a6d52476f496a19a87cc892c3b4f1b6c2439b9f15904c60b8faad1d7be5e4270",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P35",
+    "question": "أليس الإسلام هو الذي يشجع على العنف؟",
+    "url": "https://islamic-content.com/post/92890",
+    "title": "أليس الإسلامُ هو الذي يشجِّعُ على العُنْف؟",
+    "answer_sha256": "bbd16dddc5289d9823ff9c9e78cd78a271c0472c66410a7c01c2f0eeb41f763e",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P36",
+    "question": "كيف يعطى الرجل حق القوامة وهو مبدأ يخالف حقوق الإنسان؟",
+    "url": "https://islamic-content.com/post/92964",
+    "title": "كيف يُعطَى الرجُلُ حقَّ القِوامةِ، وهو مَبدَأٌ يخالِفُ حقوقَ الإنسان؟",
+    "answer_sha256": "6fa0530cf0297849b1ca48e0b6f7c08c3beb01b38f5085322b85356731467d66",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  },
+  {
+    "case_id": "P37",
+    "question": "لماذا يقال بتحريم الفوائد البنكية والإسلام لم يحرم إلا ربا الجاهلية؟",
+    "url": "https://islamic-content.com/post/92881",
+    "title": "لماذا يقالُ بتحريمِ الفوائدِ البنكيَّةِ، والإسلامُ لم يحرِّمْ إلا رِبا الجاهليَّة؟",
+    "answer_sha256": "78f08ff0ac822faabb50cb78fcd67844044989bc18bc6f58c3ee187f85720f33",
+    "role": "source exposed in recorded answer; not a full ingestion register",
+    "rights": "Original publisher retains rights. Metadata and short demonstration screenshots only; full source text not redistributed."
+  }
+]

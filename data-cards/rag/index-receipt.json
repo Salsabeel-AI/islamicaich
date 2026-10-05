@@ -1,0 +1,29 @@
+{
+  "source_file": "green-index-maxdop6-active-execution.json",
+  "source_sha256": "d3cd2cd0e046381363d18fbdca8cba6be73b8a67b6d23436d3ebf91a0e9b076d",
+  "evidence_type": "selected projection of owner-retained receipt; raw source is not in this repository",
+  "scope": "historical completed index build on 2026-10-03, before challenge window",
+  "record": {
+    "phase": "current_wave_index_ddl_complete",
+    "created_utc": "2026-10-03T07:27:30.320076+00:00",
+    "index_created": true,
+    "index_ddl_executed": true,
+    "cutover_ready": false,
+    "vector_indexes": 1,
+    "embedding_key_indexes": 1,
+    "evidence_key_indexes": 1,
+    "norm_fulltext_indexes": 1
+  },
+  "pre_build_integrity": {
+    "scope_rows": 21312,
+    "missing_links": 0,
+    "key_mismatches": 0,
+    "null_vectors": 0,
+    "bad_dimensions": 0,
+    "missing_urls": 0,
+    "missing_bodies": 0,
+    "missing_previews": 0,
+    "missing_status": 0
+  },
+  "note": "One vector index and one full-text index recorded after DDL. Preflight vector_index_present=false is the BEFORE state. This receipt alone does not attest live serving or retrieval quality."
+}

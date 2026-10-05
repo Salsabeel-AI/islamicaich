@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" viewBox="0 0 200 200">
+  <desc>
+    Lifted from examples/homePage/home.svg (paint14_linear_1350_27630, one motif of the
+  8x8 ornament lattice). True lattice pitch is 199.5683px with a 0.117deg export rotation;
+  the rotate() below removes that rotation and the outer scale() normalises the cell to a
+  round 200 user units so mask-size:200px tiles it exactly. The nine copies exist so every shape
+  that crosses a cell edge is repeated on the opposite edge and the seams close.
+
+  width/height are 520 ON PURPOSE and are NOT the cell size. atic-pattern.png was 520x520
+  and mask-size:auto is a real consumer of that intrinsic size: the .pattern-* demos in
+  design-system section 05 leave mask-size unset. A viewBox-only SVG has no intrinsic size,
+  which is what made the first SVG attempt silently rescale every one of those demos and get
+  reverted. 520 outer over a 200 viewBox keeps one cell per 520px under mask-size:auto -
+  byte-for-byte the PNG behaviour - while mask-size:200px still yields the true lattice pitch.
+  </desc>
+  <defs>
+    <path id="atic-star" fill="#000" fill-rule="nonzero" d="M99.59 201.06c3.63 0 6.8-2.2 8.07-5.6l14.96-40.2 38.9 18a8.5 8.5 0 0 0 9.68-1.71 8.5 8.5 0 0 0 1.75-9.67l-17.83-39.01 40.24-14.8a8.6 8.6 0 0 0 5.63-8.06c0-3.64-2.2-6.8-5.6-8.07l-40.16-14.98 17.98-38.93a8.5 8.5 0 0 0-1.72-9.67 8.5 8.5 0 0 0-9.66-1.76l-38.98 17.85-14.79-40.26a8.5 8.5 0 0 0-8.05-5.64c-3.63 0-6.8 2.2-8.07 5.6L76.98 44.35l-38.92-18a8.5 8.5 0 0 0-9.66 1.73 8.5 8.5 0 0 0-1.75 9.66l17.83 39-40.24 14.8a8.55 8.55 0 0 0-5.63 8.07c0 3.63 2.2 6.8 5.6 8.07l40.17 14.97-17.98 38.93a8.5 8.5 0 0 0 1.71 9.68 8.5 8.5 0 0 0 9.66 1.76l38.98-17.84 14.79 40.26a8.5 8.5 0 0 0 8.05 5.63m20.48-46.97-15.03 40.39a5.7 5.7 0 0 1-5.45 3.78 5.7 5.7 0 0 1-5.42-3.81L79.31 154c13-5.73 27.78-5.7 40.76.09m-44.3-1.57L36.6 170.46a5.7 5.7 0 0 1-6.52-1.18 5.7 5.7 0 0 1-1.15-6.53l18.08-39.12a50.3 50.3 0 0 1 28.76 28.89m76.71-28.68 17.92 39.2a5.7 5.7 0 0 1-1.18 6.51 5.7 5.7 0 0 1-6.52 1.16l-39.09-18.09a50.3 50.3 0 0 1 28.87-28.78M99.7 146.92a53 53 0 0 0-21.37 4.44 53.2 53.2 0 0 0-30.15-30.3 53 53 0 0 0 .09-42.75 53 53 0 0 0 30.28-30.17 53 53 0 0 0 42.72.1 53 53 0 0 0 30.15 30.3 53 53 0 0 0-.09 42.73 53.2 53.2 0 0 0-30.28 30.18 53 53 0 0 0-21.35-4.53M45.64 79.28a50.3 50.3 0 0 1-.09 40.8L5.19 105.04a5.7 5.7 0 0 1-3.78-5.45 5.7 5.7 0 0 1 3.81-5.43zm108.41.22 40.36 15.06a5.7 5.7 0 0 1 3.78 5.43 5.7 5.7 0 0 1-3.81 5.43l-40.42 14.88a50.4 50.4 0 0 1 .09-40.8M76 46.98a50.4 50.4 0 0 1-28.9 28.78l-17.9-39.2a5.7 5.7 0 0 1 1.18-6.53 5.7 5.7 0 0 1 6.52-1.15zm89.45-18.39c1.68.01 3.12.8 4.05 1.74a5.7 5.7 0 0 1 1.17 6.52l-18.08 39.13a50.3 50.3 0 0 1-28.76-28.9L163 29.15a6 6 0 0 1 2.45-.56M120.29 45.6a50.3 50.3 0 0 1-40.75-.08l15.02-40.4a5.65 5.65 0 0 1 5.45-3.76c1.94 0 4.39 1 5.41 3.8z" transform="rotate(.12 99.8 99.8)"/>
+  </defs>
+  <g fill="#000" transform="scale(1.002)">
+    <use xlink:href="#atic-star" href="#atic-star" transform="translate(-199.6 -199.6)"/>
+    <use xlink:href="#atic-star" href="#atic-star" transform="translate(0 -199.6)"/>
+    <use xlink:href="#atic-star" href="#atic-star" transform="translate(199.6 -199.6)"/>
+    <use xlink:href="#atic-star" href="#atic-star" transform="translate(-199.6)"/>
+    <use xlink:href="#atic-star" href="#atic-star"/>
+    <use xlink:href="#atic-star" href="#atic-star" transform="translate(199.6)"/>
+    <use xlink:href="#atic-star" href="#atic-star" transform="translate(-199.6 199.6)"/>
+    <use xlink:href="#atic-star" href="#atic-star" transform="translate(0 199.6)"/>
+    <use xlink:href="#atic-star" href="#atic-star" transform="translate(199.6 199.6)"/>
+  </g>
+</svg>

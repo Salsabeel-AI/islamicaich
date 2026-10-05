@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-05T11:18:44.364850+00:00",
+  "app_tests": {
+    "total": 41,
+    "passed": 41,
+    "failed": 0,
+    "kind": "local application unit/integration tests; mocked provider, no answer-quality claim"
+  },
+  "javascript_syntax": "passed",
+  "presentation_build": "passed",
+  "clean_dependency_install": "npm ci --ignore-scripts --no-audit --no-fund",
+  "film_reassembly": "Both variants generated from included flattened masters and decoded successfully",
+  "all_five_video_streams_identical": true,
+  "video_stream_sha256": "f433f4365af39d49bf24c213a6697728a4a94e8ca5dbcd67c8724d75754118e8",
+  "evaluation_recalculation": "published operational summary reproduced from all 50 rows",
+  "secret_and_path_scan": {
+    "issues": 0,
+    "scope": "allowlisted candidate; credential patterns plus exact known-secret byte comparison"
+  },
+  "public_visibility_changed": false
+}

@@ -1,0 +1,33 @@
+{
+  "kaaba_and_morphology": {
+    "captured_at": "2026-10-04T16:22:13.411Z",
+    "site": "https://islamicaich.salsabeel.ai/",
+    "kaaba_source": "https://islamic-content.com/post/92169",
+    "kaaba_current_result": "Substantive correction with source; old abstention not reproduced in this one recheck.",
+    "selected_morphology": {
+      "rashid": [
+        "11:78",
+        "11:87",
+        "11:97"
+      ],
+      "murshid": [
+        "18:17"
+      ]
+    },
+    "limits": [
+      "Selected witness counts only; full morphology weights and root totals still have issues.",
+      "Pipeline animation represents documented design, not a captured per-request runtime trace."
+    ]
+  },
+  "screenshot_note": "Original recorded demonstration questions, not visitor logs. Film stills are labeled separately. Some captures predate current site release.",
+  "fingerprint": {
+    "date": "2026-10-05",
+    "type": "original live Salsabeel capability screenshot",
+    "limit": "The morphology weight elsewhere in this original screenshot is not validated and contains a known error; evidence claim applies only to distinctive adjacency panel."
+  },
+  "other_screenshots": {
+    "date": "2026-10-04",
+    "type": "retained Beta 2.5 live demonstration captures",
+    "limit": "Personal-fatwa screenshot demonstrates referral wording, not an implemented specialist transfer."
+  }
+}

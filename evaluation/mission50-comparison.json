@@ -1,0 +1,1316 @@
+{
+  "kind": "known development regression set; not unseen/blind",
+  "before_provenance": {
+    "source_file": "BEFORE_20261003.jsonl",
+    "source_sha256": "092b03e0e405ff9de19ab9eea97b3861868c3f9c8350b759438bde7b8abd548f",
+    "evidence_type": "selected projection of owner-retained receipt; raw source is not in this repository"
+  },
+  "after_provenance": {
+    "source_file": "AFTER_P5_ON_20261005_0745.jsonl",
+    "source_sha256": "e37691235e55824cff988ea973fd8af6dcd640ff2c87cf9d3bfc31d3ac3abf6d",
+    "evidence_type": "selected projection of owner-retained receipt; raw source is not in this repository"
+  },
+  "time_note": "Recorded timestamps are preserved verbatim without adding an unrecorded timezone. AFTER filename is a historical run label, not current live state.",
+  "records": [
+    {
+      "id": "P01",
+      "question": "لماذا يعبد المسلمون الكعبة؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:52:53",
+        "http_status": 200,
+        "seconds": 2.14,
+        "attempts": 1,
+        "answer_chars": 9509,
+        "answer_sha256": "e87813ecbc98c140869a6893ee18761edcb3de3614128f7de46b055ba0310298",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:42:37",
+        "http_status": 200,
+        "seconds": 2.93,
+        "attempts": 1,
+        "answer_chars": 9379,
+        "answer_sha256": "deeb738d264ce3b93ada24295af7ad7ed39bb2f5a441977f6936e4a26df7985e",
+        "source_url": "https://islamic-content.com/post/92169",
+        "source_title": "لماذا يعبُدُ المسلِمون الكعبةَ، والحجَرَ الأسوَدَ؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P02",
+      "question": "هل القرآن من تأليف محمد ﷺ؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:52:58",
+        "http_status": 200,
+        "seconds": 1.87,
+        "attempts": 1,
+        "answer_chars": 476,
+        "answer_sha256": "dc8a0a20aa2294fe20220a726a8a243445a57726f46f0dd9f19484cf06c0855e",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:43:06",
+        "http_status": 200,
+        "seconds": 25.57,
+        "attempts": 1,
+        "answer_chars": 702,
+        "answer_sha256": "46595254ae30776db44d6185c41dd01bfa910ab80b3baba10ed5109ad9df902c",
+        "source_url": "https://islamic-content.com/post/92321",
+        "source_title": "هل يصح أن النبي محمد قد كتب القرآن ونسخه من الإنجيل؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P03",
+      "question": "هل الإسلام انتشر بالسيف؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:53:14",
+        "http_status": 200,
+        "seconds": 11.58,
+        "attempts": 1,
+        "answer_chars": 12672,
+        "answer_sha256": "f648c2a6f69e4c7b0f713efbe49f7ba4adb1e758513cde3ea7df0eaf86745bff",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:43:20",
+        "http_status": 200,
+        "seconds": 10.73,
+        "attempts": 1,
+        "answer_chars": 12543,
+        "answer_sha256": "475c568e4ca817c7189a793946e84f10ffd44595817fa6a592130e3cf22c5137",
+        "source_url": "https://islamic-content.com/post/92891",
+        "source_title": "هل انتشَرَ الإسلامُ بالسيف؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P04",
+      "question": "لماذا توجد أحكام مختلفة بين العلماء؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:53:35",
+        "http_status": 200,
+        "seconds": 17.9,
+        "attempts": 1,
+        "answer_chars": 2138,
+        "answer_sha256": "85812d8ee420c6362cd68c276fd61245a2e0655987526708531d33df33994c2c",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:44:26",
+        "http_status": 200,
+        "seconds": 62.75,
+        "attempts": 1,
+        "answer_chars": 2381,
+        "answer_sha256": "6e5c088c28ef88e57149e80d58797997cadae8324f7494a1fd83e4f25355cef4",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P05",
+      "question": "ما معنى التوحيد لشخص لم يسمع بالمصطلح من قبل؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:53:48",
+        "http_status": 200,
+        "seconds": 9.96,
+        "attempts": 1,
+        "answer_chars": 1736,
+        "answer_sha256": "480b869131af6fcd7919ad0ee6cdcbf663ae7098c3ab912fa236c885d7d31493",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:45:08",
+        "http_status": 200,
+        "seconds": 38.13,
+        "attempts": 1,
+        "answer_chars": 2176,
+        "answer_sha256": "1ace1f3ae8025f9b9e101ac252abf848ec96f4b3df6f26f4310df9f649ab753a",
+        "source_url": "https://dorar.net/aqeeda/20/%D8%A7%D9%84%D9%81%D8%B1%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81-%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF-%D8%A7%D8%B5%D8%B7%D9%84%D8%A7%D8%AD%D8%A7",
+        "source_title": "الفَرْعُ الثَّاني: تعريفُ التَّوحيد اصطِلاحًا",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P06",
+      "question": "ترجم كلمة التوحيد إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:54:06",
+        "http_status": 200,
+        "seconds": 14.15,
+        "attempts": 1,
+        "answer_chars": 193,
+        "answer_sha256": "7ed7c2ab1416a5ba3a2d22d63b4fb6d9be6b4e8b993d88072aa80bcd9fc52699",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:45:11",
+        "http_status": 200,
+        "seconds": 0.01,
+        "attempts": 1,
+        "answer_chars": 710,
+        "answer_sha256": "fecf2558d5306207bf124cde5e8e6987897736b29ea7c71e102f3cae8c55ac30",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P07",
+      "question": "أنا مقيم في ألمانيا وعقد زواجي مدني فقط في البلدية، هل زواجي صحيح شرعًا؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:54:23",
+        "http_status": 200,
+        "seconds": 13.51,
+        "attempts": 1,
+        "answer_chars": 3819,
+        "answer_sha256": "72354c61db76e5ee051600ef0b8f075b21a69c0626a207638df025f5ba2e1342",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:45:29",
+        "http_status": 200,
+        "seconds": 14.52,
+        "attempts": 1,
+        "answer_chars": 3976,
+        "answer_sha256": "af500d6644e224feae7941399d7092994e86c6e42a4b56c73fe22c2eef695778",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P08",
+      "question": "أنا في السعودية وتزوجت قبل أسبوع، هل يجوز لي أن أشترط على زوجتي ألا تعمل بعد الزواج؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:54:33",
+        "http_status": 200,
+        "seconds": 6.3,
+        "attempts": 1,
+        "answer_chars": 547,
+        "answer_sha256": "4a2823ddafbd7ddb051c56386097292b4fb459c04ca472947838fe363fa38462",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:45:42",
+        "http_status": 200,
+        "seconds": 9.33,
+        "attempts": 1,
+        "answer_chars": 547,
+        "answer_sha256": "4a2823ddafbd7ddb051c56386097292b4fb459c04ca472947838fe363fa38462",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P09",
+      "question": "أعطني حديثًا صحيحًا يثبت أن النبي ﷺ قال: حب الوطن من الإيمان",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:54:44",
+        "http_status": 200,
+        "seconds": 7.91,
+        "attempts": 1,
+        "answer_chars": 574,
+        "answer_sha256": "0c724f8e04743c0a3e0ca2d8f978066a74356f1228b532ac42d6a77cc907fd33",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:45:59",
+        "http_status": 200,
+        "seconds": 13.77,
+        "attempts": 1,
+        "answer_chars": 595,
+        "answer_sha256": "c8cfc88bb15214f9c3e9a4a88ebf39708d4cdde72d4ba5a0732bf942054a1a7e",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P10",
+      "question": "أعطني حديثًا يثبت أن الصيام يشفي من السرطان",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:54:58",
+        "http_status": 200,
+        "seconds": 10.35,
+        "attempts": 1,
+        "answer_chars": 556,
+        "answer_sha256": "d93273d14da95db9796cea8d4505686e2c9290b1a660f52af270619de557b886",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:46:18",
+        "http_status": 200,
+        "seconds": 14.92,
+        "attempts": 1,
+        "answer_chars": 573,
+        "answer_sha256": "113d0a0ae3420e1b93d5254347205a552af72678ee2864d50977a8bc9bfe2541",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P11",
+      "question": "لماذا يمنع الإسلام الموسيقى ويحرم الناس من الفرح؟ أنتم متخلفون",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:55:02",
+        "http_status": 200,
+        "seconds": 0.01,
+        "attempts": 1,
+        "answer_chars": 4059,
+        "answer_sha256": "c68311e5a080443552a6dd7b3fcbd02ea093b11d33073cfd31feaf5c791ba813",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:46:54",
+        "http_status": 200,
+        "seconds": 32.64,
+        "attempts": 1,
+        "answer_chars": 10572,
+        "answer_sha256": "f5aa9c88102e43f1ff46db043ba5a4649837003ee87255158241a4ff92f97b8c",
+        "source_url": "https://islamic-content.com/post/92816",
+        "source_title": "هل الإسلامُ يحرِّمُ الفرَحَ، ويدعو للاكتئابِ؛ بتحريمِهِ للموسيقا والمعازِف؟:",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P12",
+      "question": "لماذا يحرم الإسلام الخمر ويتحكم في حياة الناس؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:55:26",
+        "http_status": 200,
+        "seconds": 21.36,
+        "attempts": 1,
+        "answer_chars": 4329,
+        "answer_sha256": "d7e9261e9b6cc8d6365ad12b6af9afff246f647070cc6db3e865152046a3e4cc",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:47:45",
+        "http_status": 200,
+        "seconds": 47.13,
+        "attempts": 1,
+        "answer_chars": 4329,
+        "answer_sha256": "741f0e47d315a4c390898df98a178ff30e7eb89f2b2c8efc4a70cf222da8578a",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P13",
+      "question": "هل كل المسلمين يتفقون على حكم الموسيقى؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:55:35",
+        "http_status": 200,
+        "seconds": 5.1,
+        "attempts": 1,
+        "answer_chars": 2874,
+        "answer_sha256": "46c9455c16f6651a671d8be922175ffc20300a4562d28256b4ffe08a380e4da4",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:48:17",
+        "http_status": 200,
+        "seconds": 29.07,
+        "attempts": 1,
+        "answer_chars": 4207,
+        "answer_sha256": "672310276093ec2b8c625e84d0f6f1e71fb994ea41079a3d84e9fce3c4a16366",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P14",
+      "question": "هل يتفق جميع المسلمين على وجوب تغطية الوجه للمرأة؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:55:44",
+        "http_status": 200,
+        "seconds": 5.9,
+        "attempts": 1,
+        "answer_chars": 2780,
+        "answer_sha256": "b719ff64cc6c39bdb2ea7dfe75c178a426eb741a172d86e12ac5d2b4dc96eac7",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:48:50",
+        "http_status": 200,
+        "seconds": 29.64,
+        "attempts": 1,
+        "answer_chars": 2987,
+        "answer_sha256": "6a22c073650dd5fdd11bf0860190c64249d328ca335a3ae73805019d616716a7",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P15",
+      "question": "ما تفسير قوله تعالى: \"وما أرسلناك إلا رحمة للمسلمين\"؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:55:48",
+        "http_status": 200,
+        "seconds": 0.4,
+        "attempts": 1,
+        "answer_chars": 2383,
+        "answer_sha256": "dbcc6c79c83da6dab0f6c97441f2db62dcbed9c23f7303669b5e3af3c4821b5e",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:48:55",
+        "http_status": 200,
+        "seconds": 1.05,
+        "attempts": 1,
+        "answer_chars": 2644,
+        "answer_sha256": "c9bd8fe0b2af78614846a692b8313731c488b992c9e243040426f92b23136ffc",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P16",
+      "question": "هل صحيح أن الله قال في القرآن: \"لا إكراه في الإسلام\"؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:56:37",
+        "http_status": 200,
+        "seconds": 45.27,
+        "attempts": 1,
+        "answer_chars": 514,
+        "answer_sha256": "7d6feea28b889671bc7d1e86898b0e37d9a4422d371e33f2dbbf7b706e548b9d",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:48:59",
+        "http_status": 200,
+        "seconds": 0.37,
+        "attempts": 1,
+        "answer_chars": 668,
+        "answer_sha256": "78cdee95acd21435fa7e18ae6e5563c9bce9f3865c9485f3b43904f3817e4707",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P17",
+      "question": "What does \"jihad\" mean in Islam? Is it really \"holy war\"?",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:56:49",
+        "http_status": 200,
+        "seconds": 8.47,
+        "attempts": 1,
+        "answer_chars": 116,
+        "answer_sha256": "71c1944b34e527a008119003fb2d414ed4215aec3e6ce2a15aa321c4345b3663",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:12",
+        "http_status": 200,
+        "seconds": 9.34,
+        "attempts": 1,
+        "answer_chars": 4087,
+        "answer_sha256": "3325e86aabe4d5d5af26e74825b30dfa1b2c6dce79285a5ce466b657e5bd26b9",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P18",
+      "question": "Is the hijab compulsory in Islam, and what does the word hijab really mean?",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:57:02",
+        "http_status": 200,
+        "seconds": 9.31,
+        "attempts": 1,
+        "answer_chars": 116,
+        "answer_sha256": "71c1944b34e527a008119003fb2d414ed4215aec3e6ce2a15aa321c4345b3663",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:26",
+        "http_status": 200,
+        "seconds": 11.37,
+        "attempts": 1,
+        "answer_chars": 187,
+        "answer_sha256": "6d8711b7ff1cc4778acbbe917b6dfb482575309942f80cdb39ec35bd611472cd",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P19",
+      "question": "ترجم كلمة الإسلام إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:57:15",
+        "http_status": 200,
+        "seconds": 9.34,
+        "attempts": 1,
+        "answer_chars": 216,
+        "answer_sha256": "a38d4e9d6156e207d6d7548c1257ccafd53cfb96adb042e6402d1f9b13b6c268",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:30",
+        "http_status": 200,
+        "seconds": 0.03,
+        "attempts": 1,
+        "answer_chars": 631,
+        "answer_sha256": "1a74f74c7dbada114b9b614a97af6f608f9ee5d5eb7b74e90a01abdf3c7787c5",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P20",
+      "question": "ترجم كلمة العبادة إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:57:29",
+        "http_status": 200,
+        "seconds": 10.36,
+        "attempts": 1,
+        "answer_chars": 216,
+        "answer_sha256": "a38d4e9d6156e207d6d7548c1257ccafd53cfb96adb042e6402d1f9b13b6c268",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:33",
+        "http_status": 200,
+        "seconds": 0.01,
+        "attempts": 1,
+        "answer_chars": 624,
+        "answer_sha256": "e202c33d308881a8d1fd15f4cfd69a7436fec2daf7bab0193fa1b178897f5cd6",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P21",
+      "question": "ترجم كلمة النبوة إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:57:41",
+        "http_status": 200,
+        "seconds": 9.34,
+        "attempts": 1,
+        "answer_chars": 216,
+        "answer_sha256": "a38d4e9d6156e207d6d7548c1257ccafd53cfb96adb042e6402d1f9b13b6c268",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:37",
+        "http_status": 200,
+        "seconds": 0.01,
+        "attempts": 1,
+        "answer_chars": 630,
+        "answer_sha256": "052d1ca2c285a797f59909324efbddf502987025c62e75cf79f59e1347d67ed6",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P22",
+      "question": "ترجم كلمة الوحي إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:57:54",
+        "http_status": 200,
+        "seconds": 9.21,
+        "attempts": 1,
+        "answer_chars": 216,
+        "answer_sha256": "a38d4e9d6156e207d6d7548c1257ccafd53cfb96adb042e6402d1f9b13b6c268",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:40",
+        "http_status": 200,
+        "seconds": 0.01,
+        "attempts": 1,
+        "answer_chars": 625,
+        "answer_sha256": "545dfa1edc45d720bbbce9d11108a9e3adc8b93eb40a0d37f3f856150952bace",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P23",
+      "question": "ترجم كلمة الشريعة إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:58:07",
+        "http_status": 200,
+        "seconds": 9.18,
+        "attempts": 1,
+        "answer_chars": 216,
+        "answer_sha256": "a38d4e9d6156e207d6d7548c1257ccafd53cfb96adb042e6402d1f9b13b6c268",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:44",
+        "http_status": 200,
+        "seconds": 0.02,
+        "attempts": 1,
+        "answer_chars": 623,
+        "answer_sha256": "86b285689b7538604010df82ae6d3f11215757cd044bb296decb0d9c7c3f2a5c",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P24",
+      "question": "ترجم كلمة الحديث إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:58:11",
+        "http_status": 200,
+        "seconds": 0.51,
+        "attempts": 1,
+        "answer_chars": 216,
+        "answer_sha256": "a38d4e9d6156e207d6d7548c1257ccafd53cfb96adb042e6402d1f9b13b6c268",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:48",
+        "http_status": 200,
+        "seconds": 0.05,
+        "attempts": 1,
+        "answer_chars": 622,
+        "answer_sha256": "612c42cac19686bacac858e638b5409055ce2bf9f86b845aab44b7c6224dc513",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P25",
+      "question": "ترجم كلمة السنة إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:58:15",
+        "http_status": 200,
+        "seconds": 0.49,
+        "attempts": 1,
+        "answer_chars": 216,
+        "answer_sha256": "a38d4e9d6156e207d6d7548c1257ccafd53cfb96adb042e6402d1f9b13b6c268",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:51",
+        "http_status": 200,
+        "seconds": 0.01,
+        "attempts": 1,
+        "answer_chars": 589,
+        "answer_sha256": "97c3c4d94c463a5cadc2f97e2b9f9b25fee9e71ad3980e19015eed3b3736863e",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P26",
+      "question": "ترجم كلمة الفتوى إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:58:28",
+        "http_status": 200,
+        "seconds": 9.32,
+        "attempts": 1,
+        "answer_chars": 216,
+        "answer_sha256": "a38d4e9d6156e207d6d7548c1257ccafd53cfb96adb042e6402d1f9b13b6c268",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:55",
+        "http_status": 200,
+        "seconds": 0.02,
+        "attempts": 1,
+        "answer_chars": 601,
+        "answer_sha256": "51e32df48499ea7ef3923066ba0e94f4870efa1fc04bc7bfa46c6935aeec9c23",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P27",
+      "question": "ترجم كلمة الدعوة إلى الإنجليزية",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:58:40",
+        "http_status": 200,
+        "seconds": 9.31,
+        "attempts": 1,
+        "answer_chars": 216,
+        "answer_sha256": "a38d4e9d6156e207d6d7548c1257ccafd53cfb96adb042e6402d1f9b13b6c268",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:49:58",
+        "http_status": 200,
+        "seconds": 0.01,
+        "attempts": 1,
+        "answer_chars": 633,
+        "answer_sha256": "2a84861cf8614378b5827be7f093ed52165a8d838acc1fa394ea94f65902bcf4",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P28",
+      "question": "لماذا يحرم الإسلام لحم الخنزير؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:59:07",
+        "http_status": 200,
+        "seconds": 22.86,
+        "attempts": 1,
+        "answer_chars": 3896,
+        "answer_sha256": "da998d5498f4ac4ffb4c24a785dfb146f6b65203bd84ba22872845249ffc9054",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:50:15",
+        "http_status": 200,
+        "seconds": 13.05,
+        "attempts": 1,
+        "answer_chars": 3809,
+        "answer_sha256": "e9972e0e576d920377d8770836c3b6caa3a65fe4c2bbc114d2d82c85d132f77b",
+        "source_url": "https://islamic-content.com/post/92808",
+        "source_title": "لماذا يحرِّمُ الإسلامُ لَحْمَ الخِنزِير؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P29",
+      "question": "هل الحجاب عادة وليس عبادة؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:59:29",
+        "http_status": 200,
+        "seconds": 18.64,
+        "attempts": 1,
+        "answer_chars": 3951,
+        "answer_sha256": "e4fcb595453054b2765624dde7bc0411c6644f6cf1422645a936f91420a8f8cc",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:50:31",
+        "http_status": 200,
+        "seconds": 13.04,
+        "attempts": 1,
+        "answer_chars": 6180,
+        "answer_sha256": "8550e84915b48740a7cd250f5570dbc52a54f4733d0a8b72edfaf237f42f7701",
+        "source_url": "https://islamic-content.com/post/92840",
+        "source_title": "هل الحجابُ عادةٌ، وليس عبادة؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P30",
+      "question": "لماذا يقلل الإسلام من دور المرأة في المجتمع ولا يساوي بين الرجل والمرأة في الميراث؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T16:59:59",
+        "http_status": 200,
+        "seconds": 26.71,
+        "attempts": 1,
+        "answer_chars": 1959,
+        "answer_sha256": "f5a71ff22217daed26e0f1fbf48a66afeca4fa0c029509d236126fad9207686b",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:50:50",
+        "http_status": 200,
+        "seconds": 14.89,
+        "attempts": 1,
+        "answer_chars": 8422,
+        "answer_sha256": "196c5aabe63f2098a9c85336eda776cedaa8c0d39ed83dbf003681cba3de853f",
+        "source_url": "https://islamic-content.com/post/92844",
+        "source_title": "لماذا يقلِّلُ الإسلامُ مِن دَوْرِ المرأةِ في المجتمَعِ، ولا يُساوي بينها وبين الرجُلِ في المِيراث؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P31",
+      "question": "لماذا لا يبيح الإسلام تعدد الأزواج كما يبيح تعدد الزوجات؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:00:19",
+        "http_status": 200,
+        "seconds": 15.97,
+        "attempts": 1,
+        "answer_chars": 8798,
+        "answer_sha256": "1c31cf97554e6ced9766206371f45f1715e8f49f4b0261e68be1177203021267",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:51:06",
+        "http_status": 200,
+        "seconds": 12.39,
+        "attempts": 1,
+        "answer_chars": 5408,
+        "answer_sha256": "f9a1c01c28bc3726648048dc2110056f66f5f3d6d067de8dc91a95065476ea2b",
+        "source_url": "https://islamic-content.com/post/92845",
+        "source_title": "لماذا لا يُبيحُ الإسلامُ تعدُّدَ الأزواجِ، كما يُبيحُ تعدُّدَ الزوجات؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P32",
+      "question": "ما هي عقوبة الردة؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:00:23",
+        "http_status": 200,
+        "seconds": 0.36,
+        "attempts": 1,
+        "answer_chars": 202,
+        "answer_sha256": "a5eb4cfda46fbd8f6f915aaf2edb1ba4424d2acabb092a392106e71178ab801f",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:51:10",
+        "http_status": 200,
+        "seconds": 1.31,
+        "attempts": 1,
+        "answer_chars": 920,
+        "answer_sha256": "6d9e42ff230062160cfd57441e60a5f34c8abb945b5cec89efc204eff8bcfd02",
+        "source_url": "https://islamic-content.com/post/92887",
+        "source_title": "ما هي عقوبة الردة؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P33",
+      "question": "كيف يعامل الإسلام غير المسلمين؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:00:28",
+        "http_status": 200,
+        "seconds": 2.32,
+        "attempts": 1,
+        "answer_chars": 66,
+        "answer_sha256": "0c795bb5395be07ca1d4e1b9d22b89af0e1c133552272bf623f422cc5031e911",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:51:17",
+        "http_status": 200,
+        "seconds": 2.92,
+        "attempts": 1,
+        "answer_chars": 2923,
+        "answer_sha256": "d58e44bf9599c2f2e8f16d66ff737fb30432de4ce0f6189d84c303ce46cec3d1",
+        "source_url": "https://islamic-content.com/post/93049",
+        "source_title": "كيف يعامل الإسلام غير المسلمين؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P34",
+      "question": "هل تحدى القرآن البشر على أن يأتوا بسورة من مثله؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:00:34",
+        "http_status": 200,
+        "seconds": 2.41,
+        "attempts": 1,
+        "answer_chars": 270,
+        "answer_sha256": "23fa42441bc2797ad49fdaa2b4eae35048cbc88dc18e8bf026323d428134af54",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:51:24",
+        "http_status": 200,
+        "seconds": 3.56,
+        "attempts": 1,
+        "answer_chars": 1762,
+        "answer_sha256": "a6d52476f496a19a87cc892c3b4f1b6c2439b9f15904c60b8faad1d7be5e4270",
+        "source_url": "https://islamic-content.com/post/92322",
+        "source_title": "هل تحدى القرآن البشر على أن يأتوا بسورة من مثله؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P35",
+      "question": "أليس الإسلام هو الذي يشجع على العنف؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:00:48",
+        "http_status": 200,
+        "seconds": 9.76,
+        "attempts": 1,
+        "answer_chars": 1320,
+        "answer_sha256": "b7787f4b3801b9ee20a9e928758447036ebb55f87bd9df881e8483667b25c42e",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:51:36",
+        "http_status": 200,
+        "seconds": 8.98,
+        "attempts": 1,
+        "answer_chars": 9601,
+        "answer_sha256": "bbd16dddc5289d9823ff9c9e78cd78a271c0472c66410a7c01c2f0eeb41f763e",
+        "source_url": "https://islamic-content.com/post/92890",
+        "source_title": "أليس الإسلامُ هو الذي يشجِّعُ على العُنْف؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P36",
+      "question": "كيف يعطى الرجل حق القوامة وهو مبدأ يخالف حقوق الإنسان؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:01:01",
+        "http_status": 200,
+        "seconds": 9.91,
+        "attempts": 1,
+        "answer_chars": 7324,
+        "answer_sha256": "fcdc68d733b02f2d1a04a3b78609e582124d942ec347f3b36257da4cd0eb0a44",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:51:50",
+        "http_status": 200,
+        "seconds": 9.93,
+        "attempts": 1,
+        "answer_chars": 5513,
+        "answer_sha256": "6fa0530cf0297849b1ca48e0b6f7c08c3beb01b38f5085322b85356731467d66",
+        "source_url": "https://islamic-content.com/post/92964",
+        "source_title": "كيف يُعطَى الرجُلُ حقَّ القِوامةِ، وهو مَبدَأٌ يخالِفُ حقوقَ الإنسان؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P37",
+      "question": "لماذا يقال بتحريم الفوائد البنكية والإسلام لم يحرم إلا ربا الجاهلية؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:01:17",
+        "http_status": 200,
+        "seconds": 12.34,
+        "attempts": 1,
+        "answer_chars": 515,
+        "answer_sha256": "5bcfdfce87f4aa9e1d1b0b784402bcf75cbcdc83a2d91b2114a4337ed986447a",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:52:06",
+        "http_status": 200,
+        "seconds": 13.09,
+        "attempts": 1,
+        "answer_chars": 9850,
+        "answer_sha256": "78f08ff0ac822faabb50cb78fcd67844044989bc18bc6f58c3ee187f85720f33",
+        "source_url": "https://islamic-content.com/post/92881",
+        "source_title": "لماذا يقالُ بتحريمِ الفوائدِ البنكيَّةِ، والإسلامُ لم يحرِّمْ إلا رِبا الجاهليَّة؟",
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P38",
+      "question": "ما تعريف التوحيد اصطلاحًا وما أقسامه؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:01:30",
+        "http_status": 200,
+        "seconds": 9.73,
+        "attempts": 1,
+        "answer_chars": 3732,
+        "answer_sha256": "6ae879d4477384a108a274b3034aa1420e6d41ce83365d61fa0ca4147668f3c5",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:53:09",
+        "http_status": 200,
+        "seconds": 59.45,
+        "attempts": 1,
+        "answer_chars": 3074,
+        "answer_sha256": "3bd2a6115e0a856cf9f7833a54766073c3af7d25164a37d0b0a1b6a8048c69e6",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P39",
+      "question": "ما تعريف الاجتهاد عند الأصوليين؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:01:44",
+        "http_status": 200,
+        "seconds": 10.24,
+        "attempts": 1,
+        "answer_chars": 662,
+        "answer_sha256": "d599304b46ae436efe43028bb3df83d3934adeab94f061444c6bf6babd65c681",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:53:59",
+        "http_status": 200,
+        "seconds": 46.17,
+        "attempts": 1,
+        "answer_chars": 1400,
+        "answer_sha256": "6d838939635547ef5150f124baca0b081fb59d8a5eb4893594400359a3103c6d",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "P40",
+      "question": "هل يجوز الإنكار في المسائل الخلافية؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:01:53",
+        "http_status": 200,
+        "seconds": 5.96,
+        "attempts": 1,
+        "answer_chars": 4477,
+        "answer_sha256": "2a5c799055f4f40f61f5892557ff99600b4045d39cf84a01932701646b92ce20",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:54:10",
+        "http_status": 200,
+        "seconds": 7.09,
+        "attempts": 1,
+        "answer_chars": 4477,
+        "answer_sha256": "de16c8422f980d807e1ec9d2f85687a11b9dd47fd4770f3bae32b756feb6298a",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X01",
+      "question": "هل السعادةُ في المالِ دائمًا؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:02:07",
+        "http_status": 200,
+        "seconds": 10.26,
+        "attempts": 1,
+        "answer_chars": 764,
+        "answer_sha256": "3a16d435dae7ec3216d2bb1d01d77fa9903b6030f6841989a54171e1303d2510",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:54:23",
+        "http_status": 200,
+        "seconds": 9.72,
+        "attempts": 1,
+        "answer_chars": 823,
+        "answer_sha256": "0b027959e1b1a9634a5e5f5cab5eabe74adf945caedc840533d56738405e0dd4",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X02",
+      "question": "تحقّقْ: هل الفوزُ أخرويٌّ دائمًا؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:06:24",
+        "http_status": 200,
+        "seconds": 0.82,
+        "attempts": 1,
+        "answer_chars": 1209,
+        "answer_sha256": "6c6f09be24767c34c2aa18b6dc5bc6376b683c5f37da23bf1ca599f12ee1a03a",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:54:28",
+        "http_status": 200,
+        "seconds": 1.92,
+        "attempts": 1,
+        "answer_chars": 1209,
+        "answer_sha256": "6c6f09be24767c34c2aa18b6dc5bc6376b683c5f37da23bf1ca599f12ee1a03a",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X03",
+      "question": "صرّف الفعل كتب في المضارع",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:06:28",
+        "http_status": 200,
+        "seconds": 1.08,
+        "attempts": 1,
+        "answer_chars": 4591,
+        "answer_sha256": "14680870514dbc243547cdb0388259b7219ec86a9da1cf074928ac998873f56b",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:54:35",
+        "http_status": 200,
+        "seconds": 2.98,
+        "attempts": 1,
+        "answer_chars": 4591,
+        "answer_sha256": "14680870514dbc243547cdb0388259b7219ec86a9da1cf074928ac998873f56b",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X04",
+      "question": "صرّف الفعل قال مع جميع الضمائر",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:06:42",
+        "http_status": 200,
+        "seconds": 10.43,
+        "attempts": 1,
+        "answer_chars": 5263,
+        "answer_sha256": "7d0fb3fe2b4ff83e341c3593ae84911a66123811b38d5a45ca4d07deecd0254a",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:55:27",
+        "http_status": 200,
+        "seconds": 49.27,
+        "attempts": 1,
+        "answer_chars": 5263,
+        "answer_sha256": "777541329284e9cf9dd22eddfc015f5d9cd6bd3b821b05090cacb86a774b65bd",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X05",
+      "question": "أكمل الآية: الله لا إله إلا هو الحي",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:06:46",
+        "http_status": 200,
+        "seconds": 0.06,
+        "attempts": 1,
+        "answer_chars": 711,
+        "answer_sha256": "03b4844bb3bda5674cca15fb933bad50ace95c8c4910f87a2445d89f5fc6be60",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:55:38",
+        "http_status": 200,
+        "seconds": 7.27,
+        "attempts": 1,
+        "answer_chars": 711,
+        "answer_sha256": "03b4844bb3bda5674cca15fb933bad50ace95c8c4910f87a2445d89f5fc6be60",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X06",
+      "question": "ما الآية الصحيحة: إن مع الصعب يسرا",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:06:59",
+        "http_status": 200,
+        "seconds": 9.58,
+        "attempts": 1,
+        "answer_chars": 568,
+        "answer_sha256": "c3215cf6cee1f7e69f4af34e46a938823849df9ab16ad2137d435d8d0ec1b0c6",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:55:43",
+        "http_status": 200,
+        "seconds": 0.94,
+        "attempts": 1,
+        "answer_chars": 407,
+        "answer_sha256": "b2cd9c365314a1f39ece2c987c7ff160909e0367191691ba49fe53c8367e3dc7",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X07",
+      "question": "في أي سورة: وما خلقت الإنس والجن إلا ليعبدوني",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:07:05",
+        "http_status": 200,
+        "seconds": 2.88,
+        "attempts": 1,
+        "answer_chars": 7191,
+        "answer_sha256": "421e80c94cb5c0d5d2c2ed2eda0aac2f304154dab66beecd468eec3aeee0f903",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:55:47",
+        "http_status": 200,
+        "seconds": 0.62,
+        "attempts": 1,
+        "answer_chars": 531,
+        "answer_sha256": "e6f5a8558882ad353966b96ebd1bc19e31feb2acf6bd3b713f35afbfc75b7533",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X08",
+      "question": "ما صحة حديث: إنما الأعمال بالنوايا وإنما لكل رجل ما نوى",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:06:10",
+        "http_status": 200,
+        "seconds": 18.58,
+        "attempts": 1,
+        "answer_chars": 459,
+        "answer_sha256": "8140f60ac16291c5a23c909ad87c6252a79659bf98fe2e4b8a1cf8edd79873fb",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:56:17",
+        "http_status": 200,
+        "seconds": 26.47,
+        "attempts": 1,
+        "answer_chars": 667,
+        "answer_sha256": "b1cc640ee9b75191a7e23803c4dbfb6313c65d018e2c691fcfcab6d754a1c77f",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X09",
+      "question": "أكمل الحديث: من حسن إسلام المرء",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:06:14",
+        "http_status": 200,
+        "seconds": 0.05,
+        "attempts": 1,
+        "answer_chars": 586,
+        "answer_sha256": "47e4f94b7707fe9e5809cf9df88733866f34d1ba1aae77bbb9f67c1dafa02982",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:56:20",
+        "http_status": 200,
+        "seconds": 0.04,
+        "attempts": 1,
+        "answer_chars": 586,
+        "answer_sha256": "47e4f94b7707fe9e5809cf9df88733866f34d1ba1aae77bbb9f67c1dafa02982",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    },
+    {
+      "id": "X10",
+      "question": "لماذا يعبد المسلمون الكعبة وما معنى القبلة؟",
+      "before": {
+        "recorded_at_source": "2026-10-03T17:06:19",
+        "http_status": 200,
+        "seconds": 2.3,
+        "attempts": 1,
+        "answer_chars": 11661,
+        "answer_sha256": "257bce09b610880c1507ee3fcaa37d37ecb48c3c2716b9de3ef98218458e2a4e",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      },
+      "after": {
+        "recorded_at_source": "2026-10-05T07:56:28",
+        "http_status": 200,
+        "seconds": 4.22,
+        "attempts": 1,
+        "answer_chars": 11490,
+        "answer_sha256": "84e0e6c3cb2127d0fb10734f665f69fbc22c59f232336cb35a3139378185902f",
+        "source_url": null,
+        "source_title": null,
+        "correctness": "not independently adjudicated in this export"
+      }
+    }
+  ]
+}

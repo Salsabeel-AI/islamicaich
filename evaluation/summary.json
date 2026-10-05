@@ -1,0 +1,17 @@
+{
+  "before": {
+    "cases": 50,
+    "http_200": 50,
+    "non_200": 0,
+    "nonempty_answers": 50,
+    "median_seconds": 9.32
+  },
+  "after": {
+    "cases": 50,
+    "http_200": 50,
+    "non_200": 0,
+    "nonempty_answers": 50,
+    "median_seconds": 9.16
+  },
+  "meaning": "HTTP success, answer presence and latency only. These are NOT correctness, faithfulness or religious-validity scores."
+}

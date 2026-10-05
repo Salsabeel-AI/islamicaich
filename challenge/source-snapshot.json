@@ -1,0 +1,265 @@
+{
+  "captured_at_utc": "2026-10-05T11:14:07.272740+00:00",
+  "kind": "challenge application delivery snapshot, not a live-provider version pin",
+  "original_files": [
+    {
+      "file": "src/beta-media.mjs",
+      "sha256": "b5b0ad957b0057358d481dc5fce48aa334effb2005c898b1420fc4cc62c8ac55"
+    },
+    {
+      "file": "src/genesis/Anchor.tsx",
+      "sha256": "0d7f4a7bb507fcba4aac5852d42bc1671e2f0cb1f9202d7273f8b72ebf942976"
+    },
+    {
+      "file": "src/genesis/BarqMore.tsx",
+      "sha256": "cebe319d1ca853a0b61603ccb2c5f23e9e9c41a985ceb0dea4de4b0acb3b2947"
+    },
+    {
+      "file": "src/genesis/barqReader.ts",
+      "sha256": "90fa2dfd9730f6ce48bb72efbb9e887444caef12920768c368c3d120bf8b0493"
+    },
+    {
+      "file": "src/genesis/BarqRefs.tsx",
+      "sha256": "0b12a53822558bd8e97ca400f2753e3fbd1937fed24f16fb113d607ffb9a8bce"
+    },
+    {
+      "file": "src/genesis/BarqRoots.tsx",
+      "sha256": "24131d9a106762f95308cc7b829e17f914f132054e21cceb171b9269eda710da"
+    },
+    {
+      "file": "src/genesis/BarqShawahid.tsx",
+      "sha256": "69df7b8222fa959d37726f6cbfcccd6170148eccb7ed0cbb8455fc3909690f60"
+    },
+    {
+      "file": "src/genesis/entry.tsx",
+      "sha256": "c46489978cbd57950d142b92f0e743d4d646aafdf987183b55bb1c1714f81b68"
+    },
+    {
+      "file": "src/genesis/InlineAyahViewer.tsx",
+      "sha256": "343459031d56d0fdcf369c528c786b600d38075c58d7dbdb34075ecadb68c9d0"
+    },
+    {
+      "file": "src/genesis/Markdown.tsx",
+      "sha256": "f352f4c74154c4093e412d892d12b1941bf46cb5d1386dfb892af943f15d138b"
+    },
+    {
+      "file": "src/genesis/rehypeBarqRefs.ts",
+      "sha256": "65c5c8499fd17101e3a78884ec72a92eea76d5d6fc212ab8b1b3cbd844c7ccf2"
+    },
+    {
+      "file": "src/genesis/tafsirSectionStyle.ts",
+      "sha256": "f3e8254a66af3bc64715c23937e0c137c6f290bdbc891e1b6165abcf556c5045"
+    },
+    {
+      "file": "src/genesis/theme.css",
+      "sha256": "ef7a439b8fff60f3b307553ca6bd67823d1926c2a5ae77703d2bccf224d00377"
+    },
+    {
+      "file": "src/presentation.mjs",
+      "sha256": "6ba14f17752e6713861c49fd7a6b3e50da9bd372ae90bbeb110a0f8d3462493c"
+    },
+    {
+      "file": "src/readers.mjs",
+      "sha256": "354236a36ac1f0379b683003be618e5f38089cb60576b1e286485fa077985bb4"
+    },
+    {
+      "file": "src/report-analytics.mjs",
+      "sha256": "5606e36db9f3fd0b63eba0782607ca3fd74057ad4a164720d622e80565ccee13"
+    },
+    {
+      "file": "src/request-queue.mjs",
+      "sha256": "cef1f53304de5018a771ca6772ddef24759b31f963d271858d78c20240052fde"
+    },
+    {
+      "file": "src/server.mjs",
+      "sha256": "7ab4a203b9c1c77b8c55b7cf5a743336c9cd0073c47cb0d9c63e94ec61f4679f"
+    },
+    {
+      "file": "public/app.js",
+      "sha256": "c9fb78c7c1f7cfb5419aea796554d6e0969fac1fe27bd5b0b777d6acbe91ef9c"
+    },
+    {
+      "file": "public/assets/challenge-logo.svg",
+      "sha256": "1e17618ef8c6ffb7a0a9742c07b70d564d6eb45d86f9bbf8842bceadcb74c38e"
+    },
+    {
+      "file": "public/assets/hero.png",
+      "sha256": "f44f07eff2ecf248cd571fc2a187a135a8321eedbfe2ce2b1c2e24529a525d23"
+    },
+    {
+      "file": "public/assets/pattern.svg",
+      "sha256": "7a88b608d6bda4b31f459a1c5e296ea2269677911eb8519e3cea0e06fc5eeeea"
+    },
+    {
+      "file": "public/assets/readex-arabic.woff2",
+      "sha256": "b5815b71c48e513b5e65eb281dd53e5d6a556d6dac511a5d2cd00d628850d5c4"
+    },
+    {
+      "file": "public/assets/readex-latin.woff2",
+      "sha256": "7074eeb987a25349069ed5c784e204904b928f4c878e9c3c88d636c01081ae52"
+    },
+    {
+      "file": "public/assets/site-icon-0.svg",
+      "sha256": "ef8994d44143acbd7d06fa8faed78c8da4b401fc1c78a12c618a3e52ffb2b839"
+    },
+    {
+      "file": "public/assets/site-icon-1.svg",
+      "sha256": "d756369edf91666732ae96c1d69b10f7b10244390aa6fbd3ce76efd007cbbbea"
+    },
+    {
+      "file": "public/assets/site-icon-2.svg",
+      "sha256": "ef8994d44143acbd7d06fa8faed78c8da4b401fc1c78a12c618a3e52ffb2b839"
+    },
+    {
+      "file": "public/beta/2-5/film-r10-music.mp4",
+      "sha256": "13f78a9feaa667a72cffb8da7dd7f8929f6988088810df89f622321af95fc43e"
+    },
+    {
+      "file": "public/beta/2-5/film-r10-voice.mp4",
+      "sha256": "2930cdb322694165e2a6775fa82ae30ef4c7f8f84e6746eaa405859d11a2dc10"
+    },
+    {
+      "file": "public/beta/2-5/index.html",
+      "sha256": "5cbc757a393d563e0e30d7bfd8539067dcedc682ce23f71b3b8fc2eb4801b538"
+    },
+    {
+      "file": "public/beta/2-5/narration-r10.txt",
+      "sha256": "823f1930553d33e080d84e12f5864e707da104d669a689c5e9728e4ef9a0fe5b"
+    },
+    {
+      "file": "public/beta/2-5/poster-r10.jpg",
+      "sha256": "db79e885af5c9888217fff9ee5ad4652804ba4207e260111f37450b6b3927c00"
+    },
+    {
+      "file": "public/beta/2-5/watch.css",
+      "sha256": "c412d759c14d1d06ffafd401984f4d64f86cab2adee9ff22156fc3b3afd0d115"
+    },
+    {
+      "file": "public/beta/2-5/watch.js",
+      "sha256": "4880ad5a7bbfff7cf7e67bfd992cb18dbbadae8ab860ca1252a165efbdf6cf75"
+    },
+    {
+      "file": "public/favicon.ico",
+      "sha256": "5bf9104888967e7debe675f295040b93258a66b3278c687ddef380375ad464d8"
+    },
+    {
+      "file": "public/favicon.svg",
+      "sha256": "d42eaf09868a34a78b09ad0f3620365be883d365ebbb067cf3d37d219ae3fa6f"
+    },
+    {
+      "file": "public/genesis.css",
+      "sha256": "8dcb8dffb4de8eeca8df82117e07132f12a3367fede80c50aec92a39f233d5fe"
+    },
+    {
+      "file": "public/genesis.js",
+      "sha256": "fe53c36c7431a49f5e10255e5ddeca814addf14068d9ffd94e11cf8248062ecd"
+    },
+    {
+      "file": "public/index.html",
+      "sha256": "a8b535668d3f414bd24ae48c6c1c713ea9c507e1c76af775f3ab7884af80569f"
+    },
+    {
+      "file": "public/reports/index.html",
+      "sha256": "b1f01fa49312d74d40d4a178217a8ad937535ff9b6c86d9c3fd6a5b473c47cb0"
+    },
+    {
+      "file": "public/reports/mentors-briefing/index.html",
+      "sha256": "7487fff5579dad8c38f0a39e6cd60d4629dfc9a4d0ed822f71ddee45dac028c0"
+    },
+    {
+      "file": "public/reports/mentors-briefing/slides.css",
+      "sha256": "1de8d4abfe6f7d5716d83da3b170b677e03fb8a11a49c3a897963f840e7ccdd4"
+    },
+    {
+      "file": "public/reports/mentors-briefing/slides.js",
+      "sha256": "ca126f0132540775aa6ad235ceb79f5b116a2bce1653186252be0d993a561b2e"
+    },
+    {
+      "file": "public/reports/participation-plan/index.html",
+      "sha256": "1cb1a5b5a1d7eeea6ef861083bbf92e7fcff1e0fbab34db24a6be3a1a42c55ff"
+    },
+    {
+      "file": "public/reports/participation-plan/plan.css",
+      "sha256": "06d5b32e96423bad4d05828496c05a6ff2df4561c5bee7ac890b4ea60dd4fac1"
+    },
+    {
+      "file": "public/reports/participation-plan/plan.js",
+      "sha256": "6b7f89f6f865c26831a2afe49fccb8c8327590c4b30545bfbe4fd0e28089ddfc"
+    },
+    {
+      "file": "public/reports/slides.css",
+      "sha256": "4a32927f6a573d9994d959e1ec12478d28e0cc9437312ad4d815066294d9f70c"
+    },
+    {
+      "file": "public/reports/slides.js",
+      "sha256": "ca126f0132540775aa6ad235ceb79f5b116a2bce1653186252be0d993a561b2e"
+    },
+    {
+      "file": "public/sse.js",
+      "sha256": "0f7fb3e86afd94915c1685389486ddaf46227e64daa0d3de30cfda31aee266ed"
+    },
+    {
+      "file": "public/styles.css",
+      "sha256": "784a8bebef610354ba2d21b7057cf44000e7b8c5e4b21bdf1804533777906c24"
+    },
+    {
+      "file": "tests/analytics.test.mjs",
+      "sha256": "803da28ff6baed81ab1c9e0d841cfdd3f25ea31a7b21cc7efd9617ef2f9fa87e"
+    },
+    {
+      "file": "tests/app.test.mjs",
+      "sha256": "9ef47dc991371733a308b90f88acb6492959c9bb2464271ccb553ab792569532"
+    },
+    {
+      "file": "tests/beta-media.test.mjs",
+      "sha256": "51ccb06b05ce4a84b160d23681f63ab0542d7f489f3e8b5499967ed5e8646075"
+    },
+    {
+      "file": "tests/display.test.mjs",
+      "sha256": "513a4142334269d7250e0803715afb3de21a354ddf55b92a52cb9f5f58cf9bdf"
+    },
+    {
+      "file": "tests/formatting.test.mjs",
+      "sha256": "1ca4d6dbca8116bf9a35d66b9ad2e6a8d0f4e9e4fecb0c30e2fba3ef5db2b07d"
+    },
+    {
+      "file": "tests/progress.test.mjs",
+      "sha256": "10c7a5aec482105f26e26f7fdbca3e952969b30a8e2cb8d9b585a47792eb6421"
+    },
+    {
+      "file": "tests/references.test.mjs",
+      "sha256": "c4a8b8349886a35abe19031056219eea7ab032c45a62394c4de2bf5ea44cd6a9"
+    },
+    {
+      "file": "tests/reports.test.mjs",
+      "sha256": "2e91fc6a8a45249afa57cb0f6179121c07f42739264c71816210c87b61df79b3"
+    },
+    {
+      "file": "tests/request-queue.test.mjs",
+      "sha256": "ff4f570b5c949eef5b9f4c15501e6310ddef2553b481df14faf8976618abcf90"
+    },
+    {
+      "file": "tests/ui-preview.mjs",
+      "sha256": "2e4077f45405ff8f2d86f8436c08ae6d3c73e52deacb659f2b2c08858f6da0ed"
+    },
+    {
+      "file": "package.json",
+      "sha256": "e38f51661e4db15739eb85d164e9b5e2e7ed2ca5db78063d7600bf0cda4e0df5"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "600293802433c41fad2470eb0b8f99c8159b8d3430629d485f8e8fc78dd9b2d4"
+    },
+    {
+      "file": "tailwind.config.cjs",
+      "sha256": "ff1ae06c393b2022b7827766ba4d32a30b65230375024dc7ffcf2cb517273700"
+    }
+  ],
+  "packaging_changes": [
+    "relative SSE test import",
+    "private component source paths replaced with attribution metadata",
+    "new blank .env.example",
+    "presentation assets rebuilt from included source and lockfile"
+  ],
+  "provider_weights_included": false
+}

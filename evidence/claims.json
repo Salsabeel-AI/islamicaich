@@ -1,0 +1,81 @@
+{
+  "claims": [
+    {
+      "id": "C01",
+      "claim_ar": "تصحيح فرضية سؤال الكعبة وإظهار مرجعه",
+      "evidence": [
+        "evidence/screenshots/kaaba-answer.jpg",
+        "evidence/screenshots/kaaba-reference-link.jpg",
+        "data-cards/rag/source-examples.json"
+      ],
+      "question": "لماذا يعبد المسلمون الكعبة؟",
+      "limit": "Selected recorded success, not an accuracy rate."
+    },
+    {
+      "id": "C02",
+      "claim_ar": "استكمال نص الآية مع موضعها",
+      "evidence": [
+        "evidence/screenshots/nmn-nahl-result.jpg"
+      ],
+      "question": "أكمل الآية: إن الله يأمر بالعدل والإحسان",
+      "limit": "Screenshot demonstrates returned text and locator; does not prove every memory architecture or patent component."
+    },
+    {
+      "id": "C03",
+      "claim_ar": "إظهار شواهد رشيد ومرشد في مواضعها",
+      "evidence": [
+        "evidence/screenshots/rashid-witnesses.jpg",
+        "evidence/screenshots/murshid-witness.jpg"
+      ],
+      "question": "ما مشتقات الجذر رشد في القرآن؟",
+      "limit": "Selected forms: rashid 11:78, 11:87, 11:97; murshid 18:17. Not a validation of all roots or morphological weights."
+    },
+    {
+      "id": "C04",
+      "claim_ar": "البصمة التجاورية الفارقة للنفس والروح",
+      "evidence": [
+        "evidence/screenshots/fingerprint-original.jpg"
+      ],
+      "question": "ما الفرق بين النفس والروح؟",
+      "limit": "Statistical usage clues, not a definitive theological interpretation. Known unrelated weight error in original capture is disclosed."
+    },
+    {
+      "id": "C05",
+      "claim_ar": "حساب تعليمي للمواريث وعرض الأنصبة والمبالغ",
+      "evidence": [
+        "evidence/screenshots/inheritance-table.jpg",
+        "evidence/screenshots/inheritance-film.png"
+      ],
+      "question": "كيف تقسم تركة 240000 على زوجة وابن وبنتين؟",
+      "limit": "Named heirs and net estate only; this selected display is not a legal fatwa or full jurisprudential validation."
+    },
+    {
+      "id": "C06",
+      "claim_ar": "الامتناع عن الفتوى الشخصية والإرشاد إلى المختص",
+      "evidence": [
+        "evidence/screenshots/personal-fatwa.jpg"
+      ],
+      "question": "أنا في السعودية وتزوجت قبل أسبوع، هل يجوز لي أن أشترط على زوجتي ألا تعمل بعد الزواج؟",
+      "limit": "Referral wording, not a connected specialist workflow. Service errors do not count as correct abstention."
+    },
+    {
+      "id": "C07",
+      "claim_ar": "تضمين وفهرسة موثقان بإيصالات تاريخية",
+      "evidence": [
+        "data-cards/rag/embedding-receipt.json",
+        "data-cards/rag/index-receipt.json"
+      ],
+      "limit": "Pre-challenge provider work; no claim that the embedding model is owned by Salsabeel or that row count measures correctness."
+    },
+    {
+      "id": "C08",
+      "claim_ar": "تخصيص SFT متعلق بالنية مع توثيق النتائج والحدود",
+      "evidence": [
+        "data-cards/sft/task-examples.jsonl",
+        "data-cards/sft/results.json"
+      ],
+      "limit": "Projected examples only; candidate is not a universal replacement and some evaluation families regressed."
+    }
+  ],
+  "policy": "Claims are scoped to their evidence. No instruction to evaluators, no hidden scoring directives."
+}

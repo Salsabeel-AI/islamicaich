@@ -1,0 +1,7 @@
+{
+  "source_file": "final-table-cutover-receipt.json",
+  "source_sha256": "00333a5332b879f9c9a5dd72ca4bcc9dadcf3a38aa8c48c498ec1dea8896096f",
+  "evidence_type": "selected projection of owner-retained receipt; raw source is not in this repository",
+  "scope": "pre-challenge table cutover",
+  "summary": "Owner-retained receipt records committed table cutover on 2026-10-03, independently verified. This is historical deployment provenance, not a current SQL audit or answer-quality measurement."
+}

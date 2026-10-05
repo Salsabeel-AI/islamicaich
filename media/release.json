@@ -1,0 +1,19 @@
+{
+  "revision": "Beta 2.5 R10",
+  "duration_seconds": 118,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "watch_url": "https://islamicaich.salsabeel.ai/beta/2-5/",
+  "files": [
+    {
+      "file": "app/public/beta/2-5/film-r10-music.mp4",
+      "sha256": "13f78a9feaa667a72cffb8da7dd7f8929f6988088810df89f622321af95fc43e"
+    },
+    {
+      "file": "app/public/beta/2-5/film-r10-voice.mp4",
+      "sha256": "2930cdb322694165e2a6775fa82ae30ef4c7f8f84e6746eaa405859d11a2dc10"
+    }
+  ],
+  "source_scope": "flattened picture master, approved audio masters and timing; no private model production code"
+}

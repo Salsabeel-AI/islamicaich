@@ -1,0 +1,17 @@
+{
+  "source_file": "RB_ADAPTER_v13_r3_MANIFEST.json",
+  "source_sha256": "b10c4d6040935c0c9c788a7e40cd3434246758455316ccad7c0ff92e5b956bcd",
+  "evidence_type": "selected projection of owner-retained receipt; raw source is not in this repository",
+  "source_dataset_sha256": "32eb3c746b4c2ec6bf23fa3cba4b4f9877120857011b8d2a7ee297c2692adec0",
+  "created_at": "2026-10-04",
+  "export_rows": 23,
+  "scope": "selected challenge-related intent questions only; public projection, not a complete trainable original dataset",
+  "split_note": "Internal training/evaluation split grouped examples by family. Exported examples are illustrative development material and are not a held-out test.",
+  "no_factory_content": [
+    "weights",
+    "system prompts",
+    "serialized internal targets",
+    "training recipes",
+    "full replay data"
+  ]
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "file": "BarqMore.tsx",
+    "source": "Salsabeel GenesisChat presentation component (existing before the challenge)",
+    "source_sha256": "8fcae293a066d04ef6eb950f96585f36e389389375b6a72bd09f4209cff83d94",
+    "adaptation": "Arabic direction fixed; platform account-store imports removed where present.",
+    "local_sha256": "cebe319d1ca853a0b61603ccb2c5f23e9e9c41a985ceb0dea4de4b0acb3b2947",
+    "delivery_sha256": "8fcae293a066d04ef6eb950f96585f36e389389375b6a72bd09f4209cff83d94"
+  },
+  {
+    "file": "BarqRefs.tsx",
+    "source": "Salsabeel GenesisChat presentation component (existing before the challenge)",
+    "source_sha256": "86f18d6716befc7bde84d260cb957bcf7b329d2b812219cc2fafdcd7c3c248da",
+    "adaptation": "Arabic direction fixed; account imports removed. Evidence header and source chip JSX adapted from GenesisChat BarqEvidence.tsx FataEvidenceCard; HTTPS sources rendered as anchors, internal passages use existing reader popup.",
+    "local_sha256": "ea4ac2ef73462096f5992ca723e942156266a02c49f358453a952225864960d0",
+    "delivery_sha256": "22d6a3570217e6550e0dbfc5ed9126f69edb8294293c9442d0717d3ff216dcc0"
+  },
+  {
+    "file": "BarqRoots.tsx",
+    "source": "Salsabeel GenesisChat presentation component (existing before the challenge)",
+    "source_sha256": "0de3814994f2d9cee7c7dd11524e3c875d3d11238b82ac901e47ff4dff8f9be7",
+    "adaptation": "Arabic direction fixed; platform account-store imports removed where present.",
+    "local_sha256": "24131d9a106762f95308cc7b829e17f914f132054e21cceb171b9269eda710da",
+    "delivery_sha256": "4d52db649a060aba6649974240e0acf9e8f3f6660782b5fb27d9fc72ccbb51a9"
+  },
+  {
+    "file": "BarqShawahid.tsx",
+    "source": "Salsabeel GenesisChat presentation component (existing before the challenge)",
+    "source_sha256": "08b2b51fd4323a9e8a41c3273c75f57a2f70125966e75c7bf5b53a6c5cd51bf3",
+    "adaptation": "Arabic direction fixed; platform account-store imports removed where present. Capture-phase popup delegation for nested references.",
+    "local_sha256": "69df7b8222fa959d37726f6cbfcccd6170148eccb7ed0cbb8455fc3909690f60",
+    "delivery_sha256": "c42baca9c965b4e543e24abc124381973ced86886f640b73125197439c34cc42"
+  },
+  {
+    "file": "InlineAyahViewer.tsx",
+    "source": "Salsabeel GenesisChat presentation component (existing before the challenge)",
+    "source_sha256": "9d31609d9d295f8e16a18bc4db4e1c18dd5750ed7b83bdab258ecf72cda5f5e9",
+    "adaptation": "Arabic direction fixed; platform account-store imports removed where present. Capture-phase popup delegation for nested references.",
+    "local_sha256": "06911814b20faa3c404a3f698e9be546ba1679ed0ae24e68f7def4a440066446",
+    "delivery_sha256": "52a56d1bd4a41b0f99e3cd6acce2da5db780951d2f4865c813a717155ac48a7a"
+  },
+  {
+    "file": "barqReader.ts",
+    "source": "Salsabeel GenesisChat presentation component (existing before the challenge)",
+    "source_sha256": "766eab2c180b86b889ae072b3c1591cb21313315692cefb1c1c044697928245f",
+    "adaptation": "Arabic direction fixed; platform account-store imports removed where present.",
+    "local_sha256": "68b4ddf85ee8ffbb6328fbaa4ffde564b94baf3fea72e05d387f1be807e3ae84",
+    "delivery_sha256": "d0d188aff6d5ee8f9896d46e5a8bab66b698ec63f9343db0e0a451018b43ee33"
+  },
+  {
+    "file": "tafsirSectionStyle.ts",
+    "source": "Salsabeel GenesisChat presentation component (existing before the challenge)",
+    "source_sha256": "ab4088595d9455900069d4406e0e22f76a9567db748bd9831fc51178c3486288",
+    "adaptation": "Arabic direction fixed; platform account-store imports removed where present.",
+    "local_sha256": "f3e8254a66af3bc64715c23937e0c137c6f290bdbc891e1b6165abcf556c5045",
+    "delivery_sha256": "ab4088595d9455900069d4406e0e22f76a9567db748bd9831fc51178c3486288"
+  },
+  {
+    "file": "rehypeBarqRefs.ts",
+    "source": "Salsabeel GenesisChat presentation component (existing before the challenge)",
+    "source_sha256": "cfb1ddbd8518213d392b3ef13b1525b3f5d8d295d949844cc766b2d35e66e288",
+    "adaptation": "Original citation renderer with NFC name matching and decomposed Arabic hamza/madda recognition; displayed source text preserved.",
+    "local_sha256": "375841eff9c6e74120b33831dbd5bcbc7b6990bf56930d456a08146c322a6c8f",
+    "delivery_sha256": "672fdfac0dd9a1ed0ae2bc9f75ba482f3cbb15564cbf4b01b2c88de7c1858cea"
+  },
+  {
+    "file": "Anchor.tsx",
+    "source": "Salsabeel GenesisChat presentation component (existing before the challenge)",
+    "adaptation": "Extracted original root, attestation, color and note link branches; account-file handling omitted.",
+    "local_sha256": "0d7f4a7bb507fcba4aac5852d42bc1671e2f0cb1f9202d7273f8b72ebf942976",
+    "delivery_sha256": "3622e64dde3fbc9b6266bf02a8b4e51ec089ab3c5cea7a5d5a39fc7ecda898b0"
+  }
+]

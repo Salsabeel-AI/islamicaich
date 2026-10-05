@@ -1,0 +1,1111 @@
+{
+  "source_file": "retrieval_external_scope.json",
+  "source_sha256": "3175093af6a91531bd313a6c5462e44076ab5df47e8bddfc47db6130cf156de1",
+  "evidence_type": "selected projection of owner-retained receipt; raw source is not in this repository",
+  "scope": "historical external-source-scoped retrieval experiment, not production QA or top-100 evidence",
+  "records": [
+    {
+      "id": "P01",
+      "question": "لماذا يعبد المسلمون الكعبة؟",
+      "expected_rank": 1,
+      "retrieval_ms": 203,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92923",
+          "title": "هل يعبد المسلمون الكعبة؟"
+        },
+        {
+          "rank": 2,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:1573",
+          "title": "إِمَالَةٌ مُتَوَسِّطَة"
+        },
+        {
+          "rank": 3,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:1575",
+          "title": "إِمَالَةٌ يَسِيرَة"
+        },
+        {
+          "rank": 4,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:1571",
+          "title": "إِمَالَةٌ غَيْرُ خَالِصَةٍ"
+        },
+        {
+          "rank": 5,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:498",
+          "title": "ب- مِنَ السُّنَّةِ النَّبَويَّةِ"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "question": "هل القرآن من تأليف محمد ﷺ؟",
+      "expected_rank": null,
+      "retrieval_ms": 172,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51975",
+          "title": "نص ملاحظة قرآنية رقم 51975"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52047",
+          "title": "نص ملاحظة قرآنية رقم 52047"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51977",
+          "title": "نص ملاحظة قرآنية رقم 51977"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52369",
+          "title": "نص ملاحظة قرآنية رقم 52369"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "question": "هل الإسلام انتشر بالسيف؟",
+      "expected_rank": 1,
+      "retrieval_ms": 187,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92891",
+          "title": "هل انتشَرَ الإسلامُ بالسيف؟"
+        },
+        {
+          "rank": 2,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92813",
+          "title": "ماذا أستفيدُ مِن الإسلام؟"
+        },
+        {
+          "rank": 3,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:689",
+          "title": "معنى : أَرَاِذِلُ النَّاسِ - أراذل الناس - الجمهرة"
+        },
+        {
+          "rank": 4,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93026",
+          "title": "ماذا يعني الإسلام؟"
+        },
+        {
+          "rank": 5,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92331",
+          "title": "ادِّعاءُ حذفِ بعضِ آياتِ القرآن"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "question": "لماذا توجد أحكام مختلفة بين العلماء؟",
+      "expected_rank": null,
+      "retrieval_ms": 188,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52316",
+          "title": "نص ملاحظة قرآنية رقم 52316"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52333",
+          "title": "نص ملاحظة قرآنية رقم 52333"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51977",
+          "title": "نص ملاحظة قرآنية رقم 51977"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51934",
+          "title": "نص ملاحظة قرآنية رقم 51934"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "question": "ما معنى التوحيد لشخص لم يسمع بالمصطلح من قبل؟",
+      "expected_rank": null,
+      "retrieval_ms": 187,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:2008",
+          "title": "أ- من الشِّعرِ"
+        },
+        {
+          "rank": 2,
+          "collection": "aqeeda",
+          "document_id": "dorar:aqeeda:701",
+          "title": "السَّمْعُ"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        },
+        {
+          "rank": 4,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:4335",
+          "title": "ب- من الحِكَمِ والأمثالِ"
+        },
+        {
+          "rank": 5,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:6618",
+          "title": "الطَّمَعُ"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "question": "ترجم كلمة التوحيد إلى الإنجليزية",
+      "expected_rank": null,
+      "retrieval_ms": 172,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:1879",
+          "title": "تاسِعًا: حُكمُ الصِّلةِ"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51975",
+          "title": "نص ملاحظة قرآنية رقم 51975"
+        },
+        {
+          "rank": 3,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:4201",
+          "title": "الْحَرْفُ الْمُكَرَّر"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52379",
+          "title": "نص ملاحظة قرآنية رقم 52379"
+        },
+        {
+          "rank": 5,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:2707",
+          "title": "تَرْجَمَة الْقُرْآن"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "question": "أنا مقيم في ألمانيا وعقد زواجي مدني فقط في البلدية، هل زواجي صحيح شرعًا؟",
+      "expected_rank": null,
+      "retrieval_ms": 172,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93043",
+          "title": "هم يَسمَحون لنا؛ فلْنَسمَحْ لهم"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51976",
+          "title": "نص ملاحظة قرآنية رقم 51976"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52316",
+          "title": "نص ملاحظة قرآنية رقم 52316"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52383",
+          "title": "نص ملاحظة قرآنية رقم 52383"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "question": "أنا في السعودية وتزوجت قبل أسبوع، هل يجوز لي أن أشترط على زوجتي ألا تعمل بعد الزواج؟",
+      "expected_rank": null,
+      "retrieval_ms": 156,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "fiqh",
+          "document_id": "dorar:feqhia:6693",
+          "title": "المَبحثُ الخامِسُ: هِبةُ الزَّوجةِ لغَيرِ زَوجِها"
+        },
+        {
+          "rank": 2,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:4963",
+          "title": "ب- نماذجُ مِن الكَيدِ عِندَ بعضِ النِّساءِ"
+        },
+        {
+          "rank": 3,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92559",
+          "title": "زواج النبيِّ ^ بأكثَرَ من أربع نِسوةٍ."
+        },
+        {
+          "rank": 4,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:aadab:1483",
+          "title": "خامسَ عشرَ: تَهيئةُ العَروسِ وتَزيينُها لزوجِها"
+        },
+        {
+          "rank": 5,
+          "collection": "fiqh",
+          "document_id": "dorar:feqhia:5303",
+          "title": "المَطلبُ الثَّاني: من حقوق الزوج: ألَّا تأذَنَ المرأةُ لأحدٍ في الدُّخ"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "question": "أعطني حديثًا صحيحًا يثبت أن النبي ﷺ قال: حب الوطن من الإيمان",
+      "expected_rank": null,
+      "retrieval_ms": 157,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93043",
+          "title": "هم يَسمَحون لنا؛ فلْنَسمَحْ لهم"
+        },
+        {
+          "rank": 2,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92546",
+          "title": "إنكارُ وجودِ النبوَّة"
+        },
+        {
+          "rank": 3,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92245",
+          "title": "ادِّعاءُ شكِّ النبيِّ في القرآن"
+        },
+        {
+          "rank": 4,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92162",
+          "title": "إنكارُ وجودِ اللهِ تعالى"
+        },
+        {
+          "rank": 5,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92249",
+          "title": "ادِّعاءُ أن القرآنَ وثيقةٌ قديمة"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "question": "أعطني حديثًا يثبت أن الصيام يشفي من السرطان",
+      "expected_rank": null,
+      "retrieval_ms": 188,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:aadab:890",
+          "title": "رابِعَ عَشَرَ: الإكثارُ مِنَ الصِّيامِ واجتنابُ ما يُنهى عن صيامِه"
+        },
+        {
+          "rank": 2,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92331",
+          "title": "ادِّعاءُ حذفِ بعضِ آياتِ القرآن"
+        },
+        {
+          "rank": 3,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92659",
+          "title": "كيف يَجزِمُ أهلُ السنَّةِ بصحَّةِ أحاديثِ الصحيحَيْنِ، والبخاريُّ ومسل"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51978",
+          "title": "نص ملاحظة قرآنية رقم 51978"
+        },
+        {
+          "rank": 5,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:aadab:2743",
+          "title": "سادسًا: النُّصحُ وتَركُ الغِشِّ"
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "question": "لماذا يمنع الإسلام الموسيقى ويحرم الناس من الفرح؟ أنتم متخلفون",
+      "expected_rank": 50,
+      "retrieval_ms": 172,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93043",
+          "title": "هم يَسمَحون لنا؛ فلْنَسمَحْ لهم"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52316",
+          "title": "نص ملاحظة قرآنية رقم 52316"
+        },
+        {
+          "rank": 3,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:aadab:1205",
+          "title": "ثامنًا: ألَّا يكونَ الحلِفُ مانعًا مِن فِعلِ الخَيراتِ"
+        },
+        {
+          "rank": 4,
+          "collection": "fiqh",
+          "document_id": "dorar:feqhia:5598",
+          "title": "الفَرعُ الثَّاني: تعليقُ اليَمينِ على الحَرامِ [409] معناه: أن يُحرِّم"
+        },
+        {
+          "rank": 5,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:6908",
+          "title": "الْعَطَاءُ وَالْمَنْعُ"
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "question": "لماذا يحرم الإسلام الخمر ويتحكم في حياة الناس؟",
+      "expected_rank": null,
+      "retrieval_ms": 156,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93043",
+          "title": "هم يَسمَحون لنا؛ فلْنَسمَحْ لهم"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52351",
+          "title": "نص ملاحظة قرآنية رقم 52351"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52316",
+          "title": "نص ملاحظة قرآنية رقم 52316"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52318",
+          "title": "نص ملاحظة قرآنية رقم 52318"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "question": "هل كل المسلمين يتفقون على حكم الموسيقى؟",
+      "expected_rank": null,
+      "retrieval_ms": 156,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93043",
+          "title": "هم يَسمَحون لنا؛ فلْنَسمَحْ لهم"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52316",
+          "title": "نص ملاحظة قرآنية رقم 52316"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52710",
+          "title": "نص ملاحظة قرآنية رقم 52710"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51971",
+          "title": "نص ملاحظة قرآنية رقم 51971"
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "question": "هل يتفق جميع المسلمين على وجوب تغطية الوجه للمرأة؟",
+      "expected_rank": null,
+      "retrieval_ms": 187,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93043",
+          "title": "هم يَسمَحون لنا؛ فلْنَسمَحْ لهم"
+        },
+        {
+          "rank": 2,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:1879",
+          "title": "تاسِعًا: حُكمُ الصِّلةِ"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        },
+        {
+          "rank": 4,
+          "collection": "aqeeda",
+          "document_id": "dorar:aqeeda:885",
+          "title": "الْوَجْهُ"
+        },
+        {
+          "rank": 5,
+          "collection": "fiqh",
+          "document_id": "dorar:feqhia:13227",
+          "title": "المَسألةُ السَّابِعةُ: إجادةُ اللُّغاتِ واللَّهَجاتِ"
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "question": "ما تفسير قوله تعالى: \"وما أرسلناك إلا رحمة للمسلمين\"؟",
+      "expected_rank": null,
+      "retrieval_ms": 172,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52003",
+          "title": "نص ملاحظة قرآنية رقم 52003"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:50870",
+          "title": "نص ملاحظة قرآنية رقم 50870"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51986",
+          "title": "نص ملاحظة قرآنية رقم 51986"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51975",
+          "title": "نص ملاحظة قرآنية رقم 51975"
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "question": "هل صحيح أن الله قال في القرآن: \"لا إكراه في الإسلام\"؟",
+      "expected_rank": null,
+      "retrieval_ms": 188,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:2658",
+          "title": "أ- من القرآنِ الكريمِ"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52358",
+          "title": "نص ملاحظة قرآنية رقم 52358"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51934",
+          "title": "نص ملاحظة قرآنية رقم 51934"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51975",
+          "title": "نص ملاحظة قرآنية رقم 51975"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52369",
+          "title": "نص ملاحظة قرآنية رقم 52369"
+        }
+      ]
+    },
+    {
+      "id": "P28",
+      "question": "لماذا يحرم الإسلام لحم الخنزير؟",
+      "expected_rank": 1,
+      "retrieval_ms": 172,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92808",
+          "title": "لماذا يحرِّمُ الإسلامُ لَحْمَ الخِنزِير؟"
+        },
+        {
+          "rank": 2,
+          "collection": "shubuhat",
+          "document_id": "jamhara:post:92794",
+          "title": "لماذا حرم الإسلام أكل لحم الخنزير؟"
+        },
+        {
+          "rank": 3,
+          "collection": "fiqh",
+          "document_id": "dorar:feqhia:3460",
+          "title": "المطلب الأوَّلُ: الخِنزيرُ"
+        },
+        {
+          "rank": 4,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:1477",
+          "title": "معنى : أَكْلُ الـحَرَامِ - أكل الـحرام - الجمهرة"
+        },
+        {
+          "rank": 5,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:5147",
+          "title": "خامسًا: أقسامُ الهَمْزِ واللَّمزِ"
+        }
+      ]
+    },
+    {
+      "id": "P29",
+      "question": "هل الحجاب عادة وليس عبادة؟",
+      "expected_rank": 1,
+      "retrieval_ms": 172,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92840",
+          "title": "هل الحجابُ عادةٌ، وليس عبادة؟"
+        },
+        {
+          "rank": 2,
+          "collection": "aqeeda",
+          "document_id": "dorar:aqeeda:358",
+          "title": "المَطْلَبُ الأوَّلُ: تعريفُ العِبادةِ لُغةً"
+        },
+        {
+          "rank": 3,
+          "collection": "fiqh",
+          "document_id": "dorar:qfiqhia:1846",
+          "title": "المَطلَبُ الخامِسُ: بَقاءُ العِبادةِ ببَقاءِ رُكنِها"
+        },
+        {
+          "rank": 4,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92331",
+          "title": "ادِّعاءُ حذفِ بعضِ آياتِ القرآن"
+        },
+        {
+          "rank": 5,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:aadab:938",
+          "title": "تاسعًا: التَّلبيةُ"
+        }
+      ]
+    },
+    {
+      "id": "P30",
+      "question": "لماذا يقلل الإسلام من دور المرأة في المجتمع ولا يساوي بين الرجل والمرأة في الميراث؟",
+      "expected_rank": null,
+      "retrieval_ms": 188,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92331",
+          "title": "ادِّعاءُ حذفِ بعضِ آياتِ القرآن"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51975",
+          "title": "نص ملاحظة قرآنية رقم 51975"
+        },
+        {
+          "rank": 4,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:aadab:1589",
+          "title": "مَسائلُ"
+        },
+        {
+          "rank": 5,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93043",
+          "title": "هم يَسمَحون لنا؛ فلْنَسمَحْ لهم"
+        }
+      ]
+    },
+    {
+      "id": "P31",
+      "question": "لماذا لا يبيح الإسلام تعدد الأزواج كما يبيح تعدد الزوجات؟",
+      "expected_rank": 1,
+      "retrieval_ms": 157,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92845",
+          "title": "لماذا لا يُبيحُ الإسلامُ تعدُّدَ الأزواجِ، كما يُبيحُ تعدُّدَ الزوجات؟"
+        },
+        {
+          "rank": 2,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92862",
+          "title": "هل يبيح الإسلام ضرب الزوج زوجته؟"
+        },
+        {
+          "rank": 3,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92559",
+          "title": "زواج النبيِّ ^ بأكثَرَ من أربع نِسوةٍ."
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52316",
+          "title": "نص ملاحظة قرآنية رقم 52316"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51975",
+          "title": "نص ملاحظة قرآنية رقم 51975"
+        }
+      ]
+    },
+    {
+      "id": "P32",
+      "question": "ما هي عقوبة الردة؟",
+      "expected_rank": 1,
+      "retrieval_ms": 141,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92887",
+          "title": "ما هي عقوبة الردة؟"
+        },
+        {
+          "rank": 2,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:776",
+          "title": "أَسْبَابُ الْعُقُوبَات"
+        },
+        {
+          "rank": 3,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92884",
+          "title": "قضيَّةُ التشديدِ في عقوباتِ الحدود."
+        },
+        {
+          "rank": 4,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:4866",
+          "title": "دَرْءُ الْحَدِّ"
+        },
+        {
+          "rank": 5,
+          "collection": "fiqh",
+          "document_id": "dorar:feqhia:2098",
+          "title": "المطلب الثالث: عُقوبةُ مانِعِ الزَّكاة"
+        }
+      ]
+    },
+    {
+      "id": "P33",
+      "question": "كيف يعامل الإسلام غير المسلمين؟",
+      "expected_rank": 1,
+      "retrieval_ms": 187,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93049",
+          "title": "كيف يعامل الإسلام غير المسلمين؟"
+        },
+        {
+          "rank": 2,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92813",
+          "title": "ماذا أستفيدُ مِن الإسلام؟"
+        },
+        {
+          "rank": 3,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:7341",
+          "title": "غَيْرُ الْمُسْلِمِينَ"
+        },
+        {
+          "rank": 4,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:7341",
+          "title": "غَيْرُ الْمُسْلِمِينَ"
+        },
+        {
+          "rank": 5,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93055",
+          "title": "كيف ينبغي أن يتعامل المسلم مع أسرته غير المسلمة؟"
+        }
+      ]
+    },
+    {
+      "id": "P34",
+      "question": "هل تحدى القرآن البشر على أن يأتوا بسورة من مثله؟",
+      "expected_rank": 49,
+      "retrieval_ms": 156,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52379",
+          "title": "نص ملاحظة قرآنية رقم 52379"
+        },
+        {
+          "rank": 2,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52357",
+          "title": "نص ملاحظة قرآنية رقم 52357"
+        },
+        {
+          "rank": 3,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:50981",
+          "title": "نص ملاحظة قرآنية رقم 50981"
+        },
+        {
+          "rank": 4,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51975",
+          "title": "نص ملاحظة قرآنية رقم 51975"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:51934",
+          "title": "نص ملاحظة قرآنية رقم 51934"
+        }
+      ]
+    },
+    {
+      "id": "P35",
+      "question": "أليس الإسلام هو الذي يشجع على العنف؟",
+      "expected_rank": 1,
+      "retrieval_ms": 156,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92890",
+          "title": "أليس الإسلامُ هو الذي يشجِّعُ على العُنْف؟"
+        },
+        {
+          "rank": 2,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92891",
+          "title": "هل انتشَرَ الإسلامُ بالسيف؟"
+        },
+        {
+          "rank": 3,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92902",
+          "title": "أليس الإسلام دين حرب؟"
+        },
+        {
+          "rank": 4,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:5207",
+          "title": "خامِسًا: أقسامُ اليأسِ"
+        },
+        {
+          "rank": 5,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:aadab:980",
+          "title": "تاسعًا: الوُقوفُ عِندَ كُلِّ آيةٍ"
+        }
+      ]
+    },
+    {
+      "id": "P36",
+      "question": "كيف يعطى الرجل حق القوامة وهو مبدأ يخالف حقوق الإنسان؟",
+      "expected_rank": 5,
+      "retrieval_ms": 157,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "aqeeda",
+          "document_id": "dorar:aqeeda:627",
+          "title": "الحَقُّ"
+        },
+        {
+          "rank": 2,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:4398",
+          "title": "حَقُّ الْيَقِين"
+        },
+        {
+          "rank": 3,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:4405",
+          "title": "الـحُقُوقُ"
+        },
+        {
+          "rank": 4,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93043",
+          "title": "هم يَسمَحون لنا؛ فلْنَسمَحْ لهم"
+        },
+        {
+          "rank": 5,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92964",
+          "title": "كيف يُعطَى الرجُلُ حقَّ القِوامةِ، وهو مَبدَأٌ يخالِفُ حقوقَ الإنسان؟"
+        }
+      ]
+    },
+    {
+      "id": "P37",
+      "question": "لماذا يقال بتحريم الفوائد البنكية والإسلام لم يحرم إلا ربا الجاهلية؟",
+      "expected_rank": 8,
+      "retrieval_ms": 172,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52316",
+          "title": "نص ملاحظة قرآنية رقم 52316"
+        },
+        {
+          "rank": 2,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:93043",
+          "title": "هم يَسمَحون لنا؛ فلْنَسمَحْ لهم"
+        },
+        {
+          "rank": 3,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:3430",
+          "title": "ب- مِنَ السُّنَّةِ النَّبَويَّةِ"
+        },
+        {
+          "rank": 4,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:1571",
+          "title": "إِمَالَةٌ غَيْرُ خَالِصَةٍ"
+        },
+        {
+          "rank": 5,
+          "collection": "quran_sciences",
+          "document_id": "quranpedia:note:52365",
+          "title": "نص ملاحظة قرآنية رقم 52365"
+        }
+      ]
+    },
+    {
+      "id": "P38",
+      "question": "ما تعريف التوحيد اصطلاحًا وما أقسامه؟",
+      "expected_rank": null,
+      "retrieval_ms": 156,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:3020",
+          "title": "التَّعْرِيفُ اللَّفْظِيّ"
+        },
+        {
+          "rank": 2,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:3023",
+          "title": "التَّعْرِيف بِالْمِثَال"
+        },
+        {
+          "rank": 3,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:6845",
+          "title": "الْعُرْفُ الْمـُخَصِّصُ"
+        },
+        {
+          "rank": 4,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:3022",
+          "title": "التَّعْرِيف بِالتَّقْسِيم"
+        },
+        {
+          "rank": 5,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:3019",
+          "title": "التَّعْرِيفُ الْجَامِع"
+        }
+      ]
+    },
+    {
+      "id": "P39",
+      "question": "ما تعريف الاجتهاد عند الأصوليين؟",
+      "expected_rank": 5,
+      "retrieval_ms": 172,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:219",
+          "title": "الاجـْتِهَادُ في الْمَذْهَب"
+        },
+        {
+          "rank": 2,
+          "collection": "usul_fiqh",
+          "document_id": "dorar:osolfeqh:1508",
+          "title": "المَبحَثُ التَّاسِعُ: نَقضُ الاجتِهادِ وتَجديدُه"
+        },
+        {
+          "rank": 3,
+          "collection": "usul_fiqh",
+          "document_id": "dorar:osolfeqh:1484",
+          "title": "المَبحَثُ الثَّاني: مَجالاتُ الاجتِهادِ"
+        },
+        {
+          "rank": 4,
+          "collection": "islamic_terms",
+          "document_id": "jamhara:dictionary:212",
+          "title": "الاجـْتِهَادُ الْمُعـْتَبـَر"
+        },
+        {
+          "rank": 5,
+          "collection": "usul_fiqh",
+          "document_id": "dorar:osolfeqh:1482",
+          "title": "المَطلَبُ الثَّاني: تَعريفُ الاجتِهادِ اصطِلاحًا - موسوعة أصول الفقه -"
+        }
+      ]
+    },
+    {
+      "id": "P40",
+      "question": "هل يجوز الإنكار في المسائل الخلافية؟",
+      "expected_rank": 4,
+      "retrieval_ms": 156,
+      "top5": [
+        {
+          "rank": 1,
+          "collection": "shubuhat",
+          "document_id": "jamhara:shubuhat:92331",
+          "title": "ادِّعاءُ حذفِ بعضِ آياتِ القرآن"
+        },
+        {
+          "rank": 2,
+          "collection": "adab_akhlaq",
+          "document_id": "dorar:alakhlaq:1879",
+          "title": "تاسِعًا: حُكمُ الصِّلةِ"
+        },
+        {
+          "rank": 3,
+          "collection": "aqeeda",
+          "document_id": "dorar:aqeeda:115",
+          "title": "المَبحَثُ الثَّالِثُ: مَوقِفُ أهلِ السُّنَّةِ والجَماعةِ من التَّعطيلِ"
+        },
+        {
+          "rank": 4,
+          "collection": "usul_fiqh",
+          "document_id": "dorar:osolfeqh:1529",
+          "title": "الفرعُ الثَّاني: الإنكارُ في المَسائِلِ التي يَسوغُ فيها الخِلافُ"
+        },
+        {
+          "rank": 5,
+          "collection": "sects",
+          "document_id": "dorar:frq:812",
+          "title": "المَطلَبُ الثَّاني: مُناقَشةُ رأيِ المُعتَزِلةِ في الوسيلةِ في الأمرِ "
+        }
+      ]
+    }
+  ],
+  "note": "Distances, SQL, routing logic and vector values excluded. Expected document labels were supplied by the development experiment, not an independent assessor."
+}
