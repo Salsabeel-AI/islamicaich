@@ -1,0 +1,31 @@
+{
+  "materials_release": "review-materials-v2",
+  "recorded_at_utc": "2026-10-05T12:09:29.250417+00:00",
+  "app_baseline_commit": "ef1b73e8ae5cba78d7d9f4f7c22e68a757454bf3",
+  "live_service_revision": "not pinned or independently attested in this update",
+  "module_fix_workstream": "Owner reports fixes underway in a separate Claude session",
+  "product_acceptance": "pending retest",
+  "new_repair_success_claims": [],
+  "gates": [
+    {
+      "name": "تصحيح النص القرآني",
+      "status": "pending measured service retest"
+    },
+    {
+      "name": "الفروق المعرفية",
+      "status": "pending measured service retest"
+    },
+    {
+      "name": "الحالات الشخصية",
+      "status": "pending measured service retest"
+    },
+    {
+      "name": "ملاءمة الخطاب",
+      "status": "pending measured service retest"
+    },
+    {
+      "name": "سلامة النص والامتناع",
+      "status": "pending measured service retest"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+module.exports={content:['./src/genesis/**/*.{ts,tsx}'],corePlugins:{preflight:false},darkMode:'class',theme:{extend:{colors:{'surface-primary':'#0b0e2d','surface-secondary':'#191f4b','surface-tertiary':'#252b5c','surface-active-alt':'#363a6c','text-primary':'#f2f4ff','text-secondary':'#a9b2da','border-light':'#ffffff25','border-medium':'#ffffff40'}}}};

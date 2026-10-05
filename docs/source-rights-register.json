@@ -1,0 +1,142 @@
+{
+  "scope": "Complete inventory of the 15 source-reference examples included in this repository; NOT the provider corpus or a claim of full corpus licensing audit",
+  "records": [
+    {
+      "id": "SRC-01",
+      "title": "لماذا يعبُدُ المسلِمون الكعبةَ، والحجَرَ الأسوَدَ؟",
+      "url": "https://islamic-content.com/post/92169",
+      "evidence_case": "P01",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-02",
+      "title": "هل يصح أن النبي محمد قد كتب القرآن ونسخه من الإنجيل؟",
+      "url": "https://islamic-content.com/post/92321",
+      "evidence_case": "P02",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-03",
+      "title": "هل انتشَرَ الإسلامُ بالسيف؟",
+      "url": "https://islamic-content.com/post/92891",
+      "evidence_case": "P03",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-04",
+      "title": "الفَرْعُ الثَّاني: تعريفُ التَّوحيد اصطِلاحًا",
+      "url": "https://dorar.net/aqeeda/20/%D8%A7%D9%84%D9%81%D8%B1%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%AA%D8%B9%D8%B1%D9%8A%D9%81-%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF-%D8%A7%D8%B5%D8%B7%D9%84%D8%A7%D8%AD%D8%A7",
+      "evidence_case": "P05",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-05",
+      "title": "هل الإسلامُ يحرِّمُ الفرَحَ، ويدعو للاكتئابِ؛ بتحريمِهِ للموسيقا والمعازِف؟:",
+      "url": "https://islamic-content.com/post/92816",
+      "evidence_case": "P11",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-06",
+      "title": "لماذا يحرِّمُ الإسلامُ لَحْمَ الخِنزِير؟",
+      "url": "https://islamic-content.com/post/92808",
+      "evidence_case": "P28",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-07",
+      "title": "هل الحجابُ عادةٌ، وليس عبادة؟",
+      "url": "https://islamic-content.com/post/92840",
+      "evidence_case": "P29",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-08",
+      "title": "لماذا يقلِّلُ الإسلامُ مِن دَوْرِ المرأةِ في المجتمَعِ، ولا يُساوي بينها وبين الرجُلِ في المِيراث؟",
+      "url": "https://islamic-content.com/post/92844",
+      "evidence_case": "P30",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-09",
+      "title": "لماذا لا يُبيحُ الإسلامُ تعدُّدَ الأزواجِ، كما يُبيحُ تعدُّدَ الزوجات؟",
+      "url": "https://islamic-content.com/post/92845",
+      "evidence_case": "P31",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-10",
+      "title": "ما هي عقوبة الردة؟",
+      "url": "https://islamic-content.com/post/92887",
+      "evidence_case": "P32",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-11",
+      "title": "كيف يعامل الإسلام غير المسلمين؟",
+      "url": "https://islamic-content.com/post/93049",
+      "evidence_case": "P33",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-12",
+      "title": "هل تحدى القرآن البشر على أن يأتوا بسورة من مثله؟",
+      "url": "https://islamic-content.com/post/92322",
+      "evidence_case": "P34",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-13",
+      "title": "أليس الإسلامُ هو الذي يشجِّعُ على العُنْف؟",
+      "url": "https://islamic-content.com/post/92890",
+      "evidence_case": "P35",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-14",
+      "title": "كيف يُعطَى الرجُلُ حقَّ القِوامةِ، وهو مَبدَأٌ يخالِفُ حقوقَ الإنسان؟",
+      "url": "https://islamic-content.com/post/92964",
+      "evidence_case": "P36",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    },
+    {
+      "id": "SRC-15",
+      "title": "لماذا يقالُ بتحريمِ الفوائدِ البنكيَّةِ، والإسلامُ لم يحرِّمْ إلا رِبا الجاهليَّة؟",
+      "url": "https://islamic-content.com/post/92881",
+      "evidence_case": "P37",
+      "published_material": "metadata only; any demonstration screenshot separately listed",
+      "redistribution_status": "full text not redistributed; publisher rights retained",
+      "ingestion_rights_verified_here": false
+    }
+  ],
+  "asset_register": "docs/RIGHTS_AR.md",
+  "provider_corpus_inventory": "not included; further source package expected from owner"
+}

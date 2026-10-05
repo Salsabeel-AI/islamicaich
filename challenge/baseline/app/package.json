@@ -1,0 +1,30 @@
+{
+  "name": "islamicai-chat",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fata-only anonymous challenge chat, powered by Salsabeel hosted API",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.mjs",
+    "test": "node --test",
+    "check": "node --check src/server.mjs && node --check src/presentation.mjs && node --check public/app.js",
+    "build:presentation": "esbuild src/genesis/entry.tsx --bundle --format=esm --jsx=automatic --minify --outfile=public/genesis.js && tailwindcss -c tailwind.config.cjs -i src/genesis/theme.css -o public/genesis.css --minify"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "geoip-lite": "2.0.3",
+    "marked": "^18.0.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.1.0",
+    "remark-gfm": "^4.0.1",
+    "sanitize-html": "^2.18.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12",
+    "tailwindcss": "^3.4.19"
+  }
+}

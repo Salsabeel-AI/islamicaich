@@ -4,3 +4,7 @@
 *.png binary
 *.jpg binary
 *.woff2 binary
+*.pdf binary
+*.pptx binary
+# Preserve historical snapshot's terminal blank lines.
+challenge/baseline/** whitespace=-blank-at-eof

@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-05T11:20:22.135632+00:00",
+  "created_at_utc": "2026-10-05T12:22:26.602297+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -10,13 +10,13 @@
   "files": [
     {
       "file": ".gitattributes",
-      "sha256": "0805463cafcc0487d1b9d388491af0ffe75ded0c5bfcd00f3f57524600d72214",
-      "bytes": 87
+      "sha256": "e4f06c6c3e876514ad1191e9c81de7afda65a42a5b4506651584e1077ae3e2f1",
+      "bytes": 217
     },
     {
       "file": ".github/workflows/verify.yml",
-      "sha256": "801bfb7af773824f2649c9fed878e232ab68e3c01208ed5f59f1c6b7ebbfda7d",
-      "bytes": 678
+      "sha256": "c1c246d90647437aed5ef8f46b1a5e7670da12c7f84c07bc675e78f7c875f26f",
+      "bytes": 726
     },
     {
       "file": ".gitignore",
@@ -359,14 +359,289 @@
       "bytes": 2708
     },
     {
+      "file": "challenge/baseline/app/package-lock.json",
+      "sha256": "6ec998da6ca2155668949b23f814b649db8c568d7bd9d0236fc1d54d81c3cdfe",
+      "bytes": 121888
+    },
+    {
+      "file": "challenge/baseline/app/package.json",
+      "sha256": "f13a89578879954aa1e4e7cbd7baced70885afc5aac22eddbf5a179ee131102f",
+      "bytes": 998
+    },
+    {
+      "file": "challenge/baseline/app/public/app.js",
+      "sha256": "2d9b8f5acc9ad5c7fd1c53d0ec0417a7c56f0c99a9c23e2e7cb52d8161fa7734",
+      "bytes": 8321
+    },
+    {
+      "file": "challenge/baseline/app/public/assets/challenge-logo.svg",
+      "sha256": "1e17618ef8c6ffb7a0a9742c07b70d564d6eb45d86f9bbf8842bceadcb74c38e",
+      "bytes": 39426
+    },
+    {
+      "file": "challenge/baseline/app/public/assets/hero.png",
+      "sha256": "f44f07eff2ecf248cd571fc2a187a135a8321eedbfe2ce2b1c2e24529a525d23",
+      "bytes": 238337
+    },
+    {
+      "file": "challenge/baseline/app/public/assets/pattern.svg",
+      "sha256": "7a88b608d6bda4b31f459a1c5e296ea2269677911eb8519e3cea0e06fc5eeeea",
+      "bytes": 3719
+    },
+    {
+      "file": "challenge/baseline/app/public/assets/readex-arabic.woff2",
+      "sha256": "b5815b71c48e513b5e65eb281dd53e5d6a556d6dac511a5d2cd00d628850d5c4",
+      "bytes": 22864
+    },
+    {
+      "file": "challenge/baseline/app/public/assets/readex-latin.woff2",
+      "sha256": "7074eeb987a25349069ed5c784e204904b928f4c878e9c3c88d636c01081ae52",
+      "bytes": 31428
+    },
+    {
+      "file": "challenge/baseline/app/public/assets/site-icon-0.svg",
+      "sha256": "51d3b05f1d82ba3a5effbf549f4337d780b65d918efe54e868832f6ec5c1462e",
+      "bytes": 2342
+    },
+    {
+      "file": "challenge/baseline/app/public/assets/site-icon-1.svg",
+      "sha256": "88075fed7cf546075b1395730f9f0b2fc5b8bd46612548b2af8cda80497f289c",
+      "bytes": 692
+    },
+    {
+      "file": "challenge/baseline/app/public/assets/site-icon-2.svg",
+      "sha256": "51d3b05f1d82ba3a5effbf549f4337d780b65d918efe54e868832f6ec5c1462e",
+      "bytes": 2342
+    },
+    {
+      "file": "challenge/baseline/app/public/favicon.ico",
+      "sha256": "5bf9104888967e7debe675f295040b93258a66b3278c687ddef380375ad464d8",
+      "bytes": 1974
+    },
+    {
+      "file": "challenge/baseline/app/public/favicon.svg",
+      "sha256": "61a327f53d93b0c6bc8bc0db35e2a4a9fae47e8f793eee482d649ed025037eae",
+      "bytes": 1154
+    },
+    {
+      "file": "challenge/baseline/app/public/genesis.css",
+      "sha256": "8dcb8dffb4de8eeca8df82117e07132f12a3367fede80c50aec92a39f233d5fe",
+      "bytes": 14560
+    },
+    {
+      "file": "challenge/baseline/app/public/genesis.js",
+      "sha256": "fe53c36c7431a49f5e10255e5ddeca814addf14068d9ffd94e11cf8248062ecd",
+      "bytes": 367545
+    },
+    {
+      "file": "challenge/baseline/app/public/index.html",
+      "sha256": "01a9c3c924e7b0efb0c7dabb380231d71a90bd57a1a89dcfa7d8706dc15cf5f5",
+      "bytes": 35597
+    },
+    {
+      "file": "challenge/baseline/app/public/reports/index.html",
+      "sha256": "75cb5a2df39b8a208e3c560a6815ab9139fe70b4006cd627657e08a29fd92e16",
+      "bytes": 1798
+    },
+    {
+      "file": "challenge/baseline/app/public/reports/mentors-briefing/index.html",
+      "sha256": "7487fff5579dad8c38f0a39e6cd60d4629dfc9a4d0ed822f71ddee45dac028c0",
+      "bytes": 15288
+    },
+    {
+      "file": "challenge/baseline/app/public/reports/mentors-briefing/slides.css",
+      "sha256": "1de8d4abfe6f7d5716d83da3b170b677e03fb8a11a49c3a897963f840e7ccdd4",
+      "bytes": 9104
+    },
+    {
+      "file": "challenge/baseline/app/public/reports/mentors-briefing/slides.js",
+      "sha256": "ca126f0132540775aa6ad235ceb79f5b116a2bce1653186252be0d993a561b2e",
+      "bytes": 1496
+    },
+    {
+      "file": "challenge/baseline/app/public/reports/participation-plan/index.html",
+      "sha256": "4843817dd569f03b5bea467bf2326969acc24982af7a7768e823cd0f05754c66",
+      "bytes": 112229
+    },
+    {
+      "file": "challenge/baseline/app/public/reports/participation-plan/plan.css",
+      "sha256": "b59bebf59dbada8f677396878b74794cf1e6adeb557b238138fc5edc0f09551b",
+      "bytes": 11983
+    },
+    {
+      "file": "challenge/baseline/app/public/reports/participation-plan/plan.js",
+      "sha256": "86ed1f5511f33f2874c3c50fb350a6db360b735f8166e0ff8168f4acbaf7b655",
+      "bytes": 1978
+    },
+    {
+      "file": "challenge/baseline/app/public/reports/slides.css",
+      "sha256": "2af6813b8f817f3464bf48b77c81cf34c7d994250c5f4ca00b60c877e5a6102e",
+      "bytes": 1388
+    },
+    {
+      "file": "challenge/baseline/app/public/reports/slides.js",
+      "sha256": "ca126f0132540775aa6ad235ceb79f5b116a2bce1653186252be0d993a561b2e",
+      "bytes": 1496
+    },
+    {
+      "file": "challenge/baseline/app/public/sse.js",
+      "sha256": "0f7fb3e86afd94915c1685389486ddaf46227e64daa0d3de30cfda31aee266ed",
+      "bytes": 947
+    },
+    {
+      "file": "challenge/baseline/app/public/styles.css",
+      "sha256": "ca09fc566ffd559455b8c62e658b54f468f2ba336bc19cc4a42a4672530bc33a",
+      "bytes": 15725
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/Anchor.tsx",
+      "sha256": "3622e64dde3fbc9b6266bf02a8b4e51ec089ab3c5cea7a5d5a39fc7ecda898b0",
+      "bytes": 5730
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/BarqMore.tsx",
+      "sha256": "8fcae293a066d04ef6eb950f96585f36e389389375b6a72bd09f4209cff83d94",
+      "bytes": 2685
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/barqReader.ts",
+      "sha256": "d0d188aff6d5ee8f9896d46e5a8bab66b698ec63f9343db0e0a451018b43ee33",
+      "bytes": 1138
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/BarqRefs.tsx",
+      "sha256": "22d6a3570217e6550e0dbfc5ed9126f69edb8294293c9442d0717d3ff216dcc0",
+      "bytes": 3334
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/BarqRoots.tsx",
+      "sha256": "4d52db649a060aba6649974240e0acf9e8f3f6660782b5fb27d9fc72ccbb51a9",
+      "bytes": 2330
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/BarqShawahid.tsx",
+      "sha256": "c42baca9c965b4e543e24abc124381973ced86886f640b73125197439c34cc42",
+      "bytes": 33235
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/entry.tsx",
+      "sha256": "388ad2e2fbb9be8da721902cbff07b360ba451749aaeaa74b66147c28827a6c8",
+      "bytes": 851
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/InlineAyahViewer.tsx",
+      "sha256": "52a56d1bd4a41b0f99e3cd6acce2da5db780951d2f4865c813a717155ac48a7a",
+      "bytes": 29533
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/Markdown.tsx",
+      "sha256": "b0eab9fc37d2f46d040fd03a2693578cfa7804abe27e6625597c941dde533461",
+      "bytes": 1651
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/rehypeBarqRefs.ts",
+      "sha256": "672fdfac0dd9a1ed0ae2bc9f75ba482f3cbb15564cbf4b01b2c88de7c1858cea",
+      "bytes": 16982
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/tafsirSectionStyle.ts",
+      "sha256": "ab4088595d9455900069d4406e0e22f76a9567db748bd9831fc51178c3486288",
+      "bytes": 885
+    },
+    {
+      "file": "challenge/baseline/app/src/genesis/theme.css",
+      "sha256": "7fed0c22ba64f505e8a20940c9e4506a662b1cdfe7313b0cc0fb621c4583b37a",
+      "bytes": 313
+    },
+    {
+      "file": "challenge/baseline/app/src/presentation.mjs",
+      "sha256": "e214b3997183e42dc93853228377be99455b2732e628a67925ee9e6654fc0a3d",
+      "bytes": 3771
+    },
+    {
+      "file": "challenge/baseline/app/src/readers.mjs",
+      "sha256": "48205ea4d676c86aa3826b68304ef5703e215548bfb8fbaf01f39fe9f9acb947",
+      "bytes": 2424
+    },
+    {
+      "file": "challenge/baseline/app/src/report-analytics.mjs",
+      "sha256": "5606e36db9f3fd0b63eba0782607ca3fd74057ad4a164720d622e80565ccee13",
+      "bytes": 5711
+    },
+    {
+      "file": "challenge/baseline/app/src/request-queue.mjs",
+      "sha256": "901439be29868a794f4a05b16fcab25e3a0a2ec42f328a29db87e8e3178e861e",
+      "bytes": 1462
+    },
+    {
+      "file": "challenge/baseline/app/src/server.mjs",
+      "sha256": "9aa4f1ebe6f06a1d79278adee3318f810ba46d494c98e4678771443a1971f931",
+      "bytes": 15406
+    },
+    {
+      "file": "challenge/baseline/app/tailwind.config.cjs",
+      "sha256": "ff1ae06c393b2022b7827766ba4d32a30b65230375024dc7ffcf2cb517273700",
+      "bytes": 355
+    },
+    {
+      "file": "challenge/baseline/app/tests/analytics.test.mjs",
+      "sha256": "803da28ff6baed81ab1c9e0d841cfdd3f25ea31a7b21cc7efd9617ef2f9fa87e",
+      "bytes": 2362
+    },
+    {
+      "file": "challenge/baseline/app/tests/app.test.mjs",
+      "sha256": "252cac46769a5174ce223f1e458e31f667f5efa29472341023d27c4923aa75c2",
+      "bytes": 12309
+    },
+    {
+      "file": "challenge/baseline/app/tests/formatting.test.mjs",
+      "sha256": "a31ba74631bc7894cf6e75c294398e4f9b32b6052bdfedc5aa737c648ed07ce3",
+      "bytes": 1830
+    },
+    {
+      "file": "challenge/baseline/app/tests/progress.test.mjs",
+      "sha256": "ece593576a34db4917d21d55a4befb0dd47bb4000ee0b06ef684a8f4871c3a0e",
+      "bytes": 2078
+    },
+    {
+      "file": "challenge/baseline/app/tests/references.test.mjs",
+      "sha256": "e428c8a4fa14716e8c496af1729eabe980cf5b496b3dfc878a37105a61d69651",
+      "bytes": 668
+    },
+    {
+      "file": "challenge/baseline/app/tests/reports.test.mjs",
+      "sha256": "2e91fc6a8a45249afa57cb0f6179121c07f42739264c71816210c87b61df79b3",
+      "bytes": 1941
+    },
+    {
+      "file": "challenge/baseline/app/tests/request-queue.test.mjs",
+      "sha256": "a691a5fbec09824b7ffaed35dcf0033fba3edd1e1697ab34c6ad4e8615806c2a",
+      "bytes": 5566
+    },
+    {
+      "file": "challenge/baseline/app/tests/ui-preview.mjs",
+      "sha256": "af405a263bdf0aad7b62ac29a22211777d3bc0f3dff7508d2282decbea2322cd",
+      "bytes": 1449
+    },
+    {
+      "file": "challenge/baseline/manifest.json",
+      "sha256": "1961ffc060d117830289dcf1fc3d6cfa7ce3606399fd2d743ac964444f4b4133",
+      "bytes": 17643
+    },
+    {
+      "file": "challenge/baseline/README.md",
+      "sha256": "572fdceb8931fbd25853d2672f3776b6ad73860394f75826e01d256f68fc607f",
+      "bytes": 950
+    },
+    {
       "file": "challenge/baseline-diff.json",
       "sha256": "82052bc4950716850b37c2eb27271c7789c5a63ad14d98e24090112ac90af606",
       "bytes": 2641
     },
     {
       "file": "challenge/README.md",
-      "sha256": "a2a5de0bbb8da6503e9a35e00d6745070ff36cf21b4084bf094bb714ae470948",
-      "bytes": 2936
+      "sha256": "07e9954b398dc76f6b8d3dbb54489d87a484cc2c1b3af51c712b78359e62b60e",
+      "bytes": 2895
     },
     {
       "file": "challenge/source-snapshot.json",
@@ -429,24 +704,54 @@
       "bytes": 1528
     },
     {
+      "file": "docs/JUDGING_MAP_AR.md",
+      "sha256": "c27f41d44cc17fd73750c2823fe1ce11fb46703dd4ff83f167c45a139b711081",
+      "bytes": 2165
+    },
+    {
       "file": "docs/LIMITATIONS_AR.md",
       "sha256": "84967946cd0e8b77b6ffe338d3fc956a0fe6396efa831115c4ec90193df5e2d5",
       "bytes": 2030
     },
     {
+      "file": "docs/OPERATIONS_AR.md",
+      "sha256": "51a9a819970e3a6b12bf541800cb4d9ee613fdda6e70ff0a9e4a1df15cc4519e",
+      "bytes": 3944
+    },
+    {
       "file": "docs/RELEASE_AR.md",
-      "sha256": "1d8a903e9f7ff5e5d152372985c2a31fb10236bdf25dc23f5ddfd51d30da158b",
-      "bytes": 1711
+      "sha256": "3493b31a6fea7b832cee28a21305c53839872afc828a895d41c249859ae18260",
+      "bytes": 1730
     },
     {
       "file": "docs/RIGHTS_AR.md",
-      "sha256": "481fa82ba7769cd68732a2a351ca5e839cc5bd85d5abced1e233edd598b38922",
-      "bytes": 2627
+      "sha256": "79cf3dcabdc4c558ee9d30c3ba2b0cd8630bf94a3ba2f959db42dcce9d0d8b00",
+      "bytes": 2994
     },
     {
       "file": "docs/SETUP_AR.md",
       "sha256": "02231e4543f92f676d7bf753db3e669504231b3674ff6d42c89b3488df254c64",
       "bytes": 2518
+    },
+    {
+      "file": "docs/source-rights-register.json",
+      "sha256": "caf19a7da4c995533ed5c4551d5b7a8feb91dbeedcb609eef58ef028443cb0f6",
+      "bytes": 7447
+    },
+    {
+      "file": "evaluation/acceptance-cases.json",
+      "sha256": "44a18729a93a230e282e7fd136f256b042a9b0ba43ec06530fca221db5288ee6",
+      "bytes": 13206
+    },
+    {
+      "file": "evaluation/ACCEPTANCE_AR.md",
+      "sha256": "9f751228b0ce75737069de258756c05420eac8041f39014126a528a54a69bcff",
+      "bytes": 2412
+    },
+    {
+      "file": "evaluation/independent-review-20261005.json",
+      "sha256": "266a8c9affabfa573ecd40fe3df5f2fd5fc41326e3f8814e9152ef4a0e0802ad",
+      "bytes": 7025
     },
     {
       "file": "evaluation/mission50-comparison.json",
@@ -460,8 +765,13 @@
     },
     {
       "file": "evaluation/README.md",
-      "sha256": "7f4af67b741cf0fbf13fcc2373092f5f74f002a3f5d396303c554437b2dfc519",
-      "bytes": 2362
+      "sha256": "3f56c457b5ce848be6455611785f8f92a7d34c1d391dfd17e5339294de437adf",
+      "bytes": 2671
+    },
+    {
+      "file": "evaluation/service-status.json",
+      "sha256": "c3feca45f23f44d69b00fef39ee7f1a16c33acb267b4035bc9ede3034de4eb7a",
+      "bytes": 999
     },
     {
       "file": "evaluation/summary.json",
@@ -477,6 +787,11 @@
       "file": "evidence/claims.json",
       "sha256": "cdcc2a00e4dbcedd468b542ec1733c5f9f3c36446ddc72f674c3e7286d95e2c2",
       "bytes": 3633
+    },
+    {
+      "file": "evidence/materials-v2-checks.json",
+      "sha256": "d1c6cd17c09ddde115054e20ffa2451e15ecd398f8ab07d8519332b4d863743d",
+      "bytes": 1198
     },
     {
       "file": "evidence/README.md",
@@ -614,9 +929,39 @@
       "bytes": 6139
     },
     {
+      "file": "operations/cost-model.json",
+      "sha256": "d1e6b8090dac50753a14aa17b2d483087183ea8a1d339af4a7b8e6ea74d68c0d",
+      "bytes": 714
+    },
+    {
+      "file": "presentation/Barq_Final_AR.pdf",
+      "sha256": "d3646da20897bb89dd266dede77d6e3d3fc02949f40b3bbad711023e88390f7d",
+      "bytes": 3177937
+    },
+    {
+      "file": "presentation/Barq_Final_AR.pptx",
+      "sha256": "f5a3aabe34a716e15eb874b1ee48895493edd128f4c32d209f07011deba34f22",
+      "bytes": 2629430
+    },
+    {
+      "file": "presentation/README.md",
+      "sha256": "e198d365531de081bff3ed2bef734be1d77db5106ae86fae1c1822f214f20f52",
+      "bytes": 1573
+    },
+    {
+      "file": "presentation/slide-text.json",
+      "sha256": "1606f8bdbb3ad7268d68c34e58e7094b138cafd28a544e2eda593bf73f8838ba",
+      "bytes": 11441
+    },
+    {
       "file": "README.md",
-      "sha256": "4cf9fa82c42c5457a10518e563227b7a39746127e315fcc7b031bd325245ee1f",
-      "bytes": 5728
+      "sha256": "d08f8a1a75d1db1387147f917ea734d2715b6b512075b8375770d54602549081",
+      "bytes": 6340
+    },
+    {
+      "file": "scripts/compare_baseline.py",
+      "sha256": "407681e38e4186635c520422ca1876c97b66e4b4c9352906e87d8b079a025be2",
+      "bytes": 1131
     },
     {
       "file": "scripts/replay.mjs",

@@ -22,6 +22,12 @@
 
 هذه أمثلة منتقاة؛ ليست نسبة دقة عامة. بعض المخرجات ما زالت تحتاج مراجعة، والتقييم الكامل للنص والاستدلال يحتاج مختصًا.
 
+## العرض النهائي والتحقق
+
+[العرض PDF](presentation/Barq_Final_AR.pdf) · [العرض PowerPoint](presentation/Barq_Final_AR.pptx) · [خريطة معايير التحكيم](docs/JUDGING_MAP_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md) · [حالة الخدمة وإعادة الاختبار](evaluation/ACCEPTANCE_AR.md)
+
+المستودع عام. هذا إصدار مواد التسليم المؤرخ في ٥ أكتوبر؛ إصلاحات الخدمة الحية تُوثق منفصلة ولا تتحول إلى ادعاءات نجاح قبل إعادة التحقق.
+
 ## للمحكّم: خمس دقائق تكفي للبدء
 
 1. شاهد الفيلم، ثم جرّب سؤال الكعبة وافتح مصدر الجواب.
@@ -66,6 +72,6 @@ npm run check
 | `media/` | النص والتوقيت ومصادر إعادة تركيب الفيلم وحقوق الصوت |
 | `challenge/` | خط أساس مؤرخ وفروق التطبيق وحدود احتساب العمل |
 
-الإصدار التسليمي الأول: ٥ أكتوبر ٢٠٢٦، بيتا ٢٫٥ / فيلم R10. المستودع لا يجمّد حالة API المستقبلية. [القيود](docs/LIMITATIONS_AR.md) · [الحقوق والاعتمادات](docs/RIGHTS_AR.md) · [فحص الحزمة](docs/RELEASE_AR.md).
+تحديث مواد التسليم الثاني: ٥ أكتوبر ٢٠٢٦، بيتا ٢٫٥ / فيلم R10. المستودع لا يجمّد حالة API المستقبلية. [القيود](docs/LIMITATIONS_AR.md) · [الحقوق والاعتمادات](docs/RIGHTS_AR.md) · [فحص الحزمة](docs/RELEASE_AR.md).
 
 Salsabeel is the hosted model/API provider. This repository delivers the challenge application and selected evidence, not model weights, training infrastructure, full corpora, or proprietary provider internals. Arabic is the primary reviewer documentation language.

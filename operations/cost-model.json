@@ -1,0 +1,27 @@
+{
+  "currency": "SAR",
+  "verified_input": {
+    "historical_completed_requests": 50,
+    "historical_median_seconds": 9.16,
+    "source": "evaluation/summary.json"
+  },
+  "actual_monthly_cost": null,
+  "missing_actual_inputs": [
+    "hosting invoice allocation",
+    "provider API tariff and billed usage",
+    "reviewer hourly cost and actual hours"
+  ],
+  "illustrative_scenario_only": {
+    "requests_per_month": 10000,
+    "assumed_sar_per_request": 0.05,
+    "assumed_hosting_sar": 150,
+    "assumed_review_hours": 8,
+    "assumed_sar_per_review_hour": 100,
+    "calculated_subtotal_sar": 1450,
+    "excludes": [
+      "contingency",
+      "tax"
+    ],
+    "not_actual_invoice_or_provider_quote": true
+  }
+}

@@ -1,0 +1,2 @@
+@tailwind utilities;
+:root{--barq-gold-dim:#8075d5;--barq-green:#6251eb;--barq-green-dark:#5141d2}.barq-ref,.barq-attest{cursor:pointer;color:#acccff}#genesis-popups{position:relative;z-index:100}.code-container{white-space:normal}.code-container>code{white-space:pre-wrap}.answer .barq-more-body{font-size:15px}

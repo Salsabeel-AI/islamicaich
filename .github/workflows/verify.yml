@@ -21,3 +21,4 @@ jobs:
           python-version: '3.12'
       - run: python scripts/verify_manifest.py
       - run: python scripts/summarize_evaluation.py
+      - run: python scripts/compare_baseline.py

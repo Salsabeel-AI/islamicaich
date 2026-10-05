@@ -1,0 +1,31 @@
+{
+  "release": "review-materials-v2",
+  "checked_at_utc": "2026-10-05T12:22:26.510979+00:00",
+  "base_commit": "ef1b73e8ae5cba78d7d9f4f7c22e68a757454bf3",
+  "application_changed": false,
+  "approved_film_changed": false,
+  "baseline_manifest_verified_files": 53,
+  "baseline_comparison": {
+    "changed": 15,
+    "unchanged": 38,
+    "missing": 0
+  },
+  "presentation": {
+    "slides": 12,
+    "package_integrity": "pass",
+    "layout_geometry": "pass",
+    "font_policy": "Tahoma",
+    "final_file_import": "pass",
+    "all_slides_rendered_and_visually_reviewed": true,
+    "pdf_pages_rendered_with_poppler_and_visually_reviewed": 12,
+    "pdf_type": "raster pages from final imported PowerPoint render; logical text supplied separately",
+    "native_microsoft_powerpoint_execution": false
+  },
+  "sensitive_data_pattern_scan": {
+    "scanned_text_parts": 231,
+    "findings": [],
+    "scope": "credential signatures and private absolute paths including PPTX XML; not a guarantee against all possible secrets"
+  },
+  "service_retest": "not performed; pending separate fixes",
+  "application_tests": "previous base CI passed 41 tests; current GitHub workflow will rerun against this publication"
+}
