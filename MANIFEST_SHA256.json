@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T22:50:45.015745+00:00",
+  "created_at_utc": "2026-10-06T22:56:48.525529+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -1305,8 +1305,8 @@
     },
     {
       "file": "docs/STATUS_20261007_AR.md",
-      "sha256": "548f28e32496b7a07333eaa2b46a0e3292183efd780579bc4178087a20c4d5b6",
-      "bytes": 14466
+      "sha256": "57d37f61aa24ee381a2c10de95c42a40bad5fe08eeb0e5d9407c00c6ae486f61",
+      "bytes": 14698
     },
     {
       "file": "docs/SUBMISSION_AR.md",
@@ -1465,7 +1465,7 @@
     },
     {
       "file": "evidence/presentation-expanded-20261007.json",
-      "sha256": "fc5362a98f8f2df131cf086391e3f31206fccd699fcd8f1babd714542ef79a28",
+      "sha256": "18dd460a23bf05cf167d5bce3d1fd73347472c65ec4a54f082aad98da9468f09",
       "bytes": 1023
     },
     {
