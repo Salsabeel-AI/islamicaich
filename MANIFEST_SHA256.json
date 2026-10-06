@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T22:22:17.747193+00:00",
+  "created_at_utc": "2026-10-06T22:44:32.590430+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -30,8 +30,8 @@
     },
     {
       "file": "README.md",
-      "sha256": "f389815fdcaf84903928f630e085058a24a8205199a3df7605c2c743bf1a6dc7",
-      "bytes": 12958
+      "sha256": "2e9b6d8dcb19ec63880b5a6f46a37e9204e1992a14875376564f12abc935a596",
+      "bytes": 13050
     },
     {
       "file": "app/.env.example",
@@ -1255,13 +1255,13 @@
     },
     {
       "file": "docs/DELIVERY_REQUIREMENTS_AR.md",
-      "sha256": "773d587319016d4d31db9f841cfd5de2ded08afdb07f3f1bdef28f3ade8f2e59",
-      "bytes": 10288
+      "sha256": "b89bd6df7eab7a5345425c098815548d4a8c3fb3d3042dc6717de71ff23a7a79",
+      "bytes": 10345
     },
     {
       "file": "docs/FINAL_REVIEW_AR.md",
-      "sha256": "74ede59fbd848872560f2020fc690da1ed64762dbb811db0ff4cf565cffc4bba",
-      "bytes": 10179
+      "sha256": "367182e418e7baeb13b5a7fae7b03cff9f04382ce5763dffcdd97c94dc6bcb04",
+      "bytes": 10794
     },
     {
       "file": "docs/INNOVATION_AR.md",
@@ -1305,13 +1305,13 @@
     },
     {
       "file": "docs/STATUS_20261007_AR.md",
-      "sha256": "dec3118c9e41334560f0970274b1b3885360e3bf2e9fcfdbd0819ef8f692d267",
-      "bytes": 12846
+      "sha256": "e042fb875ee83eb66c24de9e84833f1708adba93f4adbd2639c2141f46c11118",
+      "bytes": 13526
     },
     {
       "file": "docs/SUBMISSION_AR.md",
-      "sha256": "66a335f80f9c6a3f7136730df255c414e364653983ab700a861eb138c3e43ba4",
-      "bytes": 3192
+      "sha256": "17dcddb88a7d91d5264b71444c186fca68e9ecc64c965569470654a0d8d431a6",
+      "bytes": 3528
     },
     {
       "file": "docs/USER_GUIDE_AR.md",
@@ -1462,6 +1462,11 @@
       "file": "evidence/materials-v3-checks.json",
       "sha256": "33be5c73ae288df7ce44b6ac4620b9f5b06a4417d0a6047feb8d21f41194e642",
       "bytes": 1012
+    },
+    {
+      "file": "evidence/presentation-expanded-20261007.json",
+      "sha256": "20ad64a690616f4c20bb97240af5d6980d1b802779f17468fc340ef8a499ff23",
+      "bytes": 1023
     },
     {
       "file": "evidence/presentation-roadmap-20261006.json",
@@ -1724,6 +1729,16 @@
       "bytes": 714
     },
     {
+      "file": "presentation/Barq_Architecture_All_Sources_AR.pdf",
+      "sha256": "22e54b4384028f6e0cf538843eb6d854337846768c93edafa5841f15a6945464",
+      "bytes": 5676297
+    },
+    {
+      "file": "presentation/Barq_Architecture_All_Sources_AR.pptx",
+      "sha256": "2b24646f00180f64ea657b18e234470d8fc30817a219c43fd64930e6ba923f3e",
+      "bytes": 2652448
+    },
+    {
       "file": "presentation/Barq_Final_AR.pdf",
       "sha256": "889c51678b0d012f10758966929bd8b13ca9ce5a0c278325e8a5e6fab9c23b24",
       "bytes": 5242459
@@ -1739,9 +1754,24 @@
       "bytes": 1241031
     },
     {
+      "file": "presentation/Five_Added_Slides_AR.pdf",
+      "sha256": "0f87ac7405af9051a5b6d04d481fb68c3444eade0c8982e381d77b7e20a287ca",
+      "bytes": 434953
+    },
+    {
+      "file": "presentation/PRESENTER_5_MIN_AR.md",
+      "sha256": "44d6a3f8482364d36db153577f8567952ce85fa32a03c305833cc41b950992d5",
+      "bytes": 1525
+    },
+    {
       "file": "presentation/README.md",
-      "sha256": "ded0ceb2694a187dd585a29b092cebf93d63f63ecf08ca6e446932b5c6a45a87",
-      "bytes": 6145
+      "sha256": "6ca79c5566e566e5a93846e8b3a98e2b112a46e608816302b9b3c1f851a10064",
+      "bytes": 8455
+    },
+    {
+      "file": "presentation/architecture-slide-text.json",
+      "sha256": "c972b0cc9e7f798463b15b6217e8fd1706f43a8ac276132539b879193e92c861",
+      "bytes": 36529
     },
     {
       "file": "presentation/slide-text.json",

@@ -16,7 +16,7 @@
 
 ## العرض التقديمي
 
-[Barq_Final_AR.pdf](../presentation/Barq_Final_AR.pdf) هو الملف المقترح للرفع، لحفظ مظهر العربية على أجهزة اللجنة. [PowerPoint](../presentation/Barq_Final_AR.pptx) متاح للتحرير. راجع [بيانات الإصدار والحجم](../presentation/README.md) واستخدم النسخة الحالية من مجلد `presentation`.
+[Barq_Architecture_All_Sources_AR.pdf](../presentation/Barq_Architecture_All_Sources_AR.pdf) هو الملف المقترح للرفع الآن: ٢١ شريحة تشمل المعمارية والتقنيات ومصادر البيانات بروابط داخل العرض، بحجم ٥٫٧ ميغابايت. [PowerPoint](../presentation/Barq_Architecture_All_Sources_AR.pptx) متاح للتحرير. أضيفت النسخة الموسعة إلى المستودع خلال نافذة التسليم الممتدة صباح ٧ أكتوبر؛ بقيت النسخة القديمة ذات ١٦ شريحة محفوظة باسمها وبايتاتها. راجع [بيانات الإصدار والحجم](../presentation/README.md).
 
 ## رابط الفيديو
 

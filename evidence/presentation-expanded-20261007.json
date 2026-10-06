@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-10-06T22:44:32.534782+00:00",
+  "operation": "Add previously reviewed expanded deck during owner-extended release window; preserve original files",
+  "pdf_pages": 21,
+  "pdf_link_annotations": 41,
+  "distinct_pdf_link_targets": 34,
+  "artifact_files": [
+    {
+      "file": "presentation/Barq_Architecture_All_Sources_AR.pdf",
+      "bytes": 5676297,
+      "sha256": "22e54b4384028f6e0cf538843eb6d854337846768c93edafa5841f15a6945464"
+    },
+    {
+      "file": "presentation/Barq_Architecture_All_Sources_AR.pptx",
+      "bytes": 2652448,
+      "sha256": "2b24646f00180f64ea657b18e234470d8fc30817a219c43fd64930e6ba923f3e"
+    },
+    {
+      "file": "presentation/Five_Added_Slides_AR.pdf",
+      "bytes": 434953,
+      "sha256": "0f87ac7405af9051a5b6d04d481fb68c3444eade0c8982e381d77b7e20a287ca"
+    }
+  ],
+  "original_pdf_unchanged": true,
+  "new_pdf_edit_performed": false,
+  "claim_boundary": "File identity and embedded-link checks; not independent answer accuracy or external link availability."
+}

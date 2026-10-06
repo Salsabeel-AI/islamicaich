@@ -2,6 +2,8 @@
 
 **برق: الذكاء العربي الموثّق لخدمة المعرفة الإسلامية** · فريق سلسبيل · مسار الحوار المعرفي والإجابات الموثوقة
 
+**تحديث داخل نافذة التسليم الممتدة صباح ٧ أكتوبر:** العرض الموصى به الآن هو النسخة الكاملة ذات ٢١ شريحة، مع شرائح المعمارية والتقنيات والمصادر وروابطها. بقيت ملفات النسخة القديمة محفوظة دون تغيير. النتائج واللقطات المؤرخة أدناه لا تتحول بهذا التحديث إلى قياس دقة جديد. [تفاصيل النسخة](../presentation/README.md).
+
 ## ابدأ من المنتج
 
 **[مجلس سلسبيل — النسخة الأساسية](https://islamicaich.salsabeel.ai/)** يجمع برق الفتى ولينة وقبس. اختر الشخصية، أرسل السؤال، ثم افتح الدليل. لا يحتاج المستخدم إلى إدخال مفتاح.
@@ -12,7 +14,7 @@
 - [المصادر المعتمدة وتغطية RAG، ومنها مِقْرأ للدكتور أيمن](SOURCES_AR.md)
 - [المعمارية وحدود مزوّد الخدمة](../architecture/README.md)
 - [مطابقة متطلبات المنظّم صفحةً بصفحة](DELIVERY_REQUIREMENTS_AR.md) · [حقول التسليم الجاهزة](SUBMISSION_AR.md)
-- [العرض PDF](../presentation/Barq_Final_AR.pdf) · [PowerPoint](../presentation/Barq_Final_AR.pptx) · [دليل PDF](../presentation/Barq_User_Guide_AR.pdf)
+- [العرض PDF الكامل — ٢١ شريحة](../presentation/Barq_Architecture_All_Sources_AR.pdf) · [PowerPoint](../presentation/Barq_Architecture_All_Sources_AR.pptx) · [دليل PDF](../presentation/Barq_User_Guide_AR.pdf)
 - [فيلم المجلس R15 — ١١٨ ثانية](https://islamicaich.salsabeel.ai/final/)
 
 ## ما الجديد في النسخة الأساسية؟
