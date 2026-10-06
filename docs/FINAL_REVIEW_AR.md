@@ -13,7 +13,7 @@
 - [المعمارية وحدود مزوّد الخدمة](../architecture/README.md)
 - [مطابقة متطلبات المنظّم صفحةً بصفحة](DELIVERY_REQUIREMENTS_AR.md) · [حقول التسليم الجاهزة](SUBMISSION_AR.md)
 - [العرض PDF](../presentation/Barq_Final_AR.pdf) · [PowerPoint](../presentation/Barq_Final_AR.pptx) · [دليل PDF](../presentation/Barq_User_Guide_AR.pdf)
-- [فيلم المجلس R15 — ١١٨ ثانية](https://islamicaich.salsabeel.ai/beta/2-5/?v=15)
+- [فيلم المجلس R15 — ١١٨ ثانية](https://islamicaich.salsabeel.ai/final/)
 
 ## ما الجديد في النسخة الأساسية؟
 

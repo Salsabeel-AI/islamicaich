@@ -8,8 +8,8 @@ const names = new Map(Object.entries({
  'narration-r10.txt':'text/plain; charset=utf-8'
 }));
 export async function serveBeta(req,res,path,root=new URL('../public/beta/2-5/',import.meta.url)) {
- const prefix='/beta/2-5';
- if(path!==prefix&&!path.startsWith(prefix+'/'))return false;
+ const prefix=['/final','/beta/2-5'].find(value=>path===value||path.startsWith(value+'/'));
+ if(!prefix)return false;
  if(!['GET','HEAD'].includes(req.method)){res.writeHead(405,{Allow:'GET, HEAD'});res.end();return true;}
  const name=(path===prefix||path===prefix+'/')?'index.html':path.slice(prefix.length+1);
  if(!names.has(name)){res.writeHead(404);res.end();return true;}

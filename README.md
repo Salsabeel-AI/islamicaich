@@ -58,7 +58,7 @@
 
 ## مواد التسليم
 
-[العرض PDF — ١٦ شريحة](presentation/Barq_Final_AR.pdf) · [PowerPoint](presentation/Barq_Final_AR.pptx) · [فيلم المجلس R15 — ١:٥٨](https://islamicaich.salsabeel.ai/beta/2-5/?v=15) · [حزمة المراجعة](docs/FINAL_REVIEW_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md)
+[العرض PDF — ١٦ شريحة](presentation/Barq_Final_AR.pdf) · [PowerPoint](presentation/Barq_Final_AR.pptx) · [فيلم المجلس R15 — ١:٥٨](https://islamicaich.salsabeel.ai/final/) · [حزمة المراجعة](docs/FINAL_REVIEW_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md)
 
 توضح صفحة المراجعة إصدار كل مادة؛ اللقطات والتقييمات القديمة أدلة مؤرخة على التجربة السابقة، ولا تُعرض على أنها تصوير للمجلس الجديد.
 

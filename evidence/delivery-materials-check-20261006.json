@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-06T17:27:14.356477+00:00",
+  "date_utc": "2026-10-06T17:32:18.715441+00:00",
   "presentation_slides": 16,
   "guide_pages": 3,
   "video_duration_seconds": 118,
@@ -13,5 +13,5 @@
   "checked_document_links_valid": true,
   "private_path_and_key_pattern_scan_findings": 0,
   "scope": "Publication checks only. No general model accuracy or complete self-hosted council backend claim.",
-  "production_changes": "Public beta film/player materials only; no service restart or model change."
+  "production_changes": "Public final film/player materials and exact-host final media alias only; no service restart or model change."
 }

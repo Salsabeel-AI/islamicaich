@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T17:27:14.356477+00:00",
+  "created_at_utc": "2026-10-06T17:32:18.715441+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -30,8 +30,8 @@
     },
     {
       "file": "README.md",
-      "sha256": "3bc1c6f6cad7844c68a13d792e1914f6a37d989a68ef72dc5c79728a10314bf4",
-      "bytes": 12431
+      "sha256": "8892e88b6891fafecbf94535ce859a0959a5d5ea7733f52d441311eb1d950c8c",
+      "bytes": 12423
     },
     {
       "file": "app/.env.example",
@@ -130,8 +130,8 @@
     },
     {
       "file": "app/public/beta/2-5/index.html",
-      "sha256": "c140b97d03780a435d7b6b59f8a95b2350dbb762c2c0dee3faa49deea26b1ef5",
-      "bytes": 15539
+      "sha256": "ed236d1bb30f293b915bb5b13af3ff1dc0422b982db5843a1d334c5b42843c31",
+      "bytes": 15545
     },
     {
       "file": "app/public/beta/2-5/narration-r10.txt",
@@ -150,8 +150,8 @@
     },
     {
       "file": "app/public/beta/2-5/watch.js",
-      "sha256": "518cc769306cff7a0b0c1bf67b93b283c9722dcc2f4f0a5e81c39193a7879797",
-      "bytes": 3018
+      "sha256": "37af613ac69030815624d2b1bc61eeb992b717bd50e36761f31b6c45cba33619",
+      "bytes": 3027
     },
     {
       "file": "app/public/favicon.ico",
@@ -235,8 +235,8 @@
     },
     {
       "file": "app/src/beta-media.mjs",
-      "sha256": "b5b0ad957b0057358d481dc5fce48aa334effb2005c898b1420fc4cc62c8ac55",
-      "bytes": 2473
+      "sha256": "577538e1def19cb0429735781a1489e632a60ec1825ec87a3d897a6fc4019d39",
+      "bytes": 2502
     },
     {
       "file": "app/src/genesis/Anchor.tsx",
@@ -345,8 +345,8 @@
     },
     {
       "file": "app/tests/beta-media.test.mjs",
-      "sha256": "51ccb06b05ce4a84b160d23681f63ab0542d7f489f3e8b5499967ed5e8646075",
-      "bytes": 2331
+      "sha256": "d175a0807502906857b93c38242c4490b0a207a1c8845ad25b6aee269fbf9369",
+      "bytes": 2643
     },
     {
       "file": "app/tests/display.test.mjs",
@@ -1250,8 +1250,8 @@
     },
     {
       "file": "docs/FINAL_REVIEW_AR.md",
-      "sha256": "30cd7e3a718d7246a96a3923f8eaff5a3c65ee63c9145c7c984a342ec0dd0bb4",
-      "bytes": 10204
+      "sha256": "5e71a5d49579ccd4d0cbd3dd20b7a1a0cc648354f2ae643ddf42776329498771",
+      "bytes": 10196
     },
     {
       "file": "docs/INNOVATION_AR.md",
@@ -1275,8 +1275,8 @@
     },
     {
       "file": "docs/RELEASE_AR.md",
-      "sha256": "5abb82841c59aa080e9b3a6d4c9c41d3758e83c323cbedc9066e00015f992664",
-      "bytes": 12882
+      "sha256": "72972be902b9b711096231067534542ef6857bdaec2f1951e3ed7fc6736d3c82",
+      "bytes": 13390
     },
     {
       "file": "docs/RIGHTS_AR.md",
@@ -1295,8 +1295,8 @@
     },
     {
       "file": "docs/SUBMISSION_AR.md",
-      "sha256": "bdb9e5c98ae85acfdad32c3d3f6845fa6e81eae3e65f6649261985b66657d809",
-      "bytes": 3200
+      "sha256": "66a335f80f9c6a3f7136730df255c414e364653983ab700a861eb138c3e43ba4",
+      "bytes": 3192
     },
     {
       "file": "docs/USER_GUIDE_AR.md",
@@ -1355,8 +1355,8 @@
     },
     {
       "file": "evidence/INNOVATION_EVIDENCE_AR.md",
-      "sha256": "456bee60e163af687794c42566480d1fc58c00d2a7f024a222b1603d185661d0",
-      "bytes": 7977
+      "sha256": "73e6582af543e4a810b59c59b1daa7bb9b5eaa15e65ccb5f6f4475be12ebeec8",
+      "bytes": 7969
     },
     {
       "file": "evidence/README.md",
@@ -1365,8 +1365,8 @@
     },
     {
       "file": "evidence/REPLAY_GUIDE_AR.md",
-      "sha256": "2cd9c4877ca939495beaf4820dadf04e1875ac50f98e3624a568b1fc876fdd39",
-      "bytes": 6611
+      "sha256": "c9aa7569b8d89d2c56a6ade02d9b82c7283e89a4d28e35c8f6927a61b3fa2010",
+      "bytes": 6603
     },
     {
       "file": "evidence/capture-provenance.json",
@@ -1400,8 +1400,8 @@
     },
     {
       "file": "evidence/current-tools-20261006.json",
-      "sha256": "385f07c7eba9e284ded05a08c449b579d368eeade09ad75516ea919c923fde8c",
-      "bytes": 3223
+      "sha256": "d9defc93d9aa9ea3e7f03e43f16744652362df457062e6009cd301fc058ae86c",
+      "bytes": 3215
     },
     {
       "file": "evidence/current-witnesses-20261006.json",
@@ -1420,8 +1420,8 @@
     },
     {
       "file": "evidence/delivery-materials-check-20261006.json",
-      "sha256": "443b4cc8cf26a1c2612cd4e6959916b9989312cb5f7816d8dd1f2df37d3c9b4c",
-      "bytes": 670
+      "sha256": "f5010ddd01e08b0e74e1c0ec23fc5c540135749388157b1f39d23cc2a99d09af",
+      "bytes": 704
     },
     {
       "file": "evidence/innovation-register.json",
@@ -1630,8 +1630,8 @@
     },
     {
       "file": "media/README.md",
-      "sha256": "b6be3f562a4289091a91656354d01d8c22a46d449cde1e1419ee56f653a71697",
-      "bytes": 3391
+      "sha256": "dbef672867d0def0bc14c489d978369b743a483c41334adc2bd7a094f2d78577",
+      "bytes": 3383
     },
     {
       "file": "media/r11-verification.json",
@@ -1665,8 +1665,8 @@
     },
     {
       "file": "media/release.json",
-      "sha256": "ce66d8efcb144b6366ba8b171a8bb4d906fc275a9e59d7e1c2ee245a089fb888",
-      "bytes": 1051
+      "sha256": "a8013c49e8ae47fa4c6cd2853aa5d03636f1ab629c79a18db1b080362fae8d37",
+      "bytes": 1043
     },
     {
       "file": "media/source/music-mix.flac",
