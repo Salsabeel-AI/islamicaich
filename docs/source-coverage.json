@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-05",
+  "reviewed_on": "2026-10-06",
   "scope": "Challenge reference-policy mapping and published evidence; not runtime configuration or full provider corpus inventory",
   "requirement_documents": [
     {
@@ -138,9 +138,12 @@
         "https://islamic-content.com/dictionary"
       ],
       "use_rule_ar": "معجم الجمهرة مقدم على الترجمة الآلية للمصطلحات الحساسة",
-      "published_evidence_status": "inventory_not_published",
-      "example_case_ids": [],
-      "limitation_ar": "روابط المقالات لا تثبت إدخال المعجم"
+      "published_evidence_status": "historical_retrieval_records_only",
+      "example_case_ids": [
+        "P01",
+        "P03"
+      ],
+      "limitation_ar": "سجلات معجمية ظاهرة في تجربة الاسترجاع؛ لا جرد كامل للتغطية أو حقوق الاستيعاب"
     }
   ],
   "rag_evidence": [
@@ -156,5 +159,29 @@
     "full source corpora",
     "internal retrieval configuration",
     "credentials"
-  ]
+  ],
+  "project_reference_additions": [
+    {
+      "name_ar": "مِقْرأ",
+      "author_ar": "الدكتور أيمن فاتح العامر",
+      "url": "https://miqrawajiz.netlify.app/",
+      "added_on": "2026-10-06",
+      "requested_by": "project owner",
+      "public_page_identity_checked_on": "2026-10-06",
+      "visible_works_ar": [
+        "الجامع الوجيز في تفسير آي الكتاب العزيز",
+        "أسباب نزول آيات القرآن الكريم",
+        "خلاصة الأحكام من بلوغ المرام",
+        "تمام المنّة في تيسير الفقه الإسلامي",
+        "مجمع الفوائد ومنبع الفرائد",
+        "تيسير الوصول إلى مختار القول من علم الأصول"
+      ],
+      "matching_title_evidence": "app/public/beta/2-5/guide/open-evidence.jpg",
+      "scope": "Public bibliography and matching reader title; not proof all site books are ingested or embedded",
+      "challenge_official_approval_claimed": false,
+      "full_site_ingestion_verified": false,
+      "rights_note": "Site states its contents are an endowment; no blanket ingestion or redistribution licence inferred here"
+    }
+  ],
+  "additional_source_evidence_summary": "docs/SOURCES_AR.md"
 }

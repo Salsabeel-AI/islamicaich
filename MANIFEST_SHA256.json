@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T07:23:07.082041+00:00",
+  "created_at_utc": "2026-10-06T14:44:17.863041+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -780,8 +780,8 @@
     },
     {
       "file": "docs/SOURCES_AR.md",
-      "sha256": "81c6f724ed9b8f946eeabf85867f2ead775ce9ddd430385fed24a4f7f0b4a921",
-      "bytes": 10729
+      "sha256": "e178aa3b02997a6d076d7038cfc8568f8048302dd21095a9b3f16f073050eafb",
+      "bytes": 14714
     },
     {
       "file": "docs/USER_GUIDE_AR.md",
@@ -790,8 +790,8 @@
     },
     {
       "file": "docs/source-coverage.json",
-      "sha256": "ffac51191dd7a321a23b683a19c1b188a6c7528a02f2c66f81887bc893203ac0",
-      "bytes": 5643
+      "sha256": "4c9c81b88fca65a7fe00205a4680dced26a056071adaae1c3db9e10423c9e587",
+      "bytes": 7049
     },
     {
       "file": "docs/source-rights-register.json",
