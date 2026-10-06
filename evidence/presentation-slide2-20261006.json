@@ -1,0 +1,57 @@
+{
+  "scope": "Slide 2 native image crop and editable captions only",
+  "before": {
+    "sha256": "890a748177ac7e712f52d4612d33a0ac15587175b2e8d7e618798f0d15e0b6f7"
+  },
+  "after": {
+    "sha256": "1cbf68f0455021ed0a0209f0fad9ce2debdf2c576b35500d6be5b4915a48ee62"
+  },
+  "unchanged_slides": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "changed_rendered_slides": [
+    2
+  ],
+  "all_embedded_image_bytes_unchanged": true,
+  "native_pptx_source_crop": {
+    "l": "0",
+    "t": "23981",
+    "r": "0",
+    "b": "23981"
+  },
+  "effective_source_pixel_bounds_from_native_crop": {
+    "left": 0,
+    "top": 258.9948,
+    "right": 1920,
+    "bottom": 821.0052000000001
+  },
+  "lower_edge_709_719_matches_background_rgb": [
+    13,
+    24,
+    21
+  ],
+  "guide_sha256": "fc09f1378d207ae2e8001adeb92dd3e37cfa11cd301461f0034106b4492680f3",
+  "guide_unchanged": true,
+  "comparison_normalization": "Only regenerated creation UUIDs, sequential auto shape names, and image relationship IDs were normalized; image IDs were resolved to content hashes.",
+  "current_file": "presentation/Barq_Final_AR.pptx",
+  "current_pdf": {
+    "file": "presentation/Barq_Final_AR.pdf",
+    "sha256": "3e14a1f754e701cf65ac72911cab8b3cf413622ad76522608936f2a9239d335f",
+    "bytes": 5250851
+  },
+  "change_note": "The original scientists illustration remains embedded without pixel editing. Native PowerPoint crop removes the old navy framing; editable captions use the current Council palette. Other slides and guide unchanged."
+}

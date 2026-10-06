@@ -98,5 +98,7 @@
     "accent": "#a6dab5"
   },
   "guide_pages": 3,
-  "scope": "Presentation and PDF guide recoloured; source evidence screenshots preserved without pixel edits."
+  "scope": "Presentation and PDF guide recoloured; source evidence screenshots preserved without pixel edits.",
+  "phase": "Palette alignment preceding the slide 2 crop and caption correction.",
+  "followup_verification": "evidence/presentation-slide2-20261006.json"
 }

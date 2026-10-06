@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T17:07:12.447142+00:00",
+  "created_at_utc": "2026-10-06T17:20:12.870988+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -1420,7 +1420,7 @@
     },
     {
       "file": "evidence/delivery-materials-check-20261006.json",
-      "sha256": "2e13cf0dfa0b922d5e82e6f332a18f8c131b7e9a60d7a852eed61f0810ba0bf2",
+      "sha256": "55035cfe8a0a7fe00000eab81de9a86f22cad8532c925df90a92b99446cad23c",
       "bytes": 670
     },
     {
@@ -1439,9 +1439,14 @@
       "bytes": 1012
     },
     {
+      "file": "evidence/presentation-slide2-20261006.json",
+      "sha256": "37b295f814e927298f28968dc5fcb5869ec6736f0c2b9e80a51efb00ccb1c05b",
+      "bytes": 1575
+    },
+    {
       "file": "evidence/presentation-theme-20261006.json",
-      "sha256": "aa0a4743ea0b4472501d4fe7ac75ca5334753c011bc55db21fbdd556730d9ffb",
-      "bytes": 2503
+      "sha256": "4b0bd8214f820cd83a2f04febc4a1f17127f1ae163bc1bed3374b80ff97058e2",
+      "bytes": 2659
     },
     {
       "file": "evidence/recompute_checks.py",
@@ -1685,13 +1690,13 @@
     },
     {
       "file": "presentation/Barq_Final_AR.pdf",
-      "sha256": "0b8a2e412816e4b9bce718f1de05e9fa3f59a459412d69dc15686ca08f69ab59",
-      "bytes": 4128751
+      "sha256": "3e14a1f754e701cf65ac72911cab8b3cf413622ad76522608936f2a9239d335f",
+      "bytes": 5250851
     },
     {
       "file": "presentation/Barq_Final_AR.pptx",
-      "sha256": "890a748177ac7e712f52d4612d33a0ac15587175b2e8d7e618798f0d15e0b6f7",
-      "bytes": 2605254
+      "sha256": "1cbf68f0455021ed0a0209f0fad9ce2debdf2c576b35500d6be5b4915a48ee62",
+      "bytes": 2606235
     },
     {
       "file": "presentation/Barq_User_Guide_AR.pdf",
@@ -1700,13 +1705,13 @@
     },
     {
       "file": "presentation/README.md",
-      "sha256": "f48b5e0cb580cb1c8205399c8cf605dbd5fded784863b2ad97771e0583bbe27e",
-      "bytes": 4916
+      "sha256": "8d68472da6fffd92bb12de52867b53abd5d660df2c12edc97e1196fe256e5fda",
+      "bytes": 5592
     },
     {
       "file": "presentation/slide-text.json",
-      "sha256": "b851f6e7f4bbca40929d4b9943bfcf58a31135c18398e36c65ea4da6a36a6aa1",
-      "bytes": 22519
+      "sha256": "b6ab542296a733d1717ee2d6ccf30ffbe2f422a50ee161b7e37e15f370e1653e",
+      "bytes": 22906
     },
     {
       "file": "scripts/compare_baseline.py",
