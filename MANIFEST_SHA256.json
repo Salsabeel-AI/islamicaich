@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T22:16:41.331912+00:00",
+  "created_at_utc": "2026-10-06T22:22:17.747193+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -1110,8 +1110,8 @@
     },
     {
       "file": "council/provenance.json",
-      "sha256": "64acda8c54b1327531bcfa3d3518d7b7cdc059f9a0ac1e281b4c209ba3c41e19",
-      "bytes": 12101
+      "sha256": "894ba74d7483f55542a3d023875b12679cee6423c79637b1637a01efafe9abd8",
+      "bytes": 11793
     },
     {
       "file": "council/public/README.md",
