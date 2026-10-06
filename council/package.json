@@ -9,6 +9,6 @@
   "scripts": {
     "start": "node preview.mjs",
     "test": "node --test",
-    "check": "node --check preview.mjs && node --check public/app.js && node --check public/stream-ui.js && node --check public/handoffs.js && node --check application/request-queue.mjs && node --check application/provider-errors.mjs"
+    "check": "node --check preview.mjs && node --check public/app.js && node --check public/stream-ui.js && node --check public/handoffs.js && node --check public/internal-renderer.js && node --check application/request-queue.mjs && node --check application/provider-errors.mjs"
   }
 }

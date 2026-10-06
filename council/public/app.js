@@ -1,6 +1,7 @@
 import {renderGenesis,clearGenesis} from '/genesis.js';
 import {readEventStream,updateStreamText,renderStreamHTML,textLinkParts} from '/stream-ui.js';
 import {normalizeHadithCitation,renderHadithCitation} from '/hadith-renderer.js';
+import {normalizeInternalCitation,renderInternalCitation} from '/internal-renderer.js';
 import {HANDOFF_PREFIX,createHandoffRegistry,prepareFataHandoffs} from '/handoffs.js';
 const handoffs=createHandoffRegistry(()=>crypto.randomUUID());
 window.addEventListener('fata-choice',event=>{
@@ -45,6 +46,7 @@ function finalSourceLinks(citations){
  const links=[],seen=new Set();
  if(!Array.isArray(citations))return links;
  for(const citation of citations){
+  if(citation?.kind==='salsabeel-evidence'){const bound=normalizeInternalCitation(citation);if(bound&&!seen.has('internal:'+bound.id)){seen.add('internal:'+bound.id);links.push(bound);}continue;}
   if(citation?.kind==='hadith'){const bound=normalizeHadithCitation(citation);if(bound&&!seen.has('hadith:'+bound.id)){seen.add('hadith:'+bound.id);links.push(bound);}continue;}
   if(!citation||typeof citation.id!=='string'||!citation.id.trim()||typeof citation.url!=='string')continue;
   let url;try{url=new URL(citation.url);}catch{continue;}
@@ -62,9 +64,9 @@ function appendSources(el,citations,module){
  const links=finalSourceLinks(citations);if(!links.length)return;
  const section=document.createElement('section');section.className='message-sources';section.setAttribute('aria-label','مصادر الإجابة');
  const title=document.createElement('h3');title.textContent='مصادر الإجابة';section.append(title);
- const hint=document.createElement('p');hint.className='sources-hint';hint.textContent=links.some(source=>source.kind==='hadith')?'اقرأ سجل الحديث هنا، أو اعرض النص المسترجع. الروابط الخارجية تفتح في علامة تبويب جديدة.':'تفتح الروابط في علامة تبويب جديدة.';section.append(hint);
+ const hint=document.createElement('p');hint.className='sources-hint';hint.textContent=links.some(source=>source.kind==='salsabeel-evidence')?'اضغط «اقرأ المصدر» لعرض النص هنا. الروابط الخارجية تفتح في علامة تبويب جديدة.':links.some(source=>source.kind==='hadith')?'اقرأ سجل الحديث هنا، أو اعرض النص المسترجع. الروابط الخارجية تفتح في علامة تبويب جديدة.':'تفتح الروابط في علامة تبويب جديدة.';section.append(hint);
  const list=document.createElement('ol');
- for(const source of links){if(source.kind==='hadith'){const item=renderHadithCitation(document,source);if(item)list.append(item);continue;}const item=document.createElement('li'),link=document.createElement('a');link.href=source.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=source.title;item.append(link);list.append(item);}
+ for(const source of links){if(source.kind==='salsabeel-evidence'){const item=renderInternalCitation(document,source);if(item)list.append(item);continue;}if(source.kind==='hadith'){const item=renderHadithCitation(document,source);if(item)list.append(item);continue;}const item=document.createElement('li'),link=document.createElement('a');link.href=source.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=source.title;item.append(link);list.append(item);}
  section.append(list);el.append(section);
 }
 const reviewLabels={completed:'مراجعة آلية اكتملت',failed:'تعذرت المراجعة الإضافية؛ عُرضت الإجابة الأصلية.',not_run:'لم تُجرَ مراجعة إضافية ضمن هذا الطلب.'};
@@ -131,6 +133,22 @@ for(const button of document.querySelectorAll('#fataCapabilities [data-question]
 async function ensureSession(){const r=await fetch('/api/access',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});const d=await r.json();if(!r.ok)throw Error(d.error||'SESSION_UNAVAILABLE');if(d.new_session)for(const module of Object.keys(ids))delete ids[module];$('#accessStatus').textContent='جاهز للحوار · لا تحتاج إلى مفتاح أو رمز دخول';}
 const sessionErrors={PROVIDER_RATE_LIMITED:'بلغت خدمة الشخصية حدّ الاستخدام حاليًا. لم تكتمل الإجابة؛ حاول لاحقًا. هذا لا يعني نقص المصادر.',CHALLENGE_KEY_DENIED:'خدمة التحدي غير متاحة حاليًا؛ يرجى مراجعة فريق سلسبيل.',ACCESS_RATE_LIMIT:'هناك زيارات كثيرة الآن؛ أعد المحاولة بعد قليل.',QUEUE_FULL:'قائمة الانتظار ممتلئة الآن؛ يرجى المحاولة بعد قليل.',QUEUE_TIMEOUT:'طال الانتظار ولم يبدأ طلبك؛ يمكنك إعادة إرساله الآن.',TRIAL_CAPACITY:'الخدمة تستقبل عددًا كبيرًا من الطلبات؛ يرجى المحاولة بعد قليل.',TOOL_NOT_ALLOWED:'تعذّر إكمال الطلب بسبب تعارض في ربط الأداة. هذا خطأ تقني ولا يعني نقص المصادر.'};
 ensureSession().catch(err=>{$('#accessStatus').textContent=sessionErrors[err.message]||'تعذّر تجهيز الاتصال؛ سنحاول عند إرسال سؤالك.'});
+// Desktop: Enter sends, Shift+Enter retains the textarea's native newline.
+// Touch-first devices retain native Enter to avoid accidental mobile sends.
+const keyboardSendMedia=matchMedia('(hover: hover) and (pointer: fine)');
+function syncKeyboardHint(){
+ const hint=$('#keyboardHint');if(!hint)return;
+ hint.hidden=!keyboardSendMedia.matches;
+ if(keyboardSendMedia.matches)$('#question').setAttribute('aria-describedby','keyboardHint');
+ else $('#question').removeAttribute('aria-describedby');
+}
+keyboardSendMedia.addEventListener('change',syncKeyboardHint);syncKeyboardHint();
+$('#question').addEventListener('keydown',event=>{
+ if(event.defaultPrevented||event.key!=='Enter'||event.shiftKey||event.ctrlKey||event.altKey||event.metaKey||event.isComposing||event.keyCode===229||!keyboardSendMedia.matches)return;
+ event.preventDefault();
+ if(event.repeat||busy||!$('#question').value.trim())return;
+ $('#composer').requestSubmit();
+});
 $('#composer').onsubmit=async event=>{
  event.preventDefault();if(busy)return;
  const message=$('#question').value.trim();if(!message)return;

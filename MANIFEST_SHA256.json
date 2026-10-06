@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T21:03:28.731010+00:00",
+  "created_at_utc": "2026-10-06T22:16:41.331912+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -685,8 +685,8 @@
     },
     {
       "file": "council/README.md",
-      "sha256": "33963d82dd5cd96f70d07c3a838dcac3760c6a9c98b8dabb430ca84e0bc7f067",
-      "bytes": 4415
+      "sha256": "a82cdeed957a60f6be3700d60e9136e54971a7d33ec382a205f34640a54af0d7",
+      "bytes": 4802
     },
     {
       "file": "council/application/provider-errors.mjs",
@@ -1100,18 +1100,18 @@
     },
     {
       "file": "council/package.json",
-      "sha256": "6c1ea83cd52b8491ec245d8e8e162f82c7ab3011b70600af855b53e179781bd0",
-      "bytes": 598
+      "sha256": "0b80e280f4098a4108a8004a3d5a3ed7ace2c8c26d5ab0d4101fc41b13b3145f",
+      "bytes": 642
     },
     {
       "file": "council/preview.mjs",
-      "sha256": "aa9854d7b5e085f3fe63075edd81933d32ebc855a01bf5e43d78d8ab84c2b611",
-      "bytes": 4006
+      "sha256": "147c602c66b556133ea7329e8a5045fdf481874230f37d97e06e3b7a9486a382",
+      "bytes": 4053
     },
     {
       "file": "council/provenance.json",
-      "sha256": "943b5cda0af6c08c55ee18b3979562ffbb0057ed2a87bc2d944fded9f1721dab",
-      "bytes": 8462
+      "sha256": "64acda8c54b1327531bcfa3d3518d7b7cdc059f9a0ac1e281b4c209ba3c41e19",
+      "bytes": 12101
     },
     {
       "file": "council/public/README.md",
@@ -1120,8 +1120,8 @@
     },
     {
       "file": "council/public/app.js",
-      "sha256": "23f433df739e7f17e64930cfb0f1afc7be9154013fba0fc8ea9caa894a738e76",
-      "bytes": 19736
+      "sha256": "bbb2a587efaa3e6a65a197419f6f2e7aa5f8e29ba889fe0486b046749a43cefa",
+      "bytes": 21285
     },
     {
       "file": "council/public/genesis.css",
@@ -1150,8 +1150,13 @@
     },
     {
       "file": "council/public/index.html",
-      "sha256": "8b9daf2b51b472c295176db5c016e631050d63fc936046d4d9eeb9ac7482a521",
-      "bytes": 35834
+      "sha256": "9ef518ae2b8769b38e3ccb15733bd34accd0f8ad959f3efbfeb78c1836406991",
+      "bytes": 35871
+    },
+    {
+      "file": "council/public/internal-renderer.js",
+      "sha256": "64c7786dc1b9bcd1df1d09d757d0fbdf5246a6558eed3b3f6929769c17a283e6",
+      "bytes": 2424
     },
     {
       "file": "council/public/judge-guide.css",
@@ -1170,13 +1175,13 @@
     },
     {
       "file": "council/public/style.css",
-      "sha256": "79767c672a3caa71833139f179561201b63064f297db71616f10c60147117921",
-      "bytes": 25476
+      "sha256": "7897cdba61800ead4ad46b563ef6ef9c595353dba2d8d1aaabda552428c98303",
+      "bytes": 28130
     },
     {
       "file": "council/test/export.test.mjs",
-      "sha256": "1b5330a95deafd0370b7a34ae5de56129271b6b16e8a1bfa83810adf7e9f637c",
-      "bytes": 3747
+      "sha256": "ab8dde05106a02e5262b44ad5ecf04f40e119049c6f390d88c47deb00f8514b4",
+      "bytes": 4651
     },
     {
       "file": "data-cards/rag/README.md",
@@ -1240,8 +1245,8 @@
     },
     {
       "file": "docs/COUNCIL_SOURCE_AR.md",
-      "sha256": "6891891168d8f24acd8fbfe1c5bc3c8e3fd52a40fe0f200b122d598655f641bf",
-      "bytes": 4469
+      "sha256": "6e321d8860dc9c57e86d3106b597965d37a9ed3c88208e337f392ce5e4c494df",
+      "bytes": 4602
     },
     {
       "file": "docs/DAY2_PROGRESS_AR.md",
@@ -1300,8 +1305,8 @@
     },
     {
       "file": "docs/STATUS_20261007_AR.md",
-      "sha256": "d51bf3541d6e87c11c8097c9e6ebaeb12bc18ca717eaa4919e3ed13941ee50d5",
-      "bytes": 7557
+      "sha256": "dec3118c9e41334560f0970274b1b3885360e3bf2e9fcfdbd0819ef8f692d267",
+      "bytes": 12846
     },
     {
       "file": "docs/SUBMISSION_AR.md",
@@ -1397,6 +1402,11 @@
       "file": "evidence/council-captures.json",
       "sha256": "5ca8812f87f47962529432f14b57e8ab8e08281bba1705120c006679908761fe",
       "bytes": 8463
+    },
+    {
+      "file": "evidence/council-development-20261007.json",
+      "sha256": "00b97da952f7384207186373199d7c502a838fce46cd111e5ef8e74d39644825",
+      "bytes": 2713
     },
     {
       "file": "evidence/council-focused-diagnostic-20261006.json",

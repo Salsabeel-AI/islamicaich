@@ -9,6 +9,7 @@ const files = new Map([
   ['genesis.js', 'text/javascript'], ['genesis.css', 'text/css'],
   ['hadith-identity.js', 'text/javascript'], ['hadith-renderer.js', 'text/javascript'],
   ['handoffs.js', 'text/javascript'], ['stream-ui.js', 'text/javascript'],
+  ['internal-renderer.js', 'text/javascript'],
   ['style.css', 'text/css'], ['judge-guide.html', 'text/html'],
   ['judge-guide.css', 'text/css'], ['README.md', 'text/plain'],
 ]);

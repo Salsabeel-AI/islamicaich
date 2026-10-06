@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-07T01:14:00+03:00",
+  "release_window_authorized_until": "2026-10-07T02:00:00+03:00",
+  "scope": "Independent Council: Qabas and Linah dialogue, evidence presentation, comparison retrieval; no Fata pipeline or shared MCP changes",
+  "development": {
+    "url": "https://islamicaich2.salsabeel.ai/",
+    "release": "dev-comparison-contract-20261007",
+    "deployment": "running; bounded public smoke checked"
+  },
+  "production": {
+    "url": "https://islamicaich.salsabeel.ai/",
+    "release_at_checkpoint": "comparison-contract-20261007",
+    "candidate_activation": "activated 2026-10-07T01:07:45+03:00; only IslamicAI-Stable restarted",
+    "public_acceptance": "bounded source display and context tests; general semantic acceptance not established",
+    "public_assets_matching_disk_and_https": 13
+  },
+  "checks": {
+    "candidate_local_software_tests_passed": 387,
+    "is_accuracy_percentage": false,
+    "public_context_recall": {"elapsed_ms": 4528, "tool_calls": 0, "result": "correct preceding question recalled"},
+    "public_scholars_question": {
+      "question": "لماذا تختلف أحكام العلماء؟",
+      "elapsed_ms": 32635,
+      "source_records": 9,
+      "result": "answer and source links published; no ANSWER_SCHEMA_INVALID",
+      "optional_review": "failed with CONFIRMATION_CLAIM_INVALID; original draft preserved and review failure displayed",
+      "scientific_acceptance": "not established for every claim"
+    },
+    "native_source_reader": "opened retained text in replay and on public development/production pages; mobile width checked in replay",
+    "production_nafs_ruh": {"elapsed_ms": 31954, "native_sources": 5, "quran_references": 3, "review": "keep", "semantic_result": "remaining overgeneralization and merging of distinct source interpretations; not a full scientific pass"},
+    "production_context_recall": {"elapsed_ms": 3037, "tool_calls": 0, "result": "correct preceding question recalled"},
+    "production_linah_native": {"elapsed_ms": 10761, "native_sources": 2, "result": "source link opened retained Mufradat excerpt; the two stated meanings are supported by that displayed excerpt"}
+  },
+  "remaining_limits": [
+    "A nafs/ruh comparison still contains a quotation not located in its retained cited body.",
+    "Optional review can miss unsupported details or return an invalid amendment.",
+    "Genesis prompt-only candidate omitted hyperlinks and misidentified a source publisher; not deployed.",
+    "No new independent 95-percent score or general scientific accuracy claim."
+  ],
+  "privacy": "Sanitized project test summary only; no credentials, private instructions, full tool bodies, or user conversations."
+}

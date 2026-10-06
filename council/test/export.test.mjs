@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { handleRequest } from '../preview.mjs';
+import { normalizeInternalCitation } from '../public/internal-renderer.js';
 
 async function request(url, method = 'GET', host = '127.0.0.1:8793') {
   const result = {};
@@ -66,4 +67,15 @@ test('HEAD preserves asset content length without sending its content', async ()
   assert.equal(head.status, 200);
   assert.equal(head.headers['Content-Length'], get.headers['Content-Length']);
   assert.equal(head.body, '');
+});
+
+test('native source module is served and rejects cross-source or malformed citation records', async () => {
+  const asset = await request('/internal-renderer.js');
+  assert.equal(asset.status, 200);
+  const citation = {id:'E1',kind:'salsabeel-evidence',title:'مصدر اختبار',referenceNumber:1,
+    source_identity:{kind:'lexical'},quoted_spans:[{span_id:'E1:S1',text:'نص المقطع المسترجع'}]};
+  assert.equal(normalizeInternalCitation(citation).quoted_spans[0].text, citation.quoted_spans[0].text);
+  assert.equal(normalizeInternalCitation({...citation,quoted_spans:[{span_id:'E2:S1',text:'من مصدر آخر'}]}),null);
+  assert.equal(normalizeInternalCitation({...citation,source_identity:{kind:'unverified'}}),null);
+  assert.equal(normalizeInternalCitation({...citation,quoted_spans:[]}),null);
 });
