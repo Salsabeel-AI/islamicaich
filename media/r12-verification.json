@@ -1,0 +1,58 @@
+{
+  "revision": "Council R12",
+  "duration_seconds": 118,
+  "frames": 2832,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "both_versions_decoded": true,
+  "identical_picture_streams": true,
+  "voice_samples_unchanged_outside": [
+    0,
+    95,
+    112,
+    118
+  ],
+  "new_narration": {
+    "text": "وَلِكُلِّ سُؤَالٍ رَفِيقٌ: الْفَتَى لِلْقُرْآنِ وَاللُّغَةِ، وَلِينَةُ لِلْحِوَارِ الْفِقْهِيِّ، وَقَبَسٌ لِلْبَحْثِ. اِخْتَرْ شَخْصِيَّتَكَ، وَاكْتُبْ سُؤَالَكَ أَوِ اضْغَطْ سُؤَالًا جَاهِزًا، ثُمَّ افْتَحِ الْمَصْدَرَ. وَلَدَيْنَا الْمَزِيدُ مِنَ الْقُدُرَاتِ، مَعَ بَيَانِ حُدُودِ الْجَوَابِ.",
+    "voice": "ar-SA-HamedNeural",
+    "raw_seconds": 18.858125,
+    "tempo": 1.139463746223565,
+    "seconds": 16.554375,
+    "scene_start": 95,
+    "scene_end": 112
+  },
+  "historical_tool_samples_seconds": [
+    [
+      49,
+      61
+    ],
+    [
+      72,
+      95
+    ]
+  ],
+  "live_council_capture_date": "2026-10-06",
+  "files": {
+    "film-r10-music.mp4": {
+      "sha256": "afc6667ca805ab33a7077504b158b3ef82bbc178c4fca58996533419757fb8b7",
+      "bytes": 9512275
+    },
+    "film-r10-voice.mp4": {
+      "sha256": "ad7203262c179dcad12875d49c481494a02db2ccf79d6324f69308c8d5fd31d5",
+      "bytes": 9105600
+    },
+    "picture.mp4": {
+      "sha256": "12d0235ab8259430663e782dd6cef898a53acd8197fb521d81b794168ca6f57b",
+      "bytes": 6482135
+    },
+    "voice.flac": {
+      "sha256": "d7009d25806d44628cdb47a05fc4797f77b69a3aee98c1db80a6bdc408c2515b",
+      "bytes": 4149554
+    },
+    "music-mix.flac": {
+      "sha256": "b4310154b120770a30324fa7a9fc2151751b356bfaac64ec7917fafe4b879e7a",
+      "bytes": 8310381
+    }
+  }
+}

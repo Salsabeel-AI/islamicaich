@@ -1,20 +1,21 @@
 {
-  "revision": "Beta 2.5 R11",
+  "revision": "Council R12",
+  "date": "2026-10-06",
   "duration_seconds": 118,
   "width": 1920,
   "height": 1080,
   "fps": 24,
-  "watch_url": "https://islamicaich.salsabeel.ai/beta/2-5/",
+  "watch_url": "https://islamicaich.salsabeel.ai/beta/2-5/?v=12",
   "files": [
     {
       "file": "app/public/beta/2-5/film-r10-music.mp4",
-      "sha256": "8e63e4bad81a2668f09be37b5e917c2f52a01c3b30d00c72c020d2cb86f1e3aa"
+      "sha256": "afc6667ca805ab33a7077504b158b3ef82bbc178c4fca58996533419757fb8b7"
     },
     {
       "file": "app/public/beta/2-5/film-r10-voice.mp4",
-      "sha256": "9cd12ddd0872e5014bf114aef051c1afaee3617db6cce2ea172cfcbae44e6414"
+      "sha256": "ad7203262c179dcad12875d49c481494a02db2ccf79d6324f69308c8d5fd31d5"
     }
   ],
-  "source_scope": "flattened picture master, approved audio masters and timing; no private model production code",
-  "revision_note": "Revised capability scene at 100–112s. Historical r10 filenames retained for route compatibility; player URLs use v=11."
+  "source_scope": "Flattened picture and approved audio masters; safe reconstruction, no private model production code.",
+  "revision_note": "Current Council UI, Kaaba live answer/source, conceptual persona architecture and correct NMN application ID; new Council narration at 95–112s. Scientists and narrator samples outside 95–112s preserved. Historical tool samples at 49–61 and 72–95 are explicitly disclosed. Historical r10 filenames retained for service-route compatibility; player URLs use v=12."
 }

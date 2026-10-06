@@ -75,6 +75,37 @@
         "data-cards/sft/results.json"
       ],
       "limit": "Projected examples only; candidate is not a universal replacement and some evaluation families regressed."
+    },
+    {
+      "id": "C09",
+      "claim_ar": "المجلس يتيح اختيار الفتى ولينة وقبس وسياقًا مستقلًا لكل شخصية أثناء بقاء الصفحة",
+      "evidence": [
+        "evidence/screenshots/council-home.png",
+        "council/provenance.json",
+        "docs/COUNCIL_SOURCE_AR.md"
+      ],
+      "limit": "Frontend and provider roles, not ownership of all persona model weights or a standalone published backend."
+    },
+    {
+      "id": "C10",
+      "claim_ar": "سؤال الكعبة في المجلس الجديد يصحح الفرضية ويتيح فتح المرجع",
+      "evidence": [
+        "evidence/screenshots/council-kaaba-answer.png",
+        "evidence/screenshots/council-kaaba-source.png",
+        "evidence/screenshots/council-kaaba-open-source.png",
+        "evidence/council-release-20261006.json"
+      ],
+      "limit": "One selected live sample on October 6; no general accuracy claim."
+    },
+    {
+      "id": "C11",
+      "claim_ar": "مصادر لينة وقارئ تفسير الفتى قابلان للفحص في النسخة الأساسية",
+      "evidence": [
+        "evidence/screenshots/council-linah-sources.png",
+        "evidence/screenshots/council-reader.png",
+        "evidence/council-release-20261006.json"
+      ],
+      "limit": "Visible citations and completed automated review do not establish every statement or interpretation as correct."
     }
   ],
   "policy": "Claims are scoped to their evidence. No instruction to evaluators, no hidden scoring directives."

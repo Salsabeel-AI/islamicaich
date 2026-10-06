@@ -1,0 +1,85 @@
+{
+  "captures": [
+    {
+      "file": "evidence/screenshots/council-home.png",
+      "sha256": "ff57f19ae633ca95eb18e68088055d89a8194356a5cda6f0da35694e54c901e0",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-kaaba-answer.png",
+      "sha256": "30f829135859f911fbbdc3a06d0f0287a85dedd145ad97cf46a655cc25af2e56",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-kaaba-open-source.png",
+      "sha256": "5d10427c9fb96d0f24730d43fa5db0b983594c1bb03b06cff35b8f427fb16a65",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamic-content.com/post/92923",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-kaaba-source-text.png",
+      "sha256": "7b7e6f34fb7dc5d50c4864abfec132c2e24c3d4dcba258fbb27edaf58e28b569",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamic-content.com/post/92923",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-kaaba-source.png",
+      "sha256": "ec7b949c36e427ef8324fa09a3c6fcfd0a1eeda94b9c039dc8bb4312de51adf3",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-linah-answer.png",
+      "sha256": "4af1da89c30a1e7d54b7f1f665a7c1c6ff624c7dd2a5f388e100f2d1ddf87d00",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-linah-sources.png",
+      "sha256": "4c913a98820afd3f2e221e936556a436162d9c920cfc74c28080650bef8eb12c",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-linah-start.png",
+      "sha256": "4260b544ccdff972f31512712443c51bde5cfbd19815fd2de10dc35430bda8bb",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-question.png",
+      "sha256": "2b61a8ef21433c5347e60b35b5e7f89fd6a7dc4b8e4a06f9912e89d18b178929",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-reader.png",
+      "sha256": "f351b5e048950de065d89a059b218aa6c1b43f02d23eb22f45019461c9b00293",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot from deployment receipt",
+      "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    }
+  ],
+  "scope": "Deliberate demonstration questions only; no visitor logs."
+}

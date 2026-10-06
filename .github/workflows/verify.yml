@@ -16,6 +16,9 @@ jobs:
         working-directory: app
       - run: npm test && npm run check
         working-directory: app
+      - name: Verify council public-source snapshot and local review boundaries
+        run: npm test && npm run check
+        working-directory: council
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

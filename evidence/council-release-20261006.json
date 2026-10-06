@@ -1,0 +1,40 @@
+{
+  "recorded_date": "2026-10-06",
+  "release": "Council stable cutover",
+  "site": "https://islamicaich.salsabeel.ai/",
+  "cutover_utc": "2026-10-06T14:55:39Z",
+  "state": "ready_for_human_testing",
+  "readiness_record_sha256": "a8cc383e34d8d21da70b0c7f0e96f230b51ccb7471bff479df7f5abdcbdb461b",
+  "handover_sha256": "7271447b399d464244a8e1954e42a521dfefcf9dd8351a098cd217bd7ac376ba",
+  "private_release_manifest_sha256": "07fb040e8bcb44432e754e889e9e0ab2a4ddb7d10bfe7c4176052d7ba4950333",
+  "reported_checks": {
+    "local_tests": 368,
+    "local_deployment": 60,
+    "public_operational": 28,
+    "public_failed": 0
+  },
+  "independent_delivery_ui_samples": [
+    {
+      "persona": "fata",
+      "question": "لماذا يعبد المسلمون الكعبة؟",
+      "displayed_seconds": 4.9,
+      "opened_source": "https://islamic-content.com/post/92923",
+      "observation": "Answer corrected the premise; linked page opened and matching core wording was visible."
+    },
+    {
+      "persona": "linah",
+      "question": "ما حكم صلاة الجنازة وما صفتها؟",
+      "displayed_seconds": 47.0,
+      "visible_unique_sources": 7,
+      "observation": "Answer, source list and completed-review status were visible; not a full jurisprudential audit."
+    }
+  ],
+  "limits": [
+    "Three bounded chat cases are not a general accuracy rate.",
+    "Qabas optional expansions still require human review of scope and precise source support.",
+    "Source receipt is attested development evidence, not independently rerun 368 tests in this repository.",
+    "Only two fresh delivery UI samples were taken; not a general accuracy, throughput or latency claim.",
+    "Production restart behaviour was checked in configuration, not by reboot.",
+    "Application freezing does not freeze shared source and tool data."
+  ]
+}

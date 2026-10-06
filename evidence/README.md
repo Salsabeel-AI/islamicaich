@@ -1,8 +1,18 @@
 # سجل الأدلة ومسار الفحص
 
-الادعاءات الثمانية والملفات المؤيدة وحدود كل منها موجودة بصيغة قابلة للقراءة الآلية في [claims.json](claims.json). اللقطات من واجهات فعلية؛ ليست صور واجهة مولدة. راجع [منشأ اللقطات](capture-provenance.json).
+الادعاءات المنشورة والملفات المؤيدة وحدود كل منها موجودة بصيغة قابلة للقراءة الآلية في [claims.json](claims.json). اللقطات من واجهات فعلية؛ ليست صور واجهة مولدة. راجع [منشأ اللقطات](capture-provenance.json).
 
-## السؤال ثم المصدر
+## المجلس الأساسي — ٦ أكتوبر
+
+[إيصال الإصدار والحدود](council-release-20261006.json) · [منشأ اللقطات وبصماتها](council-captures.json).
+
+![المجلس والشخصيات](screenshots/council-home.png)
+
+[كتابة السؤال](screenshots/council-question.png) · [جواب الكعبة](screenshots/council-kaaba-answer.png) · [رابطه](screenshots/council-kaaba-source.png) · [المصدر المفتوح](screenshots/council-kaaba-open-source.png) · [مصادر لينة](screenshots/council-linah-sources.png) · [قارئ الطبري](screenshots/council-reader.png).
+
+عينة الكعبة عُرضت خلال ٤٫٩ ثانية؛ عينة لينة خلال ٤٧ ثانية مع سبعة مراجع ظاهرة. هذه نتائج عينتين تحت حمل وقتهما، وليست معدل سرعة أو دقة. فحوص ٣٦٨/٦٠/٢٨ تخص نطاقات الإصدار المستضاف في إيصال النشر؛ لا تدمج مع اختبارات المستودع أو التقييم الدلالي.
+
+## الأدلة السابقة — السؤال ثم المصدر
 
 ![جواب سؤال الكعبة](screenshots/kaaba-answer.jpg)
 

@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "exported_at": "2026-10-06T18:27:47+03:00",
+  "release": "stable-20261006-v12-footer",
+  "release_manifest_sha256": "07fb040e8bcb44432e754e889e9e0ab2a4ddb7d10bfe7c4176052d7ba4950333",
+  "handover_sha256": "7271447b399d464244a8e1954e42a521dfefcf9dd8351a098cd217bd7ac376ba",
+  "scope": "Exact public browser assets plus two allowlisted pure application modules and selected existing tests. Production inference runtime, private agent prompts, tools, keys, weights and corpora are not exported.",
+  "verification": "Browser assets match the frozen release AND live public HTTPS URLs at export time. Pure application modules match the frozen release; test adaptation is declared. No complete production inference backend is exported.",
+  "shared_renderer": {
+    "file": "genesis.js",
+    "matches_existing_app_bundle": true,
+    "source": "../app/src/genesis/",
+    "dependency_lock": "../app/package-lock.json",
+    "rebuild_byte_match": true
+  },
+  "files": [
+    {
+      "file": "app.js",
+      "bytes": 19736,
+      "sha256": "23f433df739e7f17e64930cfb0f1afc7be9154013fba0fc8ea9caa894a738e76",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/app.js"
+    },
+    {
+      "file": "genesis.css",
+      "bytes": 14560,
+      "sha256": "8dcb8dffb4de8eeca8df82117e07132f12a3367fede80c50aec92a39f233d5fe",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/genesis.css"
+    },
+    {
+      "file": "genesis.js",
+      "bytes": 367545,
+      "sha256": "fe53c36c7431a49f5e10255e5ddeca814addf14068d9ffd94e11cf8248062ecd",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/genesis.js"
+    },
+    {
+      "file": "hadith-identity.js",
+      "bytes": 1526,
+      "sha256": "81ed83a21538546437b2a774cf7c5081365b0518decf7fd87ae64fb98695c5a0",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/hadith-identity.js"
+    },
+    {
+      "file": "hadith-renderer.js",
+      "bytes": 3142,
+      "sha256": "d04ba3adeedb258aef6d016dd3fe31c3d7177756c1612707f93d8e41802689ff",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/hadith-renderer.js"
+    },
+    {
+      "file": "handoffs.js",
+      "bytes": 3554,
+      "sha256": "14e6861692ee06e5d0abc71592d459fe4265284bf8beab99264c7f8b4f6fc109",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/handoffs.js"
+    },
+    {
+      "file": "index.html",
+      "bytes": 35834,
+      "sha256": "8b9daf2b51b472c295176db5c016e631050d63fc936046d4d9eeb9ac7482a521",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/"
+    },
+    {
+      "file": "judge-guide.css",
+      "bytes": 4170,
+      "sha256": "5f7b0b0553bf60adc74375d51969fa44489916e63c8cef9b52edb10b33932167",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/judge-guide.css"
+    },
+    {
+      "file": "judge-guide.html",
+      "bytes": 15648,
+      "sha256": "9d66f92ca8880aa6e1fe37fb088ab1d7f5267181c59426df69a901381aa9c0dc",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/judge-guide.html"
+    },
+    {
+      "file": "README.md",
+      "bytes": 12024,
+      "sha256": "54dc74356dc4604657d7ded0eee57e19d9645f42096c081a2ba967eb65a8e1e1",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/README.md"
+    },
+    {
+      "file": "stream-ui.js",
+      "bytes": 67287,
+      "sha256": "8b0df0bfcda38a552b312bfff1d1e2526f0d1da94f4541941334c648428d0cf2",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/stream-ui.js"
+    },
+    {
+      "file": "style.css",
+      "bytes": 25476,
+      "sha256": "79767c672a3caa71833139f179561201b63064f297db71616f10c60147117921",
+      "source": "stable public browser asset",
+      "public_url": "https://islamicaich.salsabeel.ai/style.css"
+    }
+  ],
+  "public_url_verification": [
+    {
+      "file": "app.js",
+      "http_status": 200,
+      "public_sha256": "23f433df739e7f17e64930cfb0f1afc7be9154013fba0fc8ea9caa894a738e76",
+      "matches_export": true
+    },
+    {
+      "file": "genesis.css",
+      "http_status": 200,
+      "public_sha256": "8dcb8dffb4de8eeca8df82117e07132f12a3367fede80c50aec92a39f233d5fe",
+      "matches_export": true
+    },
+    {
+      "file": "genesis.js",
+      "http_status": 200,
+      "public_sha256": "fe53c36c7431a49f5e10255e5ddeca814addf14068d9ffd94e11cf8248062ecd",
+      "matches_export": true
+    },
+    {
+      "file": "hadith-identity.js",
+      "http_status": 200,
+      "public_sha256": "81ed83a21538546437b2a774cf7c5081365b0518decf7fd87ae64fb98695c5a0",
+      "matches_export": true
+    },
+    {
+      "file": "hadith-renderer.js",
+      "http_status": 200,
+      "public_sha256": "d04ba3adeedb258aef6d016dd3fe31c3d7177756c1612707f93d8e41802689ff",
+      "matches_export": true
+    },
+    {
+      "file": "handoffs.js",
+      "http_status": 200,
+      "public_sha256": "14e6861692ee06e5d0abc71592d459fe4265284bf8beab99264c7f8b4f6fc109",
+      "matches_export": true
+    },
+    {
+      "file": "index.html",
+      "http_status": 200,
+      "public_sha256": "8b9daf2b51b472c295176db5c016e631050d63fc936046d4d9eeb9ac7482a521",
+      "matches_export": true
+    },
+    {
+      "file": "judge-guide.css",
+      "http_status": 200,
+      "public_sha256": "5f7b0b0553bf60adc74375d51969fa44489916e63c8cef9b52edb10b33932167",
+      "matches_export": true
+    },
+    {
+      "file": "judge-guide.html",
+      "http_status": 200,
+      "public_sha256": "9d66f92ca8880aa6e1fe37fb088ab1d7f5267181c59426df69a901381aa9c0dc",
+      "matches_export": true
+    },
+    {
+      "file": "README.md",
+      "http_status": 200,
+      "public_sha256": "54dc74356dc4604657d7ded0eee57e19d9645f42096c081a2ba967eb65a8e1e1",
+      "matches_export": true
+    },
+    {
+      "file": "stream-ui.js",
+      "http_status": 200,
+      "public_sha256": "8b0df0bfcda38a552b312bfff1d1e2526f0d1da94f4541941334c648428d0cf2",
+      "matches_export": true
+    },
+    {
+      "file": "style.css",
+      "http_status": 200,
+      "public_sha256": "79767c672a3caa71833139f179561201b63064f297db71616f10c60147117921",
+      "matches_export": true
+    }
+  ],
+  "public_verified_at": "2026-10-06T18:28:56+03:00",
+  "application_exported_at": "2026-10-06T18:34:01+03:00",
+  "application_files": [
+    {
+      "file": "application/request-queue.mjs",
+      "bytes": 1561,
+      "sha256": "cef1f53304de5018a771ca6772ddef24759b31f963d271858d78c20240052fde",
+      "source_sha256": "cef1f53304de5018a771ca6772ddef24759b31f963d271858d78c20240052fde",
+      "source": "stable frozen release / request-queue.mjs",
+      "exact_source_bytes": true,
+      "adaptation": "Exact bytes from the frozen release; no adaptation."
+    },
+    {
+      "file": "application/provider-errors.mjs",
+      "bytes": 4859,
+      "sha256": "72b3f44fecbd9311e37d590c90a11ab2f340e418c80aa7989033fea8b2a6cbf7",
+      "source_sha256": "72b3f44fecbd9311e37d590c90a11ab2f340e418c80aa7989033fea8b2a6cbf7",
+      "source": "stable frozen release / provider-errors.mjs",
+      "exact_source_bytes": true,
+      "adaptation": "Exact bytes from the frozen release; no adaptation."
+    },
+    {
+      "file": "application/request-queue.test.mjs",
+      "bytes": 2481,
+      "sha256": "aabeb4c5f06bc005a3cd8475b7e1b66cdde17f0a998f80bf38239a02e5f13acc",
+      "source_sha256": "aabeb4c5f06bc005a3cd8475b7e1b66cdde17f0a998f80bf38239a02e5f13acc",
+      "source": "stable frozen release / request-queue.test.mjs",
+      "exact_source_bytes": true,
+      "adaptation": "Exact bytes from the frozen release; no adaptation."
+    },
+    {
+      "file": "application/provider-errors.test.mjs",
+      "bytes": 7955,
+      "sha256": "7546a5bf0729ebd56a654fa7a7e2c56b4544e6a9b8ea67953a67be0d857b2c86",
+      "source_sha256": "8f01411d727fd9b423dfe76e4c12ca5358e30d273436d3178045083177500a23",
+      "source": "stable frozen release / provider-errors.test.mjs",
+      "exact_source_bytes": false,
+      "adaptation": "Existing pure unit tests retained. Removed four unused runtime-only imports and omitted mockedRuntime and subsequent private-runtime integration tests. No assertions in retained tests changed."
+    }
+  ]
+}

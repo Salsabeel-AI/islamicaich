@@ -1,0 +1,17 @@
+{
+  "date_utc": "2026-10-06T16:24:03.378618+00:00",
+  "presentation_slides": 16,
+  "guide_pages": 3,
+  "video_duration_seconds": 118,
+  "app_tests_passed": 41,
+  "council_tests_passed": 24,
+  "claims": 11,
+  "capture_count": 10,
+  "claim_evidence_paths_valid": true,
+  "source_image_and_video_hashes_valid": true,
+  "all_submission_documents_under_10_mib": true,
+  "checked_document_links_valid": true,
+  "private_path_and_key_pattern_scan_findings": 0,
+  "scope": "Publication checks only. No general model accuracy or complete self-hosted council backend claim.",
+  "production_changes": "Public beta film/player materials only; no service restart or model change."
+}

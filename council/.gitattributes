@@ -1,0 +1,6 @@
+# Preserve exact production bytes, including the three CRLF public assets.
+# provenance.json intentionally records their live HTTP content hashes.
+public/* -text whitespace=cr-at-eol,-blank-at-eof
+application/* -text whitespace=cr-at-eol,-blank-at-eof
+# Original license notices may end with intentional blank lines.
+licenses/* whitespace=-blank-at-eof

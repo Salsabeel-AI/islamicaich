@@ -1,0 +1,14 @@
+{
+  "name": "salsabeel-council-public-review",
+  "version": "2026.10.6",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "description": "Public council UI and selected pure application modules; hosted inference is not included",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node preview.mjs",
+    "test": "node --test",
+    "check": "node --check preview.mjs && node --check public/app.js && node --check public/stream-ui.js && node --check public/handoffs.js && node --check application/request-queue.mjs && node --check application/provider-errors.mjs"
+  }
+}
