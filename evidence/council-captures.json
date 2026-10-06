@@ -79,6 +79,40 @@
       "source_url": "https://islamicaich.salsabeel.ai/",
       "method": "Original public browser screenshot from deployment receipt",
       "changes": "No answer/content alteration; artifact layouts may scale or crop with context."
+    },
+    {
+      "file": "evidence/screenshots/council-nmn-current.png",
+      "sha256": "74775ba6ee48899d86617b6753c6aedc31dc53ad2e051acc945f1188c1420986",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No content or CSS changes. Scrolled to the evidenced tool result."
+    },
+    {
+      "file": "evidence/screenshots/council-adjacency-current.png",
+      "sha256": "94aac882507a1603bab7bfa680d58ab7a2fdaa207a80ed431da55f69b07dfb3a",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No content or CSS changes. Scrolled to the evidenced tool result."
+    },
+    {
+      "file": "evidence/screenshots/council-inheritance-current.png",
+      "sha256": "0c8e2c5021a07ad9832ce848a424393cedb2ddefeb657dfeb00c864777624181",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "No content or CSS changes. Scrolled to the evidenced tool result.",
+      "viewport_test": "1920x1080 browser override to verify unbroken table headings, then reset."
+    },
+    {
+      "file": "evidence/screenshots/council-inheritance-table.png",
+      "sha256": "a0ee4234d969163d16d30d4a9bee06d357cc63076b31d088a8ae666221c725fb",
+      "capture_date": "2026-10-06",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review",
+      "changes": "Browser region capture from DOM-grounded document coordinates x312,y792,width1280,height650; full screenshot retained separately.",
+      "viewport_test": "1920x1080 browser override to verify unbroken table headings, then reset."
     }
   ],
   "scope": "Deliberate demonstration questions only; no visitor logs."

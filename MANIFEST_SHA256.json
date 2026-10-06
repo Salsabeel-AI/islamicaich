@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T16:24:03.378618+00:00",
+  "created_at_utc": "2026-10-06T16:37:19.952468+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -30,8 +30,8 @@
     },
     {
       "file": "README.md",
-      "sha256": "75e4bf852e2fecd66c08da1245f0fbc9ab778532649e95f1d7d6daf68502a19a",
-      "bytes": 10704
+      "sha256": "047386db309d8730149a4621eadc06a5af1c0fef8bd9b1f919882881b2afc45c",
+      "bytes": 11476
     },
     {
       "file": "app/.env.example",
@@ -1245,8 +1245,8 @@
     },
     {
       "file": "docs/FINAL_REVIEW_AR.md",
-      "sha256": "1e7d0a38ca688c7d95b5ef6e46ad51cd912f72ca875f0d548b2d6a45cb89f98b",
-      "bytes": 6671
+      "sha256": "acd8a86c9bcf69c190be432203e902ed620b2f9b78c9bb93b9e3b83cacee08e6",
+      "bytes": 8006
     },
     {
       "file": "docs/INNOVATION_AR.md",
@@ -1260,8 +1260,8 @@
     },
     {
       "file": "docs/LIMITATIONS_AR.md",
-      "sha256": "999db021723bdd6120b967966bae22c59f55ddc216d3f218709a7bb7636ded2e",
-      "bytes": 4957
+      "sha256": "99636f1b110e197bafafcd8022e41cf077957baddff65bc9d2b54a08ecd5d40e",
+      "bytes": 5953
     },
     {
       "file": "docs/OPERATIONS_AR.md",
@@ -1270,8 +1270,8 @@
     },
     {
       "file": "docs/RELEASE_AR.md",
-      "sha256": "7ececbef717987a324c438d4f05fa09144cefba893cadbeb25aa69bfa7c51e0e",
-      "bytes": 7234
+      "sha256": "0a80d2ba1703d172824a6cfd68739794a8e12b7d4d0a217ba843cd244428592c",
+      "bytes": 7758
     },
     {
       "file": "docs/RIGHTS_AR.md",
@@ -1290,8 +1290,8 @@
     },
     {
       "file": "docs/USER_GUIDE_AR.md",
-      "sha256": "54b102b5d7686edc158431f8dd1fed1d4957bb3c7dc811b588b3240cb3f9f54d",
-      "bytes": 9284
+      "sha256": "a4d907ee66cf7dedbed101e0a2935ca3c3b0ec40915b167b5eedd5949487a6e9",
+      "bytes": 9777
     },
     {
       "file": "docs/source-coverage.json",
@@ -1345,8 +1345,8 @@
     },
     {
       "file": "evidence/README.md",
-      "sha256": "6673c158297a8959a5fdb673e664b1039af56782bfa956413eb9756035529dcc",
-      "bytes": 3368
+      "sha256": "20382e0b0827c32209560afdcdb54ae1d0f6ce68bf530c22838e61430dbf7f1b",
+      "bytes": 4367
     },
     {
       "file": "evidence/capture-provenance.json",
@@ -1355,18 +1355,23 @@
     },
     {
       "file": "evidence/claims.json",
-      "sha256": "57fd27e59d894927261c42dc095c63f8c48d70361ed991262a48a527395356c5",
-      "bytes": 5085
+      "sha256": "121fd701a319beb1eea1973b736eb6e8f70cf07b6be8da40b796e2c6f368e6c9",
+      "bytes": 5489
     },
     {
       "file": "evidence/council-captures.json",
-      "sha256": "e0f206331ffba59a1e56c5aaff1e4f691597deba42ae7dd5e794d844d41053f0",
-      "bytes": 4342
+      "sha256": "037404ca817554f803a6025a65c63625d9e4c43ee7ace4adf55a2d7089eac146",
+      "bytes": 6266
     },
     {
       "file": "evidence/council-release-20261006.json",
-      "sha256": "f69fade993fa272e2566d399b255fd79cc68bb8d242a90218872dffc2872ee73",
-      "bytes": 1841
+      "sha256": "56ed4c3986432a9034bcecf8c92a91ac6c629bd8eb54430e9483f3dd56811ca4",
+      "bytes": 3434
+    },
+    {
+      "file": "evidence/current-tools-20261006.json",
+      "sha256": "32425aec9d4bf664654e6ea3c8ae90ed1877922a4513d02f0c66626d6a433fd1",
+      "bytes": 1997
     },
     {
       "file": "evidence/day2-deployment-summary.json",
@@ -1380,7 +1385,7 @@
     },
     {
       "file": "evidence/delivery-materials-check-20261006.json",
-      "sha256": "3747bc9befb57a5534d75d119b16133865252e1042eb7b61ec28f4aca9e977f1",
+      "sha256": "5ecaeda8cdcb7e15e723a226a43fbb175a3ad8ecf0d231fa6a52bed1772dfe76",
       "bytes": 670
     },
     {
@@ -1404,9 +1409,24 @@
       "bytes": 894
     },
     {
+      "file": "evidence/screenshots/council-adjacency-current.png",
+      "sha256": "94aac882507a1603bab7bfa680d58ab7a2fdaa207a80ed431da55f69b07dfb3a",
+      "bytes": 73270
+    },
+    {
       "file": "evidence/screenshots/council-home.png",
       "sha256": "ff57f19ae633ca95eb18e68088055d89a8194356a5cda6f0da35694e54c901e0",
       "bytes": 73857
+    },
+    {
+      "file": "evidence/screenshots/council-inheritance-current.png",
+      "sha256": "0c8e2c5021a07ad9832ce848a424393cedb2ddefeb657dfeb00c864777624181",
+      "bytes": 101785
+    },
+    {
+      "file": "evidence/screenshots/council-inheritance-table.png",
+      "sha256": "a0ee4234d969163d16d30d4a9bee06d357cc63076b31d088a8ae666221c725fb",
+      "bytes": 67810
     },
     {
       "file": "evidence/screenshots/council-kaaba-answer.png",
@@ -1442,6 +1462,11 @@
       "file": "evidence/screenshots/council-linah-start.png",
       "sha256": "4260b544ccdff972f31512712443c51bde5cfbd19815fd2de10dc35430bda8bb",
       "bytes": 48896
+    },
+    {
+      "file": "evidence/screenshots/council-nmn-current.png",
+      "sha256": "74775ba6ee48899d86617b6753c6aedc31dc53ad2e051acc945f1188c1420986",
+      "bytes": 41818
     },
     {
       "file": "evidence/screenshots/council-question.png",
@@ -1595,13 +1620,13 @@
     },
     {
       "file": "presentation/Barq_Final_AR.pdf",
-      "sha256": "8b4addc8652f2e54dbbe2a9bcd4e02b4dd8c79df6b8574b56e279b2b7563b8ce",
-      "bytes": 4242192
+      "sha256": "9ae4bbe5b6792b3daad456c528632f0462300cfeedeadd0afc46c5abcf4aaf0d",
+      "bytes": 4081938
     },
     {
       "file": "presentation/Barq_Final_AR.pptx",
-      "sha256": "3243dcda3371676e00ff0f0743fa2ab190dea9e186d282e8557168b1346891ff",
-      "bytes": 2857035
+      "sha256": "628d6e3df36fb88e8ac85db5c59e3211d6e1db3764a3017052ebcccbda65df61",
+      "bytes": 2598143
     },
     {
       "file": "presentation/Barq_User_Guide_AR.pdf",
@@ -1610,13 +1635,13 @@
     },
     {
       "file": "presentation/README.md",
-      "sha256": "8ec088ed794924f64fe738f4e0db8eed21b1424d731c3dab141898a635aa03bd",
-      "bytes": 3215
+      "sha256": "760d06f7c9cb5ddce3485f27e18576854e0d0b45b478a6c749e31419156dd07d",
+      "bytes": 3493
     },
     {
       "file": "presentation/slide-text.json",
-      "sha256": "06bbeb436c169da3e52421ef0ad6df961e2378747899fcccceb07e8f201c7d3f",
-      "bytes": 16749
+      "sha256": "487548c107f62e09988bd5390d2ba10b11f2bbaffe75880f5a8c04bd64360907",
+      "bytes": 17353
     },
     {
       "file": "scripts/compare_baseline.py",

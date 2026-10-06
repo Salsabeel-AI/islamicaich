@@ -34,6 +34,8 @@
 | **مجلس بثلاث شخصيات** | اختيار الاختصاص، بث الجواب، فتح المصادر، والعودة إلى سياق كل شخصية | [رحلة الاستخدام الحالية](docs/USER_GUIDE_AR.md) |
 | **RAG وتخصيص النية** | أدلة مؤرخة على التضمين والفهرسة وعينات SFT الخاصة بالمهمة | [بطاقة RAG](data-cards/rag/README.md) · [بطاقة SFT](data-cards/sft/README.md) |
 
+تضم الشرائح ٨ و٩ و١١ لقطات حديثة من المجلس: [استكمال الآية](evidence/screenshots/council-nmn-current.png)، و[التجاور الإحصائي](evidence/screenshots/council-adjacency-current.png)، و[جدول الفرائض](evidence/screenshots/council-inheritance-table.png). جُرّب كل مثال مرة واحدة؛ بقي خطأ في الوزن الصرفي لـ«النفس» خارج قسم البصمة، فلا تثبت هذه اللقطة صحة التحليل اللغوي الكامل.
+
 تشمل [خريطة المصادر والحقوق](docs/SOURCES_AR.md) المراجع المعتمدة في التحدي، والمصادر التي تظهر في الأدلة، وإضافة **[مِقْرأ للدكتور أيمن فاتح العامر](https://miqrawajiz.netlify.app/)**. نميّز المرجع المضاف من المحتوى المثبت استيعابه وفهرسته.
 
 ## للمحكّم: ابدأ بخمس دقائق
@@ -55,6 +57,8 @@
 [العرض PDF — ١٦ شريحة](presentation/Barq_Final_AR.pdf) · [PowerPoint](presentation/Barq_Final_AR.pptx) · [فيلم المجلس R12 — ١:٥٨](https://islamicaich.salsabeel.ai/beta/2-5/?v=12) · [حزمة المراجعة](docs/FINAL_REVIEW_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md)
 
 توضح صفحة المراجعة إصدار كل مادة؛ اللقطات والتقييمات القديمة أدلة مؤرخة على التجربة السابقة، ولا تُعرض على أنها تصوير للمجلس الجديد.
+
+تحديث صور الأدوات في العرض لا يغيّر الفيلم R12؛ بعض مشاهد أدواته السابقة تبقى مؤرخة ومعلنة في [حزمة المراجعة](docs/FINAL_REVIEW_AR.md).
 
 تقارير [المرشدين](https://islamicaich.salsabeel.ai/reports/mentors-briefing) و[خطة المشاركة](https://islamicaich.salsabeel.ai/reports/participation-plan) محفوظة كسجل سابق؛ الوصف الحالي للشخصيات ونطاق الكود في هذه الحزمة ودليل المجلس.
 

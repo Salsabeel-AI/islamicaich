@@ -15,7 +15,9 @@
       "id": "C02",
       "claim_ar": "استكمال نص الآية مع موضعها",
       "evidence": [
-        "evidence/screenshots/nmn-nahl-result.jpg"
+        "evidence/screenshots/council-nmn-current.png",
+        "evidence/screenshots/nmn-nahl-result.jpg",
+        "evidence/current-tools-20261006.json"
       ],
       "question": "أكمل الآية: إن الله يأمر بالعدل والإحسان",
       "limit": "Screenshot demonstrates returned text and locator; does not prove every memory architecture or patent component."
@@ -34,17 +36,21 @@
       "id": "C04",
       "claim_ar": "البصمة التجاورية الفارقة للنفس والروح",
       "evidence": [
-        "evidence/screenshots/fingerprint-original.jpg"
+        "evidence/screenshots/council-adjacency-current.png",
+        "evidence/screenshots/fingerprint-original.jpg",
+        "evidence/current-tools-20261006.json"
       ],
       "question": "ما الفرق بين النفس والروح؟",
-      "limit": "Statistical usage clues, not a definitive theological interpretation. Known unrelated weight error in original capture is disclosed."
+      "limit": "Statistical usage clues only, not definitive interpretation. The unrelated morphology-weight error was reproduced on the current primary site October6; the current screenshot is scrolled to the adjacency section."
     },
     {
       "id": "C05",
       "claim_ar": "حساب تعليمي للمواريث وعرض الأنصبة والمبالغ",
       "evidence": [
+        "evidence/screenshots/council-inheritance-table.png",
         "evidence/screenshots/inheritance-table.jpg",
-        "evidence/screenshots/inheritance-film.png"
+        "evidence/screenshots/inheritance-film.png",
+        "evidence/current-tools-20261006.json"
       ],
       "question": "كيف تقسم تركة 240000 على زوجة وابن وبنتين؟",
       "limit": "Named heirs and net estate only; this selected display is not a legal fatwa or full jurisprudential validation."

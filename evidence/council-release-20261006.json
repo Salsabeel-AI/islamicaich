@@ -27,14 +27,38 @@
       "displayed_seconds": 47.0,
       "visible_unique_sources": 7,
       "observation": "Answer, source list and completed-review status were visible; not a full jurisprudential audit."
+    },
+    {
+      "persona": "fata",
+      "question": "أكمل الآية: إن الله يأمر بالعدل والإحسان",
+      "displayed_seconds": 2.3,
+      "observation": "Full verse returned with Nahl90 locator. Screenshot supports this sample, not proof of all NMN internals.",
+      "image": "evidence/screenshots/council-nmn-current.png"
+    },
+    {
+      "persona": "fata",
+      "question": "ما الفرق بين النفس والروح؟",
+      "displayed_seconds": 4.1,
+      "observation": "Current adjacency panel shows statistical association clues and its own non-definitive interpretation caveat.",
+      "known_issue": "The preceding morphology table still labels النفس with فعّل. This error was reproduced on the current primary site; this capture does not certify morphology or all comparison counts.",
+      "image": "evidence/screenshots/council-adjacency-current.png"
+    },
+    {
+      "persona": "fata",
+      "question": "كيف تُقسَم تركةٌ قدرها 240,000.00 على زوجةٍ وابنٍ وبنتين؟",
+      "displayed_seconds": 1.5,
+      "observation": "Displayed amounts: wife30000, son105000, each of2daughters52500. Total240000 for stated heirs and net estate.",
+      "limit": "Educational arithmetic display. Not an independent validation of every legal explanation, asaba label or supporting hadith reference.",
+      "image": "evidence/screenshots/council-inheritance-table.png"
     }
   ],
   "limits": [
     "Three bounded chat cases are not a general accuracy rate.",
     "Qabas optional expansions still require human review of scope and precise source support.",
     "Source receipt is attested development evidence, not independently rerun 368 tests in this repository.",
-    "Only two fresh delivery UI samples were taken; not a general accuracy, throughput or latency claim.",
+    "Five fresh delivery UI samples were taken; not a general accuracy, throughput or latency claim.",
     "Production restart behaviour was checked in configuration, not by reboot.",
-    "Application freezing does not freeze shared source and tool data."
+    "Application freezing does not freeze shared source and tool data.",
+    "Current النفس comparison still contains a morphology-weight error outside the adjacency panel. See current-tools-20261006.json."
   ]
 }
