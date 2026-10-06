@@ -53,5 +53,7 @@
     "sha256": "3e14a1f754e701cf65ac72911cab8b3cf413622ad76522608936f2a9239d335f",
     "bytes": 5250851
   },
-  "change_note": "The original scientists illustration remains embedded without pixel editing. Native PowerPoint crop removes the old navy framing; editable captions use the current Council palette. Other slides and guide unchanged."
+  "change_note": "The original scientists illustration remains embedded without pixel editing. Native PowerPoint crop removes the old navy framing; editable captions use the current Council palette. Other slides and guide unchanged.",
+  "phase": "Historical slide 2 correction preceding the slide 15 roadmap revision; slide 2 remains visually unchanged.",
+  "followup_verification": "evidence/presentation-roadmap-20261006.json"
 }

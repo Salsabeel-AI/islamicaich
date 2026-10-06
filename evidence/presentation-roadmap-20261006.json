@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-10-06T18:08:08.446450+00:00",
+  "scope": "Replace slide 15 planning-cost example with future Barq family roadmap; all other slide pixels and user guide unchanged.",
+  "source_url": "https://barq.salsabeel.ai/public/reports/barq-master-roadmap-ar.html",
+  "source_revision": "V3, 27 September 2026; reviewed 6 October 2026",
+  "current_foundation": "1.5B",
+  "planned_stages": [
+    {
+      "name": "الشاب",
+      "size": "7B"
+    },
+    {
+      "name": "المجتهد",
+      "size": "21B"
+    },
+    {
+      "name": "العالِم",
+      "size": "51B"
+    }
+  ],
+  "readiness": "Research roadmap, not released models or measured capability claims. Advancement depends on quality and impact evaluation.",
+  "changed_slides": [
+    15
+  ],
+  "unchanged_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16
+  ],
+  "financial_example_removed_from_slide_and_notes": true,
+  "source_link_in_pdf": true,
+  "guide_unchanged": true,
+  "before_sha256": {
+    "Barq_Final_AR.pptx": "1cbf68f0455021ed0a0209f0fad9ce2debdf2c576b35500d6be5b4915a48ee62",
+    "Barq_Final_AR.pdf": "3e14a1f754e701cf65ac72911cab8b3cf413622ad76522608936f2a9239d335f",
+    "Barq_User_Guide_AR.pdf": "fc09f1378d207ae2e8001adeb92dd3e37cfa11cd301461f0034106b4492680f3"
+  },
+  "files": [
+    {
+      "file": "presentation/Barq_Final_AR.pptx",
+      "sha256": "598c97fccf95f880f9098a970e5f701bc06dfd111663f092c95026166c9db207",
+      "bytes": 2605259
+    },
+    {
+      "file": "presentation/Barq_Final_AR.pdf",
+      "sha256": "889c51678b0d012f10758966929bd8b13ca9ce5a0c278325e8a5e6fab9c23b24",
+      "bytes": 5242459
+    },
+    {
+      "file": "presentation/Barq_User_Guide_AR.pdf",
+      "sha256": "fc09f1378d207ae2e8001adeb92dd3e37cfa11cd301461f0034106b4492680f3",
+      "bytes": 1241031
+    }
+  ]
+}

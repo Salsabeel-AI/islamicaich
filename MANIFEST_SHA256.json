@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T17:32:18.715441+00:00",
+  "created_at_utc": "2026-10-06T18:08:08.815851+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -1245,13 +1245,13 @@
     },
     {
       "file": "docs/DELIVERY_REQUIREMENTS_AR.md",
-      "sha256": "c5c9daf44f1743d8c5ef8a6ed6c25bf0626e7c8571a58a2a1b7f1493737974d5",
-      "bytes": 10314
+      "sha256": "773d587319016d4d31db9f841cfd5de2ded08afdb07f3f1bdef28f3ade8f2e59",
+      "bytes": 10288
     },
     {
       "file": "docs/FINAL_REVIEW_AR.md",
-      "sha256": "5e71a5d49579ccd4d0cbd3dd20b7a1a0cc648354f2ae643ddf42776329498771",
-      "bytes": 10196
+      "sha256": "74ede59fbd848872560f2020fc690da1ed64762dbb811db0ff4cf565cffc4bba",
+      "bytes": 10179
     },
     {
       "file": "docs/INNOVATION_AR.md",
@@ -1275,8 +1275,8 @@
     },
     {
       "file": "docs/RELEASE_AR.md",
-      "sha256": "72972be902b9b711096231067534542ef6857bdaec2f1951e3ed7fc6736d3c82",
-      "bytes": 13390
+      "sha256": "2d85cd828933a8826cba902aceedf3d80272f4001e076dfcf38922eadb88d8cc",
+      "bytes": 13447
     },
     {
       "file": "docs/RIGHTS_AR.md",
@@ -1420,7 +1420,7 @@
     },
     {
       "file": "evidence/delivery-materials-check-20261006.json",
-      "sha256": "f5010ddd01e08b0e74e1c0ec23fc5c540135749388157b1f39d23cc2a99d09af",
+      "sha256": "70124113ed664925a2d104b964aac7eca5ae15b6402271daec286ec1058b9519",
       "bytes": 704
     },
     {
@@ -1439,9 +1439,14 @@
       "bytes": 1012
     },
     {
+      "file": "evidence/presentation-roadmap-20261006.json",
+      "sha256": "e310898570fed145220a0d1b1ea21f6e0ae3bd0ef8c82e923fabeb8fa8ba118f",
+      "bytes": 1864
+    },
+    {
       "file": "evidence/presentation-slide2-20261006.json",
-      "sha256": "37b295f814e927298f28968dc5fcb5869ec6736f0c2b9e80a51efb00ccb1c05b",
-      "bytes": 1575
+      "sha256": "7b6c352d5c804608a612452be0fb235f9538ba20eb8e8adf8364fb888c5d068c",
+      "bytes": 1770
     },
     {
       "file": "evidence/presentation-theme-20261006.json",
@@ -1695,13 +1700,13 @@
     },
     {
       "file": "presentation/Barq_Final_AR.pdf",
-      "sha256": "3e14a1f754e701cf65ac72911cab8b3cf413622ad76522608936f2a9239d335f",
-      "bytes": 5250851
+      "sha256": "889c51678b0d012f10758966929bd8b13ca9ce5a0c278325e8a5e6fab9c23b24",
+      "bytes": 5242459
     },
     {
       "file": "presentation/Barq_Final_AR.pptx",
-      "sha256": "1cbf68f0455021ed0a0209f0fad9ce2debdf2c576b35500d6be5b4915a48ee62",
-      "bytes": 2606235
+      "sha256": "598c97fccf95f880f9098a970e5f701bc06dfd111663f092c95026166c9db207",
+      "bytes": 2605259
     },
     {
       "file": "presentation/Barq_User_Guide_AR.pdf",
@@ -1710,13 +1715,13 @@
     },
     {
       "file": "presentation/README.md",
-      "sha256": "8d68472da6fffd92bb12de52867b53abd5d660df2c12edc97e1196fe256e5fda",
-      "bytes": 5592
+      "sha256": "ded0ceb2694a187dd585a29b092cebf93d63f63ecf08ca6e446932b5c6a45a87",
+      "bytes": 6145
     },
     {
       "file": "presentation/slide-text.json",
-      "sha256": "b6ab542296a733d1717ee2d6ccf30ffbe2f422a50ee161b7e37e15f370e1653e",
-      "bytes": 22906
+      "sha256": "c1fdb27b196cac948be18f5c2ce150f72b898c8681a21ecb123682f510121f23",
+      "bytes": 22368
     },
     {
       "file": "scripts/compare_baseline.py",
