@@ -35,10 +35,10 @@
   "known_issue": "The surrounding morphology table contains incorrect weights, including labels for مرشد and يرشد. These screenshots do not validate those weights or all listed morphological possibilities.",
   "general_accuracy": null,
   "timestamp_basis": "Original screenshot file modification times, converted to Asia/Riyadh UTC+03:00; not an estimate from conversation.",
-  "video_revision": "Council R14",
+  "video_revision": "Council R15",
   "video_scene_seconds": [
     49,
     61
   ],
-  "video_verification": "media/r14-verification.json"
+  "video_verification": "media/r15-verification.json"
 }

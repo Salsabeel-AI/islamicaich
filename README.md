@@ -58,11 +58,11 @@
 
 ## مواد التسليم
 
-[العرض PDF — ١٦ شريحة](presentation/Barq_Final_AR.pdf) · [PowerPoint](presentation/Barq_Final_AR.pptx) · [فيلم المجلس R14 — ١:٥٨](https://islamicaich.salsabeel.ai/beta/2-5/?v=14) · [حزمة المراجعة](docs/FINAL_REVIEW_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md)
+[العرض PDF — ١٦ شريحة](presentation/Barq_Final_AR.pdf) · [PowerPoint](presentation/Barq_Final_AR.pptx) · [فيلم المجلس R15 — ١:٥٨](https://islamicaich.salsabeel.ai/beta/2-5/?v=15) · [حزمة المراجعة](docs/FINAL_REVIEW_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md)
 
 توضح صفحة المراجعة إصدار كل مادة؛ اللقطات والتقييمات القديمة أدلة مؤرخة على التجربة السابقة، ولا تُعرض على أنها تصوير للمجلس الجديد.
 
-الفيلم R14 والعرض يستخدمان لقطات الأدوات من المجلس الحالي، مع الاحتفاظ بالمقدمة والعلماء والتعليق الصوتي المعتمد. طابقت ألوان مواد العرض ألوان الموقع الحي؛ لم تتغير أدلة الإجابات بسبب ذلك. [بيان الإصدار والمواد](docs/FINAL_REVIEW_AR.md).
+الفيلم R15 والعرض يستخدمان لقطات الأدوات من المجلس الحالي، مع الاحتفاظ بالمقدمة والعلماء والتعليق الصوتي المعتمد. طابقت ألوان مواد العرض ألوان الموقع الحي؛ لم تتغير أدلة الإجابات بسبب ذلك. [بيان الإصدار والمواد](docs/FINAL_REVIEW_AR.md).
 
 تقارير [المرشدين](https://islamicaich.salsabeel.ai/reports/mentors-briefing) و[خطة المشاركة](https://islamicaich.salsabeel.ai/reports/participation-plan) محفوظة كسجل سابق؛ الوصف الحالي للشخصيات ونطاق الكود في هذه الحزمة ودليل المجلس.
 

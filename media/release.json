@@ -1,21 +1,21 @@
 {
-  "revision": "Council R14",
+  "revision": "Council R15",
   "date": "2026-10-06",
   "duration_seconds": 118,
   "width": 1920,
   "height": 1080,
   "fps": 24,
-  "watch_url": "https://islamicaich.salsabeel.ai/beta/2-5/?v=14",
+  "watch_url": "https://islamicaich.salsabeel.ai/beta/2-5/?v=15",
   "files": [
     {
       "file": "app/public/beta/2-5/film-r10-music.mp4",
-      "sha256": "bcc046d6e6bb33cd326d88e970b8e164bfc2bc3b20c69594f1900bfd09c05517"
+      "sha256": "5498fb1d1beb04c4386755bf7c32bcd3ef313fa35965bd0a523b9187162850b2"
     },
     {
       "file": "app/public/beta/2-5/film-r10-voice.mp4",
-      "sha256": "9fe8e768982e95d751902d22e75812a40271c1604535d27b586abb24bf663bd6"
+      "sha256": "dc24f3d5e6f66a03be0f4d118fcad4d7658558688ac8131cf6da8d7f8ae1f5dd"
     }
   ],
   "source_scope": "Flattened picture and approved audio masters; safe reconstruction, no private model production code.",
-  "revision_note": "Authored frames from22 to112 seconds now match the current primary Council palette. Evidence screenshots and spoken content are unchanged. Approved intro/scientists0–22 and closing112–118 retained. Both audio streams copied bit-for-bit from R13;118 seconds. New current-Council poster. Historical r10 asset filenames retained for route compatibility."
+  "revision_note": "Scientists scene10–22 seconds: old navy title/caption framing rebuilt in current Council colours. Original scientific heritage artwork and caption sequence retained; no new imagery or narration. R14 content outside this scene unchanged before encoding. Both approved audio streams copied bit-for-bit from R14; total118 seconds. Historical r10 filenames retained for route compatibility."
 }

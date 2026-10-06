@@ -20,7 +20,7 @@
 
 ## رابط الفيديو
 
-[الفيديو التوضيحي R14 — ١١٨ ثانية](https://islamicaich.salsabeel.ai/beta/2-5/?v=14)
+[الفيديو التوضيحي R15 — ١١٨ ثانية](https://islamicaich.salsabeel.ai/beta/2-5/?v=15)
 
 ## الكود المصدري
 

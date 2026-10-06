@@ -1,6 +1,6 @@
 const video=document.querySelector('video'),toggle=document.querySelector('#music'),status=document.querySelector('#status');
 const params=new URLSearchParams(location.search);let music=params.get('music')!=='off',switching=false;
-const file=()=>`/beta/2-5/film-r10-${music?'music':'voice'}.mp4?v=14`;
+const file=()=>`/beta/2-5/film-r10-${music?'music':'voice'}.mp4?v=15`;
 function label(){const text=music?'إيقاف الموسيقى مع استمرار الراوي':'تشغيل الموسيقى مع الراوي';toggle.setAttribute('aria-pressed',String(music));toggle.setAttribute('aria-label',text);toggle.title=text;}
 label();
 if(!music)video.src=file();

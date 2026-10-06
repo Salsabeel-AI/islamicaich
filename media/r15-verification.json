@@ -1,0 +1,47 @@
+{
+  "revision": "Council R15",
+  "created_utc": "2026-10-06T17:25:55.062354+00:00",
+  "duration_seconds": 118,
+  "frames": 2832,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "both_versions_decoded": true,
+  "identical_picture_streams": true,
+  "approved_audio_streams_bit_identical_to_r14": {
+    "music": true,
+    "voice": true
+  },
+  "updated_seconds": [
+    10,
+    22
+  ],
+  "authored_regions_y": [
+    [
+      0,
+      246
+    ],
+    [
+      822,
+      1080
+    ]
+  ],
+  "changed_frame_count": 288,
+  "scientists_art_unchanged_before_encode": true,
+  "approved_text_and_transitions_preserved": true,
+  "scope": "Recolour only the two authored text/background strips in the approved scientists scene. Preserve the original moving artwork (rows 246–821), all approved text and its transitions. All other frames pass through unchanged before one lossy video encode. R14 poster retained.",
+  "files": {
+    "picture.mp4": {
+      "sha256": "d93741e1ef0c30729fca764b163a3c2f65a2ba71e6115fd60621a0698de00c14",
+      "bytes": 6262034
+    },
+    "film-r10-music.mp4": {
+      "sha256": "5498fb1d1beb04c4386755bf7c32bcd3ef313fa35965bd0a523b9187162850b2",
+      "bytes": 9292174
+    },
+    "film-r10-voice.mp4": {
+      "sha256": "dc24f3d5e6f66a03be0f4d118fcad4d7658558688ac8131cf6da8d7f8ae1f5dd",
+      "bytes": 8885499
+    }
+  }
+}
