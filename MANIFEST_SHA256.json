@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-05T18:59:50.920355+00:00",
+  "created_at_utc": "2026-10-06T07:23:07.082041+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -30,8 +30,8 @@
     },
     {
       "file": "README.md",
-      "sha256": "5d98dec6303417b095f29ef70b99ee18e81fa3f5a5543cd40bb22e1501ae971d",
-      "bytes": 6562
+      "sha256": "00fd97859adec087ed64efae39c56536ec7c301f3051640e869c1b12714325c5",
+      "bytes": 6888
     },
     {
       "file": "app/.env.example",
@@ -109,9 +109,29 @@
       "bytes": 10392004
     },
     {
+      "file": "app/public/beta/2-5/guide/capabilities.jpg",
+      "sha256": "af819ef18768e6acf43650d073a1d20c390401b0df0a21cb4e3060b1f9863405",
+      "bytes": 87656
+    },
+    {
+      "file": "app/public/beta/2-5/guide/open-evidence.jpg",
+      "sha256": "6d4b23f0a8c8edcc0fd39a5cadf99c35e593360da8c9583348e82a2928279af6",
+      "bytes": 93878
+    },
+    {
+      "file": "app/public/beta/2-5/guide/start.jpg",
+      "sha256": "3128ae73472a7ae344bff8b6ed51b3be9d39524427a1fc8592d49a271760c4cd",
+      "bytes": 78418
+    },
+    {
+      "file": "app/public/beta/2-5/guide/write-question.jpg",
+      "sha256": "7166bf6fd1616135d87529052d1b491300bd0aae59721d8a9c875b31cf191e5d",
+      "bytes": 78233
+    },
+    {
       "file": "app/public/beta/2-5/index.html",
-      "sha256": "071c51ac3d32d0af848a537925344952fe832c41f4e82daa08bade421a4b2a51",
-      "bytes": 13039
+      "sha256": "2e76c0dcbfe317a8f80de8584f8179b35d8d6c251adfb8d907f5bc44c512f572",
+      "bytes": 15039
     },
     {
       "file": "app/public/beta/2-5/narration-r10.txt",
@@ -155,8 +175,8 @@
     },
     {
       "file": "app/public/index.html",
-      "sha256": "0f39a99a8931b8a42d5bda8daad84ff97398c0e13a767edebb3d6ff11fb949a8",
-      "bytes": 35795
+      "sha256": "444090fcdf8336b50c06e686774a794874adc32597a566d2c779192caf0f5a8e",
+      "bytes": 35973
     },
     {
       "file": "app/public/reports/index.html",
@@ -719,6 +739,16 @@
       "bytes": 3099
     },
     {
+      "file": "docs/FINAL_REVIEW_AR.md",
+      "sha256": "4d4a4c98bbbd3506d5eed1a4eb119f72f559e916e8d63218e39ae3ff1f8647df",
+      "bytes": 3109
+    },
+    {
+      "file": "docs/INNOVATION_AR.md",
+      "sha256": "fdb932d2e9d69aff71d4dbea9ef600c80fedf5fc0227e0f1dbd3bd8e034e27d1",
+      "bytes": 4856
+    },
+    {
       "file": "docs/JUDGING_MAP_AR.md",
       "sha256": "c27f41d44cc17fd73750c2823fe1ce11fb46703dd4ff83f167c45a139b711081",
       "bytes": 2165
@@ -735,8 +765,8 @@
     },
     {
       "file": "docs/RELEASE_AR.md",
-      "sha256": "b870575af8fbc6809f6aa57958aecd7ca513d7958d0fa608de93822ef61f54f3",
-      "bytes": 3318
+      "sha256": "17d1130800f2ba039b73506ce90f7d1e50694db89fc0f6661e996f8cf2af395a",
+      "bytes": 4327
     },
     {
       "file": "docs/RIGHTS_AR.md",
@@ -752,6 +782,11 @@
       "file": "docs/SOURCES_AR.md",
       "sha256": "81c6f724ed9b8f946eeabf85867f2ead775ce9ddd430385fed24a4f7f0b4a921",
       "bytes": 10729
+    },
+    {
+      "file": "docs/USER_GUIDE_AR.md",
+      "sha256": "fbcc00388ec33dd9380ca519d8d798a952bfa6680a5de4eeca55ee6638423a06",
+      "bytes": 5520
     },
     {
       "file": "docs/source-coverage.json",
@@ -770,8 +805,8 @@
     },
     {
       "file": "evaluation/README.md",
-      "sha256": "3f56c457b5ce848be6455611785f8f92a7d34c1d391dfd17e5339294de437adf",
-      "bytes": 2671
+      "sha256": "927079905799cf2fa365b3a66af2f5aa1b6447beb5a6eb05f5b61d888e17e8b8",
+      "bytes": 2998
     },
     {
       "file": "evaluation/acceptance-cases.json",
@@ -795,8 +830,8 @@
     },
     {
       "file": "evaluation/service-status.json",
-      "sha256": "2d3ec5d5b9c6ef6def5585249ca0844cb2a123d947053ad3a452e5df2ccaef7e",
-      "bytes": 1435
+      "sha256": "ba0126b0c6063c5fcd26ab317a676efe7f24d4aa6acbb9e9f8dcbf9dc4018b93",
+      "bytes": 1731
     },
     {
       "file": "evaluation/summary.json",
@@ -824,9 +859,24 @@
       "bytes": 3310
     },
     {
+      "file": "evidence/day3-live-check-summary.json",
+      "sha256": "4c28639427a3a0385e325305217d9fe58fda63304d37eedf73864a445d322228",
+      "bytes": 2930
+    },
+    {
+      "file": "evidence/innovation-register.json",
+      "sha256": "8dfe0a584ce1a3bdb5a4dfb5a8d48dbe3d9995b1cff96f73fcaeb310aa7477dc",
+      "bytes": 1809
+    },
+    {
       "file": "evidence/materials-v2-checks.json",
       "sha256": "2ad0a71254b2de68fb4053a893cebf1d0f227c17f87bc0ebd5f26a2f1a2ab60c",
       "bytes": 1198
+    },
+    {
+      "file": "evidence/materials-v3-checks.json",
+      "sha256": "33be5c73ae288df7ce44b6ac4620b9f5b06a4417d0a6047feb8d21f41194e642",
+      "bytes": 1012
     },
     {
       "file": "evidence/release-checks.json",
@@ -899,6 +949,11 @@
       "bytes": 35924
     },
     {
+      "file": "evidence/user-guide-captures.json",
+      "sha256": "d9778c36dc25504b3b43297906de7f2656cf73785313b08bf43ba86214dd9b7b",
+      "bytes": 1263
+    },
+    {
       "file": "licenses/LibreChat-MIT.txt",
       "sha256": "1ce5c9d51e5ab764b44142cd44d1e687f5bfe32f807c7221c14d061007309b97",
       "bytes": 1066
@@ -965,23 +1020,28 @@
     },
     {
       "file": "presentation/Barq_Final_AR.pdf",
-      "sha256": "d3646da20897bb89dd266dede77d6e3d3fc02949f40b3bbad711023e88390f7d",
-      "bytes": 3177937
+      "sha256": "02ae10f0f2c3eb7fb619b670aea0f13d41d21fedd5a7a61439175776042dca76",
+      "bytes": 4404125
     },
     {
       "file": "presentation/Barq_Final_AR.pptx",
-      "sha256": "f5a3aabe34a716e15eb874b1ee48895493edd128f4c32d209f07011deba34f22",
-      "bytes": 2629430
+      "sha256": "41f830babd198fdea78e00ff1f8e5eda723d1f80d2e08a719f940119bc0a9740",
+      "bytes": 2799637
+    },
+    {
+      "file": "presentation/Barq_User_Guide_AR.pdf",
+      "sha256": "9bb0b143c799b7425ebd734ca7e7e918581d7713f897b30a9713db80399e5e96",
+      "bytes": 1262758
     },
     {
       "file": "presentation/README.md",
-      "sha256": "e198d365531de081bff3ed2bef734be1d77db5106ae86fae1c1822f214f20f52",
-      "bytes": 1573
+      "sha256": "7233d39bddd434508c11bd2128fcf3588ab14071194ccab1895fcecef6578884",
+      "bytes": 1865
     },
     {
       "file": "presentation/slide-text.json",
-      "sha256": "1606f8bdbb3ad7268d68c34e58e7094b138cafd28a544e2eda593bf73f8838ba",
-      "bytes": 11441
+      "sha256": "eca9eae435edde9f857f5dc9d7ee37ffc24913aaa3b48c31e2575c850f44864e",
+      "bytes": 14553
     },
     {
       "file": "scripts/compare_baseline.py",

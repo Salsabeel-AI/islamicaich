@@ -1,0 +1,55 @@
+{
+  "as_of": "2026-10-06T10:02:57+03:00",
+  "source": "selected projection of owner-retained P30 live check, reviewed alongside session deployment statement",
+  "source_sha256": "bc65d8e9486b4d7af0a5c5f7c349fc3cc0032802f854ce0aa80b73e8cb4c9aec",
+  "deployment": "P30 reported live with rollback stamp 20261006T100129",
+  "cases": [
+    {
+      "question": "ما هي زكاة الركاز",
+      "elapsed_seconds": 5.0,
+      "observation_ar": "ظهرت بطاقة اختيار مراجع؛ لا يصنف ذلك وحده جوابًا مكتملًا.",
+      "semantic_acceptance": "not_certified",
+      "answer_excerpt_sha256": "7ef1c8f6d86e0707039def01eeb90e24a3fa5424f8ea3047807baaca7792c6a8"
+    },
+    {
+      "question": "كم مدة عدة المتوفى عنها زوجها",
+      "elapsed_seconds": 6.6,
+      "observation_ar": "مرجع متعلق بالسؤال؛ صحة النقل والملاءمة تحتاج مراجعة محتوى.",
+      "semantic_acceptance": "not_certified",
+      "answer_excerpt_sha256": "60f9c1162aecc3d0ead3b2f569d5185619e95048eafd2c3bae09a90e1b499bf1"
+    },
+    {
+      "question": "كم نصاب الفضة",
+      "elapsed_seconds": 2.0,
+      "observation_ar": "المقتطف المسجل لا يقدم نصاب الفضة عدديًا؛ لا نعد الحالة نجاحًا دلاليًا.",
+      "semantic_acceptance": "not_certified",
+      "answer_excerpt_sha256": "ed358f772971ad7848ea9c91d94ef4c759f0f0e185963cf2fbad79013a5d0369"
+    },
+    {
+      "question": "من هو الدجال",
+      "elapsed_seconds": 15.4,
+      "observation_ar": "تظهر مصادر عامة خارج قائمة مرجعية التحدي؛ لا نعد وجود مصادر اجتيازًا لشرط الاعتماد.",
+      "semantic_acceptance": "not_certified",
+      "answer_excerpt_sha256": "7ef47ee2424716f114d0ccfba8c4b26e51cb2968527a76a595a9460174a7a9bc"
+    },
+    {
+      "question": "كم مرة ذكرت مريم في القرآن",
+      "elapsed_seconds": 3.0,
+      "observation_ar": "العد والمواضع ظاهران؛ يلزم التحقق المستقل من نطاق العد وصحته.",
+      "semantic_acceptance": "not_certified",
+      "answer_excerpt_sha256": "0672820e773696366d1ef720778b960959dadef569fc901c7af23b247a2ae258"
+    },
+    {
+      "question": "ما حكم أكل لحم الذئب",
+      "elapsed_seconds": 2.9,
+      "observation_ar": "مرجع فقهي ظاهر؛ النقل وملاءمة الاستدلال يحتاجان مراجعة مختص.",
+      "semantic_acceptance": "not_certified",
+      "answer_excerpt_sha256": "2bd4c7180d42c9a4907231f328b6455f3c49cda8b6c61469de002677608c8e02"
+    }
+  ],
+  "limits": [
+    "Six-question smoke check, not the full acceptance suite",
+    "No original private session or provider code redistributed",
+    "Source presence and correct routing do not certify religious or semantic correctness"
+  ]
+}

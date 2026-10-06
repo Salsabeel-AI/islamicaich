@@ -1,0 +1,37 @@
+{
+  "recorded_on": "2026-10-06",
+  "scope": "Selected public-facing metadata only; not invention specifications or claim-scope/legal determination",
+  "source_register_sha256": "650f87ff98ccb2944e528bd56e63424208ba111bf20226ee3a791f5b2b1bed61",
+  "applications": [
+    {
+      "reference": "SA 1020261862",
+      "title": "منصة تطوير تطبيقات مؤسسية معززة بالذكاء الاصطناعي متعددة المناطق مع فرض سلوك حتمي لنموذج اللغة وهندسة امتثال متتالية متعددة الطبقات",
+      "working_name": "منصة سلسبيل",
+      "label_ar": "طلب براءة اختراع مسجّل — بحسب سجل المالك",
+      "granted": false,
+      "registry_independently_verified": false,
+      "owner_confirmation_date": "2026-10-01"
+    },
+    {
+      "reference": "SA 1020268774",
+      "title": "ضبط الاستشهادات بذاكرة نصية متعددة السياسات",
+      "working_name": "NMN",
+      "label_ar": "طلب براءة اختراع مسجّل — بحسب سجل المالك",
+      "granted": false,
+      "registry_independently_verified": false,
+      "owner_confirmation_date": "2026-10-01"
+    }
+  ],
+  "research": [
+    {
+      "title": "المنطق القابل للقياس في اختيار القرآن لكلماته",
+      "url": "https://barq.salsabeel.ai/public/reports/barq-findings-public-ar-2026-07-07.html",
+      "type": "owner-published research report; peer review not established here"
+    },
+    {
+      "title": "المتجاور في القرآن — تقرير الاكتشاف والأدلة",
+      "url": "https://barq.salsabeel.ai/public/reports/quran-adjacency-discovery-ar.html",
+      "type": "owner-published research and tool audit"
+    }
+  ]
+}

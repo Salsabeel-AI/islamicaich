@@ -1,0 +1,30 @@
+{
+  "release": "review-materials-v3",
+  "checked_at_utc": "2026-10-06T07:23:07.040041+00:00",
+  "application_tests": {
+    "passed": 41,
+    "failed": 0,
+    "syntax_check": "pass"
+  },
+  "baseline_files_verified": 53,
+  "approved_film_changed": false,
+  "presentation": {
+    "slides": 15,
+    "package_integrity": "pass",
+    "layout_geometry": "pass",
+    "font_policy": "Tahoma",
+    "final_file_import": "pass",
+    "all_slides_rendered_and_visually_reviewed": true,
+    "pdf_pages": 15,
+    "quick_guide_pages": 3,
+    "pdf_render_check": "Poppler rendered presentation pages 4–5 and all three guide pages; all underlying final PPTX slide images visually inspected",
+    "native_microsoft_powerpoint_execution": false
+  },
+  "local_document_links_checked": 123,
+  "sensitive_signature_scan": {
+    "text_parts": 179,
+    "findings": [],
+    "scope": "Credential signatures in text and PPTX XML; not an exhaustive security certification"
+  },
+  "provider_acceptance": "pending; see service-status.json"
+}

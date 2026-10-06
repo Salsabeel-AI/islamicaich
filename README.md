@@ -1,8 +1,11 @@
-# برق للمحتوى الإسلامي | سلسبيل
+# برق: الذكاء العربي الموثّق لخدمة المعرفة الإسلامية
 
 **برق: ذكاءٌ نملك أوزانه، ونضبط بالنصِّ استدلاله؛ يُظهر دليله، ويمتنع حين لا يكفي الدليل.**
 
 [جرّب المحادثة](https://islamicaich.salsabeel.ai/) · [شاهد الفيلم — ١:٥٨](https://islamicaich.salsabeel.ai/beta/2-5/) · [عرض المرشدين](https://islamicaich.salsabeel.ai/reports/mentors-briefing) · [ابدأ مراجعة الأدلة](evidence/README.md)
+
+
+**تسليم ٦ أكتوبر:** [حزمة المراجعة النهائية](docs/FINAL_REVIEW_AR.md) · [دليل الاستخدام المصوّر](docs/USER_GUIDE_AR.md) · [ابتكارات NMN والتجاور والأبحاث وطلبات البراءة](docs/INNOVATION_AR.md)
 
 ## المشكلة التي نعالجها
 
@@ -28,7 +31,7 @@
 
 [العرض PDF](presentation/Barq_Final_AR.pdf) · [العرض PowerPoint](presentation/Barq_Final_AR.pptx) · [خريطة معايير التحكيم](docs/JUDGING_MAP_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md) · [حالة الخدمة وإعادة الاختبار](evaluation/ACCEPTANCE_AR.md)
 
-المستودع عام. هذا إصدار مواد التسليم المؤرخ في ٥ أكتوبر؛ إصلاحات الخدمة الحية تُوثق منفصلة ولا تتحول إلى ادعاءات نجاح قبل إعادة التحقق.
+المستودع عام. هذا إصدار مواد التسليم المؤرخ في ٦ أكتوبر؛ إصلاحات الخدمة الحية تُوثق منفصلة ولا تتحول إلى ادعاءات نجاح قبل إعادة التحقق.
 
 ## للمحكّم: خمس دقائق تكفي للبدء
 
@@ -74,6 +77,6 @@ npm run check
 | `media/` | النص والتوقيت ومصادر إعادة تركيب الفيلم وحقوق الصوت |
 | `challenge/` | خط أساس مؤرخ وفروق التطبيق وحدود احتساب العمل |
 
-تحديث مواد التسليم الثاني: ٥ أكتوبر ٢٠٢٦، بيتا ٢٫٥ / فيلم R11. المستودع لا يجمّد حالة API المستقبلية. [القيود](docs/LIMITATIONS_AR.md) · [الحقوق والاعتمادات](docs/RIGHTS_AR.md) · [فحص الحزمة](docs/RELEASE_AR.md).
+تحديث مواد التسليم الثالث: ٦ أكتوبر ٢٠٢٦، بيتا ٢٫٥ / فيلم R11. المستودع لا يجمّد حالة API المستقبلية. [القيود](docs/LIMITATIONS_AR.md) · [الحقوق والاعتمادات](docs/RIGHTS_AR.md) · [فحص الحزمة](docs/RELEASE_AR.md).
 
 Salsabeel is the hosted model/API provider. This repository delivers the challenge application and selected evidence, not model weights, training infrastructure, full corpora, or proprietary provider internals. Arabic is the primary reviewer documentation language.
