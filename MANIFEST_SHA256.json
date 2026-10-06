@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T18:08:08.815851+00:00",
+  "created_at_utc": "2026-10-06T21:03:28.731010+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -30,8 +30,8 @@
     },
     {
       "file": "README.md",
-      "sha256": "8892e88b6891fafecbf94535ce859a0959a5d5ea7733f52d441311eb1d950c8c",
-      "bytes": 12423
+      "sha256": "f389815fdcaf84903928f630e085058a24a8205199a3df7605c2c743bf1a6dc7",
+      "bytes": 12958
     },
     {
       "file": "app/.env.example",
@@ -685,8 +685,8 @@
     },
     {
       "file": "council/README.md",
-      "sha256": "5da09a14a8396670f6a3d9cf07a553a0a44f459a95e132e5353c3ad8c42ec30a",
-      "bytes": 4175
+      "sha256": "33963d82dd5cd96f70d07c3a838dcac3760c6a9c98b8dabb430ca84e0bc7f067",
+      "bytes": 4415
     },
     {
       "file": "council/application/provider-errors.mjs",
@@ -710,8 +710,8 @@
     },
     {
       "file": "council/licenses/README.md",
-      "sha256": "f2cf1c42a7eed77fe7b9cf052b9fe7ba443a09b80d63e4ab1c8fa229fe6b2ae7",
-      "bytes": 591
+      "sha256": "3bfa34716d894c3cf4bc9883468e4875f8bf0bf3f577a2cce7b93140c10caa7b",
+      "bytes": 938
     },
     {
       "file": "council/licenses/bail__license",
@@ -1209,6 +1209,11 @@
       "bytes": 9220
     },
     {
+      "file": "data-cards/rag/source-integration-receipt.json",
+      "sha256": "c17f6207769539047557785425ddfe1de0e16983601c2de2038bde9cfed96537",
+      "bytes": 4974
+    },
+    {
       "file": "data-cards/sft/README.md",
       "sha256": "1ba85b9ab4eacd1fc30024875652fc0deb7b21eaf7b5b55f8346349943abf965",
       "bytes": 2246
@@ -1265,8 +1270,8 @@
     },
     {
       "file": "docs/LIMITATIONS_AR.md",
-      "sha256": "376fd06b87fdb75ee076036094e0107421ca6dbe517f1086d496aecf16512020",
-      "bytes": 6382
+      "sha256": "c9cccc5d6c4d356486bfed18bb64549f9c3350c382e7b30652b6fe89f556f2ca",
+      "bytes": 7202
     },
     {
       "file": "docs/OPERATIONS_AR.md",
@@ -1290,8 +1295,13 @@
     },
     {
       "file": "docs/SOURCES_AR.md",
-      "sha256": "e178aa3b02997a6d076d7038cfc8568f8048302dd21095a9b3f16f073050eafb",
-      "bytes": 14714
+      "sha256": "8cfeb04d81a4e3b0534a3043f68469c05cf6fb445d7bb5f00dadc6cd6f5b6ba5",
+      "bytes": 18866
+    },
+    {
+      "file": "docs/STATUS_20261007_AR.md",
+      "sha256": "d51bf3541d6e87c11c8097c9e6ebaeb12bc18ca717eaa4919e3ed13941ee50d5",
+      "bytes": 7557
     },
     {
       "file": "docs/SUBMISSION_AR.md",
@@ -1305,8 +1315,8 @@
     },
     {
       "file": "docs/source-coverage.json",
-      "sha256": "4c9c81b88fca65a7fe00205a4680dced26a056071adaae1c3db9e10423c9e587",
-      "bytes": 7049
+      "sha256": "1efc00eb9147454d9f60d1cfa853a610c88a307ca3c0e21ef484aea564901e5f",
+      "bytes": 9500
     },
     {
       "file": "docs/source-rights-register.json",
@@ -1387,6 +1397,11 @@
       "file": "evidence/council-captures.json",
       "sha256": "5ca8812f87f47962529432f14b57e8ab8e08281bba1705120c006679908761fe",
       "bytes": 8463
+    },
+    {
+      "file": "evidence/council-focused-diagnostic-20261006.json",
+      "sha256": "1086c4dc90fbd72e9a3af19c7af40bc53b546da0361d5b3efa252db551fe4569",
+      "bytes": 2485
     },
     {
       "file": "evidence/council-promotion-20261006.json",

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-06",
+  "scope": "Projection of dated ingestion, cutover, catalog and preservation evidence. No live SQL, ingestion or service changes in this review.",
+  "external_evidence": {
+    "recorded_at_utc": "2026-10-03T14:11:11.771305+00:00",
+    "records": 21312,
+    "unit": "external evidence records; not unique complete pages or books",
+    "providers": [
+      {
+        "name": "الدرر السنية",
+        "url": "https://dorar.net/",
+        "records": 13888
+      },
+      {
+        "name": "الجمهرة",
+        "url": "https://islamic-content.com/",
+        "records": 6456
+      },
+      {
+        "name": "المستودع الدعوي الرقمي",
+        "url": "https://dawa.center/",
+        "records": 794
+      },
+      {
+        "name": "الموسوعة القرآنية",
+        "url": "https://quranpedia.net/",
+        "records": 174
+      }
+    ],
+    "cutover_recorded_at_utc": "2026-10-03T13:30:38.878966+00:00",
+    "preservation_rechecked_on": "2026-10-05",
+    "data_audit_issue_counts": {
+      "not_reader_eligible": 1
+    },
+    "all_queries_accepted": false
+  },
+  "atlas_catalogues": [
+    {
+      "library_id": 314,
+      "name_ar": "فهرس كتب الدعوة",
+      "url": "https://dawa.center/",
+      "catalog_records": 7914,
+      "unit": "book metadata records with source page links",
+      "activation_recorded_on": "2026-10-01",
+      "downloaded_book_files": 0,
+      "canonical_unique_works_added_claimed": false
+    },
+    {
+      "library_id": 299,
+      "name_ar": "المكتبة الشاملة",
+      "url": "https://shamela.ws/",
+      "catalog_records": 8589,
+      "unit": "web file/link records",
+      "canonical_works_counter": 8506,
+      "new_full_text_ingestion_claimed": false
+    }
+  ],
+  "bayyinat": {
+    "url": "https://dawa.center/file/7937",
+    "evidence_on": "2026-09-30",
+    "status": "book metadata and attachment links recorded",
+    "attachment_downloaded": false,
+    "full_text_ingestion_verified": false,
+    "used_as_answer_source_verified": false
+  },
+  "dorar_imported_scopes": [
+    "aadab",
+    "adyan",
+    "alakhlaq",
+    "aqeeda",
+    "feqhia",
+    "frq",
+    "osolfeqh",
+    "qfiqhia"
+  ],
+  "dorar_total_does_not_establish_coverage_of": [
+    "tafseer",
+    "hadith",
+    "history"
+  ],
+  "embedding_boundaries": {
+    "frozen_wave_records": 20622,
+    "append_records": 10,
+    "previous_records_outside_wave": 680,
+    "final_external_evidence_records": 21312,
+    "atlas_counts_are_not_embedding_counts": true
+  },
+  "full_source_coverage_claimed": false,
+  "full_corpus_rights_audit_complete": false,
+  "source_receipt_hashes": [
+    {
+      "file_name": "all-sites-data-audit.json",
+      "sha256": "a892295f3e31967e123ab14ade624747e3c0bb2840b5ef6429daafcb78b98799",
+      "redistributed_original": false
+    },
+    {
+      "file_name": "final-table-cutover-receipt.json",
+      "sha256": "00333a5332b879f9c9a5dd72ca4bcc9dadcf3a38aa8c48c498ec1dea8896096f",
+      "redistributed_original": false
+    },
+    {
+      "file_name": "final-binding-verification.json",
+      "sha256": "72930b8117a486d2ee15b0d5bf3362ff4c5d2d81b0659517590f57a86f0b356c",
+      "redistributed_original": false
+    },
+    {
+      "file_name": "dawa-production-library-count-receipt.json",
+      "sha256": "75579d7e6e68bbb9b5b9e5d01f5430a1e0337812e5c86e9a2251578b708d3848",
+      "redistributed_original": false
+    },
+    {
+      "file_name": "dawa-production-independent-validation.json",
+      "sha256": "fd32b652c37e192595c8474b56c15a0b4db7d8a52ab0fa0821ae6fc3c6c47959",
+      "redistributed_original": false
+    },
+    {
+      "file_name": "activation-current-status.json",
+      "sha256": "fa4129a04a2da8583e4330236a79ee416b6fc698efde5e6dee273129d72e3584",
+      "redistributed_original": false
+    },
+    {
+      "file_name": "challenge-file-7937-gap-receipt.json",
+      "sha256": "97edcc0f882f3f24889f0c3097fcd4db1f8a3773e40463720ae137d40f010197",
+      "redistributed_original": false
+    },
+    {
+      "file_name": "PREKB_CLEANUP_20261005.md",
+      "sha256": "924e54818b3c566f39015bfaea0c937576e46010705654ef0b205a32768f2861",
+      "redistributed_original": false
+    },
+    {
+      "file_name": "index.json",
+      "sha256": "fc00e90a25b8367ca69f6d658cb02105a4991d6eae42316e0fcf6f36eb841bf6",
+      "redistributed_original": false
+    },
+    {
+      "file_name": "index.json",
+      "sha256": "adbf513df0bcbd201bbe08f7cab7fc30b22b9863e6d2882413cc045a7b240e53",
+      "redistributed_original": false
+    }
+  ],
+  "examples": [
+    {
+      "provider": "dawa.center",
+      "url": "https://dawa.center/file/17",
+      "kind": "hydrated KB text sample"
+    },
+    {
+      "provider": "dawa.center",
+      "url": "https://dawa.center/file/9170",
+      "kind": "Atlas book source-page link"
+    },
+    {
+      "provider": "quranpedia",
+      "url": "https://quranpedia.net/note/50870",
+      "kind": "hydrated KB note sample"
+    }
+  ]
+}

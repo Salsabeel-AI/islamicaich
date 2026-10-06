@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-10-06",
-  "scope": "Challenge reference-policy mapping and published evidence; not runtime configuration or full provider corpus inventory",
+  "scope": "Challenge reference-policy mapping, published evidence and dated partial source/catalog integration receipts; not full provider inventory or a live runtime acceptance claim",
   "requirement_documents": [
     {
       "document": "المرجعية.pdf",
@@ -51,23 +51,24 @@
         "https://islamic-content.com/"
       ],
       "use_rule_ar": "مرجعان شاملان للدعوة والمحتوى الإسلامي",
-      "published_evidence_status": "recorded_citations_only",
+      "published_evidence_status": "dated_partial_corpus_and_atlas_catalogue_receipts",
       "example_case_ids": [
         "P01",
         "P02",
         "P03"
       ],
-      "limitation_ar": "لا دليل منشور على استيعاب الموقعين كاملين"
+      "limitation_ar": "الجمهرة 6456 والدعوة 794 سجل شاهد؛ فهرس كتب الدعوة 7914 قيدًا منفصلًا. لا تغطية كاملة ولا تنزيل كتب."
     },
     {
       "id": "quran",
       "reference_urls": [
+        "https://qurancomplex.gov.sa/",
         "https://quranpedia.net/"
       ],
       "use_rule_ar": "نص ورسم وترجمات معتمدة من مجمع الملك فهد أو الموسوعة القرآنية",
-      "published_evidence_status": "demonstration_only",
+      "published_evidence_status": "dated_174_quranpedia_notes_and_historical_retrieval",
       "example_case_ids": [],
-      "limitation_ar": "طبعة النص ومطابقتها للمرجعية غير مثبتة هنا"
+      "limitation_ar": "174 ملاحظة من الموسوعة؛ لا يثبت ذلك استيعاب كتبها أو طبعة النص القرآني أو استيعاب مجمع الملك فهد."
     },
     {
       "id": "tafsir",
@@ -96,11 +97,11 @@
         "https://dorar.net/aqeeda"
       ],
       "use_rule_ar": "مصادر القرون الثلاثة الأولى أو موسوعة العقيدة",
-      "published_evidence_status": "recorded_citations_only",
+      "published_evidence_status": "historical_retrieval_and_dated_partial_dorar_inventory",
       "example_case_ids": [
         "P05"
       ],
-      "limitation_ar": "مرجع واحد لا يثبت تغطية الموسوعة"
+      "limitation_ar": "13888 إجمالي شواهد الدرر عبر ثمانية أقسام؛ لا يخص هذا القسم وحده ولا يثبت اكتماله."
     },
     {
       "id": "fiqh",
@@ -108,9 +109,9 @@
         "https://dorar.net/feqhia"
       ],
       "use_rule_ar": "كتب معتمدة في المذاهب الأربعة أو الدرر؛ دون فتوى شخصية أو ترجيح آلي مستقل",
-      "published_evidence_status": "inventory_not_published",
+      "published_evidence_status": "historical_retrieval_and_dated_partial_dorar_inventory",
       "example_case_ids": [],
-      "limitation_ar": "مثال الإحالة لا يثبت جرد الاستيعاب"
+      "limitation_ar": "13888 إجمالي شواهد الدرر عبر ثمانية أقسام؛ لا يخص هذا القسم وحده ولا يثبت اكتماله."
     },
     {
       "id": "history",
@@ -128,9 +129,9 @@
         "https://dawa.center/file/7937"
       ],
       "use_rule_ar": "بينات: أسئلة وأجوبة عن الإسلام؛ مرجع أساسي للحلول الحوارية",
-      "published_evidence_status": "inventory_not_published",
+      "published_evidence_status": "bayyinat_metadata_only",
       "example_case_ids": [],
-      "limitation_ar": "مقالات الجمهرة لا تثبت تلقائيا إدخال بينات"
+      "limitation_ar": "بطاقة بينات وروابط المرفق موثقة؛ استخراج المتن واستخدامه في الإجابات غير مثبتين."
     },
     {
       "id": "terminology",
@@ -138,12 +139,12 @@
         "https://islamic-content.com/dictionary"
       ],
       "use_rule_ar": "معجم الجمهرة مقدم على الترجمة الآلية للمصطلحات الحساسة",
-      "published_evidence_status": "historical_retrieval_records_only",
+      "published_evidence_status": "historical_dictionary_retrieval_and_partial_provider_inventory",
       "example_case_ids": [
         "P01",
         "P03"
       ],
-      "limitation_ar": "سجلات معجمية ظاهرة في تجربة الاسترجاع؛ لا جرد كامل للتغطية أو حقوق الاستيعاب"
+      "limitation_ar": "سجلات المعجم ظاهرة؛6456 إجمالي الجمهرة عبر أنواعها، وليس عدد مصطلحات المعجم وحده."
     }
   ],
   "rag_evidence": [
@@ -183,5 +184,51 @@
       "rights_note": "Site states its contents are an endowment; no blanket ingestion or redistribution licence inferred here"
     }
   ],
-  "additional_source_evidence_summary": "docs/SOURCES_AR.md"
+  "additional_source_evidence_summary": "docs/SOURCES_AR.md",
+  "source_integration_receipt": "data-cards/rag/source-integration-receipt.json",
+  "verified_integration_summary": {
+    "external_evidence_records": 21312,
+    "counts_by_provider": {
+      "dorar": 13888,
+      "jamhara": 6456,
+      "dawa.center": 794,
+      "quranpedia": 174
+    },
+    "atlas_dawa_catalog_records": 7914,
+    "atlas_shamela_web_records": 8589,
+    "last_preservation_receipt_on": "2026-10-05",
+    "verified_by_new_live_database_query": false
+  },
+  "additional_dorar_collections": [
+    {
+      "url": "https://dorar.net/alakhlaq",
+      "basis": "import map and/or published historical retrieval; not an additional official challenge requirement"
+    },
+    {
+      "url": "https://dorar.net/aadab",
+      "basis": "import map and/or published historical retrieval; not an additional official challenge requirement"
+    },
+    {
+      "url": "https://dorar.net/qfiqhia",
+      "basis": "import map and/or published historical retrieval; not an additional official challenge requirement"
+    },
+    {
+      "url": "https://dorar.net/osolfeqh",
+      "basis": "import map and/or published historical retrieval; not an additional official challenge requirement"
+    },
+    {
+      "url": "https://dorar.net/frq",
+      "basis": "import map and/or published historical retrieval; not an additional official challenge requirement"
+    },
+    {
+      "url": "https://dorar.net/adyan",
+      "basis": "import map and/or published historical retrieval; not an additional official challenge requirement"
+    }
+  ],
+  "live_url_checks_this_review": {
+    "dawa_home_and_bayyinat": "readable",
+    "shamela_home": "readable",
+    "qurancomplex_home": "fetch timed out; official domain established separately",
+    "all_links_individually_live_tested": false
+  }
 }

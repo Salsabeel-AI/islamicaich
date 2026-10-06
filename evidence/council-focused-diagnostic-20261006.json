@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "published_status_date_riyadh": "2026-10-07",
+  "type": "sanitized_diagnostic_summary",
+  "scope": "Two public Council turns, retained publication-error receipts, and one existing Genesis answer. Not an independent benchmark or general acceptance result.",
+  "public_site": "https://islamicaich.salsabeel.ai/",
+  "cases": [
+    {
+      "question": "ما الفرق بين النفس و الروح",
+      "status": "partial",
+      "runtime_ms": 18488,
+      "provider_calls": 5,
+      "cited_url": "https://islamic-content.com/dictionary/word/5798",
+      "citation_relevance": "failed",
+      "observed_internal_tools": ["salsabeel_compare_quran_roots", "salsabeel_semantic_search", "salsabeel_word_meaning", "salsabeel_get_tafsir_council", "salsabeel_quran_search_text"],
+      "finding": "Internal tools returned material, but some outputs admitted no citation-bound evidence; unrelated legal-analogy source was cited."
+    },
+    {
+      "question": "ماذا كان سؤالي السابق",
+      "same_conversation": true,
+      "ui_elapsed_seconds": 10.3,
+      "runtime_ms_excluding_queue": 4327,
+      "initial_draft_recalled_previous_question": true,
+      "initial_failure": "ANSWER_SCHEMA_INVALID",
+      "published_status_after_format_repair": "insufficient",
+      "finding": "Correct contextual recall was removed by the publication/repair boundary."
+    },
+    {
+      "user_reported_question": "لماذا تختلف أحكام العلماء؟",
+      "failure_at_utc": "2026-10-06T20:56:13.961Z",
+      "match_scope": "latest Qabas failure receipt and draft subject; the error receipt does not retain the original prompt",
+      "initial_format": "plain text",
+      "initial_evidence_bindings": 0,
+      "repair_attempts": 1,
+      "repair_result": {"status": "insufficient", "sections": []},
+      "final_error": "ANSWER_SCHEMA_INVALID"
+    }
+  ],
+  "genesis_comparison": {
+    "site": "https://barq.salsabeel.ai/",
+    "source": "read-only existing local conversation record",
+    "question_at_utc": "2026-10-06T20:48:32.581Z",
+    "answer_at_utc": "2026-10-06T20:48:58.932Z",
+    "persona": "qabas",
+    "same_question": true,
+    "new_generation_by_this_audit": false,
+    "clickable_references_in_answer": false,
+    "scientific_acceptance_claimed": false
+  },
+  "code_or_service_changed_by_diagnosis": false,
+  "fix_deployed": false,
+  "general_accuracy_claimed": false,
+  "private_conversations_or_credentials_included": false
+}
