@@ -6,6 +6,8 @@
 
 [ابدأ التجربة](https://islamicaich.salsabeel.ai/) · [دليل المحكّم](https://islamicaich.salsabeel.ai/judge-guide.html) · [دليل المستخدم المصوّر](docs/USER_GUIDE_AR.md) · [حزمة المراجعة](docs/FINAL_REVIEW_AR.md)
 
+[مطابقة متطلبات التسليم](docs/DELIVERY_REQUIREMENTS_AR.md) · [بيانات البوابة الجاهزة](docs/SUBMISSION_AR.md)
+
 **الفريق:** سلسبيل · **المسار:** الحوار المعرفي والإجابات الموثوقة · **نسخة المجلس:** ٦ أكتوبر ٢٠٢٦
 
 ## المشكلة والحل
@@ -36,6 +38,8 @@
 
 تضم الشرائح ٨ و٩ و١١ لقطات حديثة من المجلس: [استكمال الآية](evidence/screenshots/council-nmn-current.png)، و[التجاور الإحصائي](evidence/screenshots/council-adjacency-current.png)، و[جدول الفرائض](evidence/screenshots/council-inheritance-table.png). جُرّب كل مثال مرة واحدة؛ بقي خطأ في الوزن الصرفي لـ«النفس» خارج قسم البصمة، فلا تثبت هذه اللقطة صحة التحليل اللغوي الكامل.
 
+[مصفوفة إثبات الابتكار](evidence/INNOVATION_EVIDENCE_AR.md) تربط كل إضافة ببديل محدد ودليل ظاهر. تشمل أربع مقارنات تاريخية كاملة بين الشخصيات، بما فيها المقارنة غير الناجحة، وتجربة حالية لفتح ٣ شواهد «رشيد» وشاهد «مرشد». يستطيع المحكّم [إعادة حساب الملفات وإعادة تجربة القدرات](evidence/REPLAY_GUIDE_AR.md) بخطوات معلنة.
+
 تشمل [خريطة المصادر والحقوق](docs/SOURCES_AR.md) المراجع المعتمدة في التحدي، والمصادر التي تظهر في الأدلة، وإضافة **[مِقْرأ للدكتور أيمن فاتح العامر](https://miqrawajiz.netlify.app/)**. نميّز المرجع المضاف من المحتوى المثبت استيعابه وفهرسته.
 
 ## للمحكّم: ابدأ بخمس دقائق
@@ -43,8 +47,8 @@
 1. افتح المجلس، واختر الفتى، واسأل «لماذا يعبد المسلمون الكعبة؟» ثم افتح المصدر وراجع تصحيح فرضية السؤال.
 2. اختر لينة أو قبس، وأرسل سؤالًا محددًا؛ انتظر الرد النهائي وافتح «مصادر الإجابة».
 3. عد إلى الفتى للتحقق من بقاء محادثته. عند ظهور زر إحالة، جرّب إرسال السؤال إلى الشخصية المقترحة.
-4. راجع [الابتكارات](docs/INNOVATION_AR.md)، ثم [المعمارية](architecture/README.md) و[المصادر وتغطية RAG](docs/SOURCES_AR.md).
-5. افصل نتيجة التجربة الحالية عن [التقييم التاريخي لـ٥٠ سؤالًا](evaluation/README.md)، وراجع [ما أُنجز خلال التحدي وما سبقه](challenge/README.md).
+4. راجع [الابتكارات وأدلتها المقارنة](evidence/INNOVATION_EVIDENCE_AR.md)، ثم [المعمارية](architecture/README.md) و[المصادر وتغطية RAG](docs/SOURCES_AR.md).
+5. اتبع [ورقة إعادة الفحص](evidence/REPLAY_GUIDE_AR.md)، مع فصل النتائج الحالية عن [التقييم التاريخي لـ٥٠ سؤالًا](evaluation/README.md) و[أصول المشروع السابقة](challenge/README.md).
 
 ## النسخة الحالية وما تثبته الأدلة
 
@@ -54,11 +58,11 @@
 
 ## مواد التسليم
 
-[العرض PDF — ١٦ شريحة](presentation/Barq_Final_AR.pdf) · [PowerPoint](presentation/Barq_Final_AR.pptx) · [فيلم المجلس R12 — ١:٥٨](https://islamicaich.salsabeel.ai/beta/2-5/?v=12) · [حزمة المراجعة](docs/FINAL_REVIEW_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md)
+[العرض PDF — ١٦ شريحة](presentation/Barq_Final_AR.pdf) · [PowerPoint](presentation/Barq_Final_AR.pptx) · [فيلم المجلس R13 — ١:٥٨](https://islamicaich.salsabeel.ai/beta/2-5/?v=13) · [حزمة المراجعة](docs/FINAL_REVIEW_AR.md) · [خطة التشغيل](docs/OPERATIONS_AR.md)
 
 توضح صفحة المراجعة إصدار كل مادة؛ اللقطات والتقييمات القديمة أدلة مؤرخة على التجربة السابقة، ولا تُعرض على أنها تصوير للمجلس الجديد.
 
-تحديث صور الأدوات في العرض لا يغيّر الفيلم R12؛ بعض مشاهد أدواته السابقة تبقى مؤرخة ومعلنة في [حزمة المراجعة](docs/FINAL_REVIEW_AR.md).
+الفيلم R13 والعرض يستخدمان لقطات الأدوات من المجلس الحالي، مع الاحتفاظ بالمقدمة والعلماء والتعليق الصوتي المعتمد. [بيان الإصدار والمواد](docs/FINAL_REVIEW_AR.md).
 
 تقارير [المرشدين](https://islamicaich.salsabeel.ai/reports/mentors-briefing) و[خطة المشاركة](https://islamicaich.salsabeel.ai/reports/participation-plan) محفوظة كسجل سابق؛ الوصف الحالي للشخصيات ونطاق الكود في هذه الحزمة ودليل المجلس.
 

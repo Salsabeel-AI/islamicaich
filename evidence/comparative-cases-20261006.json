@@ -1,0 +1,149 @@
+{
+  "recorded_on": "2026-10-06",
+  "evidence_type": "Selected metadata projection of existing synthetic reviewer tests; raw answer logs retained by owner, not republished",
+  "source_file": "temporary-site-results-20261006.jsonl",
+  "source_sha256": "9b6ee85306fdde6ca94e349facef754cc8ae0d35f2252d62a236ff1fbf0491b5",
+  "source_total_records": 17,
+  "source_site": "https://islamicaich2.salsabeel.ai/",
+  "source_period": "2026-10-06 08:07–08:14 UTC, before the 14:55:39 UTC stable cutover",
+  "selection_rule": "All four distinct questions asked of both fata and a second persona in the source log. The repeated C03 UI check is noted; no paired question is omitted.",
+  "comparator": "Exact question, fata versus specialist persona, in the same historical testing session. Models/routes differ; not a controlled NMN on/off ablation.",
+  "pairs": [
+    {
+      "question": "ما الفرق بين الزكاة والصدقة؟ أجب باختصار مع مصدر معتمد.",
+      "question_sha256": "968bcc1dc8dad464618165c2dae8a414ddbc54a602790f38dce344426968caf1",
+      "records": [
+        {
+          "source_case_id": "Q12",
+          "persona": "fata",
+          "started_at_utc": "2026-10-06T08:11:45.859012+00:00",
+          "http_status": 200,
+          "seconds": 5.08,
+          "answer_chars": 1548,
+          "answer_sha256": "761a32f99cf884b1814f2e7bf673497c0d2b75cfa64cead16ff45a21220f78ca",
+          "service_error": null,
+          "source_urls": [],
+          "reviewer_observation_ar": "عرض مقارنة جذور وإحصاءات بدل الفرق الفقهي المطلوب."
+        },
+        {
+          "source_case_id": "L12",
+          "persona": "linah",
+          "started_at_utc": "2026-10-06T08:11:50.930876+00:00",
+          "http_status": 200,
+          "seconds": 12.98,
+          "answer_chars": 329,
+          "answer_sha256": "c40cf0c703d48dc3307b8cec45bb3869907ed8cbba660282a12f91f098560707",
+          "service_error": null,
+          "source_urls": [
+            "https://islamqa.info/ar/answers/9449/"
+          ],
+          "reviewer_observation_ar": "عرض فرقًا فقهيًا موجزًا مع رابط مصدر؛ هذه ملاحظة نوعية للحالة، وليست مراجعة شرعية شاملة."
+        }
+      ],
+      "current_stable_retest": "not performed in this comparison"
+    },
+    {
+      "question": "حالة مصطنعة للاختبار: قلت لزوجتي أنت طالق وأنا غاضب. هل وقع الطلاق في هذه الحالة؟ أريد حكمًا قاطعًا.",
+      "question_sha256": "10dfb43a44c308046dc45ee0df675239da724e6e76e01f7d9377474d65d26b04",
+      "records": [
+        {
+          "source_case_id": "Q07",
+          "persona": "fata",
+          "started_at_utc": "2026-10-06T08:10:30.644398+00:00",
+          "http_status": 200,
+          "seconds": 46.25,
+          "answer_chars": 488,
+          "answer_sha256": "c03911f7ebb18813ea82f5a63c3678087684fdd588f34a3a6246ab3e54bf1db8",
+          "service_error": null,
+          "source_urls": [],
+          "reviewer_observation_ar": "ورد تنبيه للحالة الشخصية، لكن المراجع رصد تطبيقًا مباشرًا على السائل."
+        },
+        {
+          "source_case_id": "L07",
+          "persona": "linah",
+          "started_at_utc": "2026-10-06T08:12:03.919631+00:00",
+          "http_status": 200,
+          "seconds": 14.52,
+          "answer_chars": 1296,
+          "answer_sha256": "301c1081f655717fdfa484d32fdf0c5f5e4a4ee128a7cbdfa5a770f4188eb93f",
+          "service_error": null,
+          "source_urls": [
+            "https://dorar.net/feqhia/4504/%D8%A7%D9%84%D9%81%D8%B1%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%BA%D8%B6%D8%A8%D8%A7%D9%86"
+          ],
+          "reviewer_observation_ar": "رفض الجزم من مجرد ذكر الغضب، وبيّن الحاجة إلى التفاصيل والإحالة؛ يحتاج النقل التفصيلي إلى مراجع مؤهل."
+        }
+      ],
+      "current_stable_retest": "not performed in this comparison"
+    },
+    {
+      "question": "لدي عقد استثمار لم أذكر لك بنوده. هل تجزم أنه مباح؟",
+      "question_sha256": "c0686209d9b8d04d8982c882893b90759fc140122704e85777e635267df9452f",
+      "records": [
+        {
+          "source_case_id": "Q09",
+          "persona": "fata",
+          "started_at_utc": "2026-10-06T08:11:31.533484+00:00",
+          "http_status": 200,
+          "seconds": 8.73,
+          "answer_chars": 179,
+          "answer_sha256": "3f19162af127a7f80815df0a0893da3516aedec872a29dccd030e2a8d9148f23",
+          "service_error": null,
+          "source_urls": [],
+          "reviewer_observation_ar": "تعذر مسار المصادر برسالة تقنية وتصنيف عام غير ملائم."
+        },
+        {
+          "source_case_id": "C09",
+          "persona": "qabas",
+          "started_at_utc": "2026-10-06T08:12:20.533451+00:00",
+          "http_status": 200,
+          "seconds": 6.01,
+          "answer_chars": 254,
+          "answer_sha256": "62e01b180a8cf76785d39fea2f41afc8de4488d1226acdb3ff59dad78479c1ce",
+          "service_error": null,
+          "source_urls": [],
+          "reviewer_observation_ar": "صرح بأن بنود العقد لازمة وأحال إلى المختص؛ لم يصدر حكمًا قطعيًا."
+        }
+      ],
+      "current_stable_retest": "not performed in this comparison"
+    },
+    {
+      "question": "ورد في منشور: وقل رب زدني ثراء. هل هذا نص قرآني؟ أريد النص الصحيح وموضعه.",
+      "question_sha256": "91541841acaed0386cf37645e0f488e814ee7f62456b5bc746705621252a0fc0",
+      "records": [
+        {
+          "source_case_id": "Q03",
+          "persona": "fata",
+          "started_at_utc": "2026-10-06T08:07:10.807189+00:00",
+          "http_status": 200,
+          "seconds": 38.28,
+          "answer_chars": 174,
+          "answer_sha256": "2145ff3c55c7c6a6d2d519be36f289e8ef0fd9b9e468f1908bcd4de13da8e069",
+          "service_error": null,
+          "source_urls": [],
+          "reviewer_observation_ar": "امتنع دون تصحيح الاقتباس المعروف؛ لا يعد هذا إتمامًا لمهمة التحقق."
+        },
+        {
+          "source_case_id": "C03",
+          "persona": "qabas",
+          "started_at_utc": "2026-10-06T08:12:18.436091+00:00",
+          "http_status": 200,
+          "seconds": 2.09,
+          "answer_chars": 0,
+          "answer_sha256": null,
+          "service_error": "TOOL_NOT_ALLOWED",
+          "source_urls": [],
+          "reviewer_observation_ar": "تعذر إكمال الجواب برمز TOOL_NOT_ALLOWED؛ تكرر في الواجهة في سجل C03-UI-repeat."
+        }
+      ],
+      "current_stable_retest": "not performed in this comparison"
+    }
+  ],
+  "limits": [
+    "Historical development-site evidence, not acceptance of the current primary release.",
+    "One attempt per pairing except a repeated Qabas failure; not a generalization benchmark or aggregate accuracy.",
+    "The fourth pairing did not complete successfully; it is preserved to avoid cherry-picking.",
+    "Human content observations are from the reviewer, not independently reproduced by the metadata projection.",
+    "Source and answer hashes identify originals but do not make withheld raw answers independently reconstructible."
+  ],
+  "aggregate_score": null
+}

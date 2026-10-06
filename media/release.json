@@ -1,21 +1,21 @@
 {
-  "revision": "Council R12",
+  "revision": "Council R13",
   "date": "2026-10-06",
   "duration_seconds": 118,
   "width": 1920,
   "height": 1080,
   "fps": 24,
-  "watch_url": "https://islamicaich.salsabeel.ai/beta/2-5/?v=12",
+  "watch_url": "https://islamicaich.salsabeel.ai/beta/2-5/?v=13",
   "files": [
     {
       "file": "app/public/beta/2-5/film-r10-music.mp4",
-      "sha256": "afc6667ca805ab33a7077504b158b3ef82bbc178c4fca58996533419757fb8b7"
+      "sha256": "2abe52be19cab600606ae38301dc8822b5af374848160b9c6ef337a2172cb15e"
     },
     {
       "file": "app/public/beta/2-5/film-r10-voice.mp4",
-      "sha256": "ad7203262c179dcad12875d49c481494a02db2ccf79d6324f69308c8d5fd31d5"
+      "sha256": "1926e96ee500f9777f03bf6909ae65e4035d78634488716585939c90eab0cdc6"
     }
   ],
   "source_scope": "Flattened picture and approved audio masters; safe reconstruction, no private model production code.",
-  "revision_note": "Current Council UI, Kaaba live answer/source, conceptual persona architecture and correct NMN application ID; new Council narration at 95–112s. Scientists and narrator samples outside 95–112s preserved. Historical tool samples at 49–61 and 72–95 are explicitly disclosed. Historical r10 filenames retained for service-route compatibility; player URLs use v=12."
+  "revision_note": "All demonstrated UI scenes now use current Council captures from October6. Current rashid/murshid witness panels replace49–61s, and current verse, adjacency and inheritance panels replace72–95s. Approved introduction, scientists, Council guide and all audio preserved. Historical r10 filenames retained for service-route compatibility; URLs use v=13. Selected examples do not certify every associated analysis field."
 }

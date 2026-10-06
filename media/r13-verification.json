@@ -1,0 +1,41 @@
+{
+  "revision": "Council R13",
+  "duration_seconds": 118,
+  "frames": 2832,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "both_versions_decoded": true,
+  "identical_picture_streams": true,
+  "approved_audio_streams_bit_identical_to_r12": {
+    "music": true,
+    "voice": true
+  },
+  "current_tool_capture_scenes_seconds": [
+    [
+      49,
+      61
+    ],
+    [
+      72,
+      95
+    ]
+  ],
+  "historical_tool_samples_seconds": [],
+  "unchanged_scene_content": "Approved introduction, scientists, Kaaba, architecture, NMN concept, Council guide and closing; original audio retained byte-for-byte. Picture source re-encoded.",
+  "capture_scope": "Selected current public UI examples, not universal quality. Morphology scene verifies opened rashid/murshid witnesses only; incorrect morphology labels elsewhere remain disclosed.",
+  "files": {
+    "picture.mp4": {
+      "sha256": "bfd14a0921d9b49034afe894617e852130f716f90c38bc75729bc79a87878d66",
+      "bytes": 6317769
+    },
+    "film-r10-music.mp4": {
+      "sha256": "2abe52be19cab600606ae38301dc8822b5af374848160b9c6ef337a2172cb15e",
+      "bytes": 9347909
+    },
+    "film-r10-voice.mp4": {
+      "sha256": "1926e96ee500f9777f03bf6909ae65e4035d78634488716585939c90eab0cdc6",
+      "bytes": 8941234
+    }
+  }
+}

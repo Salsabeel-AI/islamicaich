@@ -113,6 +113,40 @@
       "method": "Original public browser screenshot by delivery review",
       "changes": "Browser region capture from DOM-grounded document coordinates x312,y792,width1280,height650; full screenshot retained separately.",
       "viewport_test": "1920x1080 browser override to verify unbroken table headings, then reset."
+    },
+    {
+      "file": "evidence/screenshots/council-rashid-witnesses-current.png",
+      "sha256": "354ef103180ec401bc500c253316ec126b681e1235786ccc6dc3153515efa786",
+      "capture_date": "2026-10-06",
+      "capture_time_riyadh": "19:45:40",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review; actual witness button opened.",
+      "changes": "No answer/content alteration. Screenshot is bounded evidence for the reader, not morphology validation.",
+      "known_limit": "The surrounding morphology table contains incorrect weights, including labels for مرشد and يرشد. These screenshots do not validate those weights or all listed morphological possibilities.",
+      "screenshot_saved_at": "2026-10-06T19:45:40+03:00",
+      "timestamp_basis": "Original screenshot file modification times, converted to Asia/Riyadh UTC+03:00; not an estimate from conversation.",
+      "film_revision": "Council R13",
+      "film_scene_seconds": [
+        49,
+        61
+      ]
+    },
+    {
+      "file": "evidence/screenshots/council-murshid-witness-current.png",
+      "sha256": "99d00ac803aaa2d05c79f955b696046a714be5a969b3ac2d1b6d8954d2a05b70",
+      "capture_date": "2026-10-06",
+      "capture_time_riyadh": "19:45:53",
+      "source_url": "https://islamicaich.salsabeel.ai/",
+      "method": "Original public browser screenshot by delivery review; actual witness button opened.",
+      "changes": "No answer/content alteration. Screenshot is bounded evidence for the reader, not morphology validation.",
+      "known_limit": "The surrounding morphology table contains incorrect weights, including labels for مرشد and يرشد. These screenshots do not validate those weights or all listed morphological possibilities.",
+      "screenshot_saved_at": "2026-10-06T19:45:53+03:00",
+      "timestamp_basis": "Original screenshot file modification times, converted to Asia/Riyadh UTC+03:00; not an estimate from conversation.",
+      "film_revision": "Council R13",
+      "film_scene_seconds": [
+        49,
+        61
+      ]
     }
   ],
   "scope": "Deliberate demonstration questions only; no visitor logs."

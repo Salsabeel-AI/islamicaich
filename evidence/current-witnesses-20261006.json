@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-06T19:45:53+03:00",
+  "site": "https://islamicaich.salsabeel.ai/",
+  "persona": "fata",
+  "question": "ما مشتقات جذر رشد في القرآن؟",
+  "displayed_seconds": 15.2,
+  "method": "Actual primary-site browser interaction by delivery lead, followed by visual review of the saved screenshots.",
+  "scope": "Two clicked Quran witness counters and the verses displayed by their readers; not a complete validation of root counts or morphology.",
+  "cases": [
+    {
+      "form": "رَشِيد",
+      "clicked_counter": 3,
+      "opened_verse_locators": [
+        "11:78",
+        "11:87",
+        "11:97"
+      ],
+      "image": "evidence/screenshots/council-rashid-witnesses-current.png",
+      "sha256": "354ef103180ec401bc500c253316ec126b681e1235786ccc6dc3153515efa786",
+      "observation": "Displayed witness count and opened locator count agree in this captured interaction.",
+      "screenshot_saved_at": "2026-10-06T19:45:40+03:00"
+    },
+    {
+      "form": "مُرْشِد",
+      "clicked_counter": 1,
+      "opened_verse_locators": [
+        "18:17"
+      ],
+      "image": "evidence/screenshots/council-murshid-witness-current.png",
+      "sha256": "99d00ac803aaa2d05c79f955b696046a714be5a969b3ac2d1b6d8954d2a05b70",
+      "observation": "Displayed witness count and opened locator count agree in this captured interaction.",
+      "screenshot_saved_at": "2026-10-06T19:45:53+03:00"
+    }
+  ],
+  "known_issue": "The surrounding morphology table contains incorrect weights, including labels for مرشد and يرشد. These screenshots do not validate those weights or all listed morphological possibilities.",
+  "general_accuracy": null,
+  "timestamp_basis": "Original screenshot file modification times, converted to Asia/Riyadh UTC+03:00; not an estimate from conversation.",
+  "video_revision": "Council R13",
+  "video_scene_seconds": [
+    49,
+    61
+  ],
+  "video_verification": "media/r13-verification.json"
+}

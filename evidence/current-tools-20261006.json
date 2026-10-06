@@ -1,6 +1,6 @@
 {
   "recorded_utc": "2026-10-06T16:33:27.685068+00:00",
-  "purpose": "Replace historical screenshots in presentation slides8,9,11 with current primary Council UI.",
+  "purpose": "Current primary Council tool screenshots used in the presentation and Council R13 film; earlier capture timestamps retained.",
   "slides_updated": [
     8,
     9,
@@ -30,10 +30,37 @@
       "observation": "Displayed amounts: wife30000, son105000, each of2daughters52500. Total240000 for stated heirs and net estate.",
       "limit": "Educational arithmetic display. Not an independent validation of every legal explanation, asaba label or supporting hadith reference.",
       "image": "evidence/screenshots/council-inheritance-table.png"
+    },
+    {
+      "persona": "fata",
+      "question": "ما مشتقات جذر رشد في القرآن؟",
+      "displayed_seconds": 15.2,
+      "observation": "Opened the Quran3 counter for rashid and saw Hud78,87,97; opened Quran1 for murshid and saw Kahf17. Evidence is limited to these two displayed witness counters/readers.",
+      "images": [
+        "evidence/screenshots/council-rashid-witnesses-current.png",
+        "evidence/screenshots/council-murshid-witness-current.png"
+      ],
+      "receipt": "evidence/current-witnesses-20261006.json",
+      "known_issue": "Other morphology weights in the surrounding table are incorrect. This sample does not certify the weights, all possible forms, or complete corpus counts."
     }
   ],
   "scope": "One fresh attempt per displayed question, not a general accuracy or performance measurement.",
   "product_changed": false,
-  "video_changed": false,
-  "video_revision": "R12 historical tool scenes remain disclosed at49–61 and72–95seconds."
+  "video_changed": true,
+  "video_revision": "Council R13",
+  "materials_updated_utc": "2026-10-06T16:54:41Z",
+  "video_duration_seconds": 118,
+  "video_url": "https://islamicaich.salsabeel.ai/beta/2-5/?v=13",
+  "video_verification": "media/r13-verification.json",
+  "current_tool_video_scenes_seconds": [
+    [
+      49,
+      61
+    ],
+    [
+      72,
+      95
+    ]
+  ],
+  "video_audio_status": "Both approved audio streams retained bit-for-bit from R12; narration unchanged, according to R13 verification receipt."
 }
