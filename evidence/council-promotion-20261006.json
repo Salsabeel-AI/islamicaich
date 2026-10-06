@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-06",
+  "release": "stable-20261006-lexical-diagnostics",
+  "site": "https://islamicaich.salsabeel.ai/",
+  "activated_utc": "2026-10-06T16:53:16Z",
+  "activated_riyadh": "2026-10-06T19:53:16+03:00",
+  "state": "operationally_ready_for_human_testing_with_known_semantic_error",
+  "evidence_method": "Selected summary of preserved deployment, public UI/API and offline review receipts; no new provider calls or repetition of the reported tests by the delivery documentation task.",
+  "baseline": {
+    "receipt": "council-release-20261006.json",
+    "release_manifest_sha256": "07fb040e8bcb44432e754e889e9e0ab2a4ddb7d10bfe7c4176052d7ba4950333",
+    "preserved": true
+  },
+  "promotion": {
+    "manifest_sha256": "71636066fbef8d942a62e95b05ceea9519c5652d284a3d24f61db8505c7c3e8a",
+    "backend_files_changed": 3,
+    "scope": "Guard against publishing ungrounded lexical tool text as evidence; retain explicitly unverified lexical search hints; add redacted private failure diagnostics and update the release marker.",
+    "public_assets_changed": false,
+    "models_or_persona_permissions_changed": false,
+    "shared_services_changed": false,
+    "environment_changed": false,
+    "reported_local_tests_before_activation": {
+      "passed": 43,
+      "failed": 0
+    },
+    "post_activation_pinned_files": {
+      "stable": {
+        "checked": 78,
+        "matched": 78
+      },
+      "archive": {
+        "checked": 3727,
+        "matched": 3727
+      },
+      "development": {
+        "checked": 79,
+        "matched": 79
+      }
+    },
+    "pin_failures": 0,
+    "public_health": {
+      "ok": true,
+      "release": "stable-20261006-lexical-diagnostics",
+      "observed_utc": "2026-10-06T16:58:42.1062238Z"
+    }
+  },
+  "public_samples": [
+    {
+      "persona": "qabas",
+      "question": "ما الفرق بين التفسير والتأويل؟",
+      "channel": "public_browser",
+      "displayed_seconds": 42.7,
+      "unique_source_urls": 3,
+      "sources": [
+        {
+          "title": "إسلام ويب - مباحث في علوم القرآن - التفسير والتأويل - الفرق بين التفسير والتأويل- الجزء رقم1",
+          "url": "https://www.islamweb.org/ar/library/content/246/132/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D8%A3%D9%88%D9%8A%D9%84"
+        },
+        {
+          "title": "إسلام ويب - البرهان في علوم القرآن - فصل في أنواع علوم القرآن - النوع الحادي والأربعون معرفة تفسيره وتأويله ومعناه - الفرق بين التفسير والتأويل- الجزء رقم2",
+          "url": "https://www.islamweb.org/ar/library/content/67/276/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D8%A3%D9%88%D9%8A%D9%84"
+        },
+        {
+          "title": "المَسألةُ الثَّانيةُ: بَيانُ التَّفسيرِ",
+          "url": "https://dorar.net/osolfeqh/968/%D8%A7%D9%84%D9%85%D8%B3%D8%A3%D9%84%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D9%8A%D8%A7%D9%86-%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1"
+        }
+      ],
+      "request_error_seen": false,
+      "source_opened": "https://www.islamweb.org/ar/library/content/246/132/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D9%88%D8%A7%D9%84%D8%AA%D8%A3%D9%88%D9%8A%D9%84",
+      "source_opening_result": "The linked Islamweb chapter was opened and its relevant content read in the saved acceptance run.",
+      "semantic_review": "The preserved four-section answer and retained evidence were reviewed offline. Sources were relevant, with two precision notes for this case.",
+      "precision_notes_ar": [
+        "لفظ «السماع» تدعمه فقرة مجاورة في المصدر نفسه لم تُدرج ضمن معرّفات المقاطع المختارة.",
+        "تعريف «بيان التفسير» الأصولي يحتاج الاحتفاظ باسم الفئة الدقيق عند عرضه."
+      ],
+      "streaming_scope": "Progress was observed before final; first text was not sampled precisely for this browser run.",
+      "lexical_guard_exercised_live": false
+    },
+    {
+      "persona": "linah",
+      "question": "ما حكم صلاة الجنازة وما صفتها؟",
+      "channel": "public_api",
+      "http_status": 200,
+      "first_progress_seconds": 0.016,
+      "first_text_seconds": 34.078,
+      "text_events": 5,
+      "final_seconds": 39.782,
+      "same_request_json_replay": {
+        "status": 200,
+        "matches_final": true,
+        "new_inference": false
+      },
+      "additional_confirmation": {
+        "status": "not_run",
+        "reason": "call_budget"
+      },
+      "semantic_review_scope": "The preserved review supported the core ruling, concise method and returned hadith prayer, but found a localized actual school-scope error in the final paragraph. Not full semantic acceptance.",
+      "semantic_acceptance": "not_full_acceptance_localized_school_scope_error",
+      "content_error_ar": "عمّمت عبارة «لكنه غير واجب» عدم الوجوب خارج قيد المصدر الحنبلي، مع وجود القول المالكي المخالف في الأدلة المحفوظة. هذا خطأ دلالي في نطاق الحكم، لا مجرد تحسين أسلوبي.",
+      "fix_published_for_this_error": false
+    }
+  ],
+  "limits": [
+    "Two bounded samples do not establish general accuracy, guaranteed latency or a new evaluation score.",
+    "Qabas did not call the lexical tool in this sample; its result does not prove live coverage or causation for the guard. The guard has separate saved-result and local test evidence.",
+    "The 43 pre-activation tests are not additional post-activation tests and must not be combined with the baseline 368 tests as a new acceptance total.",
+    "No public load test or machine-reboot test was included.",
+    "Separately observed provider HTTP400 and creative-story citation-policy issues are not claimed fixed.",
+    "Current morphology-weight defects remain outside the scope of this promotion.",
+    "The original cutover receipt remains historical evidence; this file is an additive promotion record.",
+    "Original private traces, conversation/session identifiers, service configuration and private paths are intentionally omitted."
+  ],
+  "preserved_source_receipts_sha256": {
+    "PUBLIC_ACCEPTANCE.md": "27a39114efcb5615f2f81059a899c3e7de96ca170a133de5d109ff29e4a48f9d",
+    "execution-20261006-165314-549.json": "f111987af0ba5dd3ffdee2168e158a25dc47cdbad33d9c3f148133f77ca65fef",
+    "post-activation-hashes.json": "0a346e0d0ec054ee3d499786a1d2815364fefc04aa2fc62038b2197e7c234636",
+    "public-health-activated.json": "a4d950625d2fd9b28e95e2287cf2cf9d2e8f4463b65c541a6cf6a559f7931bd2",
+    "public-qabas-production.json": "addb53dfd9bb1352349520e19fffc8d256ff4ac85c3b552063aaf427b0986b0c",
+    "source-link-verification.json": "184642c4162c707e1e62041bfb6e6e27752990c8714086c6b108e6d6bb6d4e8c",
+    "semantic-production-review.json": "306831ea506756a2698b7913520ff73467302093c6b8350eeb57069e09bf5d16",
+    "public-linah-sse-json.jsonl": "4b7cfbe6f27ec3765f4feb9bf07d460cb12bb11e54821cca2b04311bf9252975",
+    "semantic-linah-production-review.json": "abf7e33254b06766150362e48030651087cb49abd47972ec9a3d2809b3678e0d",
+    "test-results.txt": "a99758ccdd37e96ca6a946ca93e9f605df3159a2ca8c65b5b5abaa23fcf74cfe"
+  }
+}

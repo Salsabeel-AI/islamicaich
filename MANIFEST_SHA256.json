@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-06T16:56:20.729146+00:00",
+  "created_at_utc": "2026-10-06T17:07:12.447142+00:00",
   "excludes": [
     "MANIFEST_SHA256.json",
     "Git metadata",
@@ -30,8 +30,8 @@
     },
     {
       "file": "README.md",
-      "sha256": "d1b7db43b7fc04c3cf7991a75c215f15940d40cb575fbfb82e755d3b0e42f343",
-      "bytes": 12295
+      "sha256": "07f189a3cbeb0820b0ba9d5ec632da1aebfd02c9fa4da2ed2176d8567c3a17ad",
+      "bytes": 12431
     },
     {
       "file": "app/.env.example",
@@ -100,13 +100,13 @@
     },
     {
       "file": "app/public/beta/2-5/film-r10-music.mp4",
-      "sha256": "2abe52be19cab600606ae38301dc8822b5af374848160b9c6ef337a2172cb15e",
-      "bytes": 9347909
+      "sha256": "bcc046d6e6bb33cd326d88e970b8e164bfc2bc3b20c69594f1900bfd09c05517",
+      "bytes": 9381904
     },
     {
       "file": "app/public/beta/2-5/film-r10-voice.mp4",
-      "sha256": "1926e96ee500f9777f03bf6909ae65e4035d78634488716585939c90eab0cdc6",
-      "bytes": 8941234
+      "sha256": "9fe8e768982e95d751902d22e75812a40271c1604535d27b586abb24bf663bd6",
+      "bytes": 8975229
     },
     {
       "file": "app/public/beta/2-5/guide/capabilities.jpg",
@@ -130,8 +130,8 @@
     },
     {
       "file": "app/public/beta/2-5/index.html",
-      "sha256": "c9b5abc36ce174b2f4c88347c8c687eb51a16276bad24244b1f0bf16e8d04307",
-      "bytes": 15529
+      "sha256": "592856cfdd8e4ca7a4d8cbd9059d842b103bc5692ec4d7ddcbda573f10589d3e",
+      "bytes": 15539
     },
     {
       "file": "app/public/beta/2-5/narration-r10.txt",
@@ -140,17 +140,17 @@
     },
     {
       "file": "app/public/beta/2-5/poster-r10.jpg",
-      "sha256": "db79e885af5c9888217fff9ee5ad4652804ba4207e260111f37450b6b3927c00",
-      "bytes": 339121
+      "sha256": "34fe317dd9e89e65a32919044159d982f134b75fd3286079ddffa73f31b04f58",
+      "bytes": 292056
     },
     {
       "file": "app/public/beta/2-5/watch.css",
-      "sha256": "a834833a50a1528b6b70b4851c2d1e0dc53792cfffc9936bee839d7a41a2b910",
-      "bytes": 4776
+      "sha256": "9d2dd65985288eb48202114955fa736f5ecadaea862c5bf240d3054dd79206be",
+      "bytes": 4841
     },
     {
       "file": "app/public/beta/2-5/watch.js",
-      "sha256": "8b43525049820a7f56089b33495c89c47fbbf0032bee53f7e0a0a0cdd9c98d1a",
+      "sha256": "45f87d984a952293071944f8f67a384291765bb7d61a9255eef5e89a26fc2f16",
       "bytes": 3018
     },
     {
@@ -1250,8 +1250,8 @@
     },
     {
       "file": "docs/FINAL_REVIEW_AR.md",
-      "sha256": "7d10642c68e583b93d1b7e474a55775f3a18880effef7b4d7490f6c69e5f555a",
-      "bytes": 8651
+      "sha256": "cee802e4fc509da0461c04b9982c2a9bd52948b98219ae3e17aa5116306e95d2",
+      "bytes": 10130
     },
     {
       "file": "docs/INNOVATION_AR.md",
@@ -1265,8 +1265,8 @@
     },
     {
       "file": "docs/LIMITATIONS_AR.md",
-      "sha256": "58cdebe8e62dfca19199b0d73419d4082b88f0210beda9226a887b74d0150d2e",
-      "bytes": 5970
+      "sha256": "376fd06b87fdb75ee076036094e0107421ca6dbe517f1086d496aecf16512020",
+      "bytes": 6382
     },
     {
       "file": "docs/OPERATIONS_AR.md",
@@ -1275,8 +1275,8 @@
     },
     {
       "file": "docs/RELEASE_AR.md",
-      "sha256": "c000b261aee9da2622c2d986fa1b12ee92dd867c2c13e575e184451d2ace7741",
-      "bytes": 8907
+      "sha256": "726403e0fbacd57de278add9c129a86093019461d6080093b4829d56cc72c452",
+      "bytes": 12455
     },
     {
       "file": "docs/RIGHTS_AR.md",
@@ -1295,7 +1295,7 @@
     },
     {
       "file": "docs/SUBMISSION_AR.md",
-      "sha256": "79c4eb5a3ebb5fcba48ee897033684871658160aaac8023c57f26ac50623a646",
+      "sha256": "b4f541a08103f58eae34c4b1d03238805a1b25e912c4c8141b88a43a4c39f62d",
       "bytes": 3200
     },
     {
@@ -1355,7 +1355,7 @@
     },
     {
       "file": "evidence/INNOVATION_EVIDENCE_AR.md",
-      "sha256": "ff5c066d6f2365fe2e6563e75751534293ddaa4b990ad19953ab728e8e0be413",
+      "sha256": "762379acecf344f7a888c019911cb498527d23be1c61f96dbfb4bf3f27229cc6",
       "bytes": 7977
     },
     {
@@ -1365,7 +1365,7 @@
     },
     {
       "file": "evidence/REPLAY_GUIDE_AR.md",
-      "sha256": "86fa4432715a6bf696416ab4d0881dd9cf5a476f1e960b6b4fa9b102b430f5b2",
+      "sha256": "c8641de531e36aabdb1b223c9eda664f0e487a3dcd8b555d2bb4b8c8995d923e",
       "bytes": 6611
     },
     {
@@ -1385,8 +1385,13 @@
     },
     {
       "file": "evidence/council-captures.json",
-      "sha256": "0d1e0ae7cfbfdd017448907dd43235381b4dd0b7317ec24d10e26fe39db52929",
-      "bytes": 8375
+      "sha256": "7a07aa419e4dff29ae9cdbe108fa9ab240689a3ba61249f0b3400f561c26e659",
+      "bytes": 8463
+    },
+    {
+      "file": "evidence/council-promotion-20261006.json",
+      "sha256": "d6bc282e934a54dd05b7633070cd1af29df2f58abd1a05ca6cbfb25e22da1d93",
+      "bytes": 7659
     },
     {
       "file": "evidence/council-release-20261006.json",
@@ -1395,12 +1400,12 @@
     },
     {
       "file": "evidence/current-tools-20261006.json",
-      "sha256": "a2c61ca0b951dab9b2c5baeb324f48d00efa332c8a54e56869cae529367df86c",
-      "bytes": 3165
+      "sha256": "eaedecc20d6fa91e3565825f998fa3cff01213d5ff0723aa02fda62126e1cb64",
+      "bytes": 3197
     },
     {
       "file": "evidence/current-witnesses-20261006.json",
-      "sha256": "a133383f750dde0e8459a70020c3c7f30d1a0efa951b68e963b07a1b23981e52",
+      "sha256": "b087a23e6d91ad03980f255d294c0b61feaef69431b4366c31ca25718e6535da",
       "bytes": 1971
     },
     {
@@ -1415,7 +1420,7 @@
     },
     {
       "file": "evidence/delivery-materials-check-20261006.json",
-      "sha256": "7d5d6eb972305984f22954ee033fc4b8bfb7f7352d3c43d0094b289cb3ee1187",
+      "sha256": "2e13cf0dfa0b922d5e82e6f332a18f8c131b7e9a60d7a852eed61f0810ba0bf2",
       "bytes": 670
     },
     {
@@ -1432,6 +1437,11 @@
       "file": "evidence/materials-v3-checks.json",
       "sha256": "33be5c73ae288df7ce44b6ac4620b9f5b06a4417d0a6047feb8d21f41194e642",
       "bytes": 1012
+    },
+    {
+      "file": "evidence/presentation-theme-20261006.json",
+      "sha256": "aa0a4743ea0b4472501d4fe7ac75ca5334753c011bc55db21fbdd556730d9ffb",
+      "bytes": 2503
     },
     {
       "file": "evidence/recompute_checks.py",
@@ -1615,8 +1625,8 @@
     },
     {
       "file": "media/README.md",
-      "sha256": "51fc2451921149376a30e1c2224ac3cdae7d261b88c10d0188d7679d12e209f1",
-      "bytes": 2589
+      "sha256": "8ccc0e06ebe95c22d314399f23f24246dbb9d40f997d8484bf4b017a31da75c5",
+      "bytes": 3060
     },
     {
       "file": "media/r11-verification.json",
@@ -1634,14 +1644,19 @@
       "bytes": 1271
     },
     {
+      "file": "media/r14-verification.json",
+      "sha256": "e0251b6d53c8e934abb2333b52d9801a5c86737e2b75c56481cd28f54b5bd828",
+      "bytes": 5270
+    },
+    {
       "file": "media/rebuild.py",
       "sha256": "5d133418615270e3a2b64a2f2e2bd60626a6f59c2aa9c1be026e6b8f4ed4512c",
       "bytes": 710
     },
     {
       "file": "media/release.json",
-      "sha256": "927d50238c23d7833cff5bcede8b84b1c5c23e1e252eaaea0a4de4cb3cec28e4",
-      "bytes": 1083
+      "sha256": "6a2e9b612a376f6691a48e4302cc9690aef3957886d9832373eb320ac8801f52",
+      "bytes": 1017
     },
     {
       "file": "media/source/music-mix.flac",
@@ -1650,8 +1665,8 @@
     },
     {
       "file": "media/source/picture.mp4",
-      "sha256": "bfd14a0921d9b49034afe894617e852130f716f90c38bc75729bc79a87878d66",
-      "bytes": 6317769
+      "sha256": "fee71446b107e3790bf98a03d04c1ff186d878d42893e148559240df1004ee88",
+      "bytes": 6351764
     },
     {
       "file": "media/source/voice.flac",
@@ -1670,23 +1685,23 @@
     },
     {
       "file": "presentation/Barq_Final_AR.pdf",
-      "sha256": "f70e0d4e4135d0c87c9f768333657ad5907059ef03dbb3075ce1034a0b1ffbd5",
-      "bytes": 4129945
+      "sha256": "0b8a2e412816e4b9bce718f1de05e9fa3f59a459412d69dc15686ca08f69ab59",
+      "bytes": 4128751
     },
     {
       "file": "presentation/Barq_Final_AR.pptx",
-      "sha256": "ae9a7ea82be6085fedce5ca6abf763bb401201982531ad67321750e2c4692fa4",
-      "bytes": 2605220
+      "sha256": "890a748177ac7e712f52d4612d33a0ac15587175b2e8d7e618798f0d15e0b6f7",
+      "bytes": 2605254
     },
     {
       "file": "presentation/Barq_User_Guide_AR.pdf",
-      "sha256": "224aacd3a74099f508efb23db8bf053ce6066fa87183aacf8c2e5b6bceb15f4e",
-      "bytes": 1241211
+      "sha256": "fc09f1378d207ae2e8001adeb92dd3e37cfa11cd301461f0034106b4492680f3",
+      "bytes": 1241031
     },
     {
       "file": "presentation/README.md",
-      "sha256": "07b3585d0da4785193c9ebf94cd9d3e063c83059d9afa41309f08a607c5587ed",
-      "bytes": 4573
+      "sha256": "f48b5e0cb580cb1c8205399c8cf605dbd5fded784863b2ad97771e0583bbe27e",
+      "bytes": 4916
     },
     {
       "file": "presentation/slide-text.json",

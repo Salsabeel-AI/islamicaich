@@ -125,11 +125,12 @@
       "known_limit": "The surrounding morphology table contains incorrect weights, including labels for مرشد and يرشد. These screenshots do not validate those weights or all listed morphological possibilities.",
       "screenshot_saved_at": "2026-10-06T19:45:40+03:00",
       "timestamp_basis": "Original screenshot file modification times, converted to Asia/Riyadh UTC+03:00; not an estimate from conversation.",
-      "film_revision": "Council R13",
+      "film_revision": "Council R14",
       "film_scene_seconds": [
         49,
         61
-      ]
+      ],
+      "first_film_revision": "Council R13"
     },
     {
       "file": "evidence/screenshots/council-murshid-witness-current.png",
@@ -142,11 +143,12 @@
       "known_limit": "The surrounding morphology table contains incorrect weights, including labels for مرشد and يرشد. These screenshots do not validate those weights or all listed morphological possibilities.",
       "screenshot_saved_at": "2026-10-06T19:45:53+03:00",
       "timestamp_basis": "Original screenshot file modification times, converted to Asia/Riyadh UTC+03:00; not an estimate from conversation.",
-      "film_revision": "Council R13",
+      "film_revision": "Council R14",
       "film_scene_seconds": [
         49,
         61
-      ]
+      ],
+      "first_film_revision": "Council R13"
     }
   ],
   "scope": "Deliberate demonstration questions only; no visitor logs."

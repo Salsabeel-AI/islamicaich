@@ -1,0 +1,167 @@
+{
+  "revision": "Council R14",
+  "palette": {
+    "BG": "#0d1815",
+    "PANEL": "#172922",
+    "WHITE": "#f3f0e6",
+    "MUTED": "#a5b9ab",
+    "GOLD": "#ddc087",
+    "BORDER": "#365046",
+    "TEAL": "#a6dab5"
+  },
+  "scene_map": [
+    {
+      "seconds": [
+        0,
+        22
+      ],
+      "change": "none; approved flattened introduction and scientists retained"
+    },
+    {
+      "seconds": [
+        22,
+        35
+      ],
+      "change": "authored Kaaba question/source frames redrawn in live palette; captured UI unchanged"
+    },
+    {
+      "seconds": [
+        35,
+        49
+      ],
+      "change": "authored architecture panels, borders, text and arrows redrawn"
+    },
+    {
+      "seconds": [
+        49,
+        61
+      ],
+      "change": "authored witness frames redrawn; current rashid/murshid readers unchanged"
+    },
+    {
+      "seconds": [
+        61,
+        72
+      ],
+      "change": "authored NMN panels, text and arrows redrawn"
+    },
+    {
+      "seconds": [
+        72,
+        81
+      ],
+      "change": "authored verse frame redrawn; current verse screenshot unchanged"
+    },
+    {
+      "seconds": [
+        81,
+        89
+      ],
+      "change": "authored adjacency frame redrawn; current screenshot unchanged"
+    },
+    {
+      "seconds": [
+        89,
+        95
+      ],
+      "change": "authored inheritance frame redrawn; current table screenshot unchanged"
+    },
+    {
+      "seconds": [
+        95,
+        112
+      ],
+      "change": "authored Council guide frames redrawn; current screenshots unchanged"
+    },
+    {
+      "seconds": [
+        112,
+        118
+      ],
+      "change": "none; approved flattened closing retained"
+    }
+  ],
+  "source_images_sha256": {
+    "council-question.png": "2b61a8ef21433c5347e60b35b5e7f89fd6a7dc4b8e4a06f9912e89d18b178929",
+    "council-kaaba-source.png": "ec7b949c36e427ef8324fa09a3c6fcfd0a1eeda94b9c039dc8bb4312de51adf3",
+    "council-kaaba-open-source.png": "5d10427c9fb96d0f24730d43fa5db0b983594c1bb03b06cff35b8f427fb16a65",
+    "stable-home-20261006.png": "ff57f19ae633ca95eb18e68088055d89a8194356a5cda6f0da35694e54c901e0",
+    "council-linah-start.png": "4260b544ccdff972f31512712443c51bde5cfbd19815fd2de10dc35430bda8bb",
+    "council-linah-sources.png": "4c913a98820afd3f2e221e936556a436162d9c920cfc74c28080650bef8eb12c",
+    "council-rashid-witnesses-current.png": "354ef103180ec401bc500c253316ec126b681e1235786ccc6dc3153515efa786",
+    "council-murshid-witness-current.png": "99d00ac803aaa2d05c79f955b696046a714be5a969b3ac2d1b6d8954d2a05b70",
+    "council-nmn-current.png": "74775ba6ee48899d86617b6753c6aedc31dc53ad2e051acc945f1188c1420986",
+    "council-adjacency-current.png": "94aac882507a1603bab7bfa680d58ab7a2fdaa207a80ed431da55f69b07dfb3a",
+    "council-inheritance-table.png": "a0ee4234d969163d16d30d4a9bee06d357cc63076b31d088a8ae666221c725fb"
+  },
+  "poster_source": "Current Council title frame, council-0",
+  "captured_ui_recoloured": false,
+  "scientists_images_changed": false,
+  "created_utc": "2026-10-06T17:04:04.128174+00:00",
+  "duration_seconds": 118,
+  "frames": 2832,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "both_versions_decoded": true,
+  "identical_picture_streams": true,
+  "approved_audio_streams_bit_identical_to_r13": {
+    "music": true,
+    "voice": true
+  },
+  "authored_theme_updated_seconds": [
+    22,
+    112
+  ],
+  "unchanged_flattened_scene_seconds": [
+    [
+      0,
+      22
+    ],
+    [
+      112,
+      118
+    ]
+  ],
+  "unchanged_frame_count_before_encode": 672,
+  "unchanged_frame_bytes_sha256_before_encode": "764bac5ab4bc1db3b7c6debd640bc1222a182b2c99c01a586388994089dd8173",
+  "encoding_note": "Picture re-encoded once. Intro/scientists and closing contents are passed through unchanged before encoding; no claim of byte-identical encoded picture.",
+  "historical_tool_samples_seconds": [],
+  "scope": "Colour update to authored available-source frames only; captured UI imagery is not recoloured and its text is unchanged. Timing and both audio streams are preserved. The flattened intro/closing are not recoloured.",
+  "capture_scope": "Selected current public UI examples. Witness panels do not certify incorrect morphology labels elsewhere; no general answer-accuracy claim.",
+  "files": {
+    "picture.mp4": {
+      "sha256": "fee71446b107e3790bf98a03d04c1ff186d878d42893e148559240df1004ee88",
+      "bytes": 6351764
+    },
+    "film-r10-music.mp4": {
+      "sha256": "bcc046d6e6bb33cd326d88e970b8e164bfc2bc3b20c69594f1900bfd09c05517",
+      "bytes": 9381904
+    },
+    "film-r10-voice.mp4": {
+      "sha256": "9fe8e768982e95d751902d22e75812a40271c1604535d27b586abb24bf663bd6",
+      "bytes": 8975229
+    },
+    "poster-r10.jpg": {
+      "sha256": "34fe317dd9e89e65a32919044159d982f134b75fd3286079ddffa73f31b04f58",
+      "bytes": 292056
+    }
+  },
+  "palette_proof_frames_checked": 21,
+  "preserved_scene_visual_comparison": [
+    {
+      "seconds": [
+        0,
+        22
+      ],
+      "ssim_report": "SSIM Y:0.993139 (21.636038) U:0.996576 (24.654397) V:0.996923 (25.118530) All:0.994342 (22.473639)"
+    },
+    {
+      "seconds": [
+        112,
+        118
+      ],
+      "ssim_report": "SSIM Y:0.992534 (21.268965) U:0.997132 (25.423671) V:0.997669 (26.324926) All:0.994156 (22.332869)"
+    }
+  ]
+}

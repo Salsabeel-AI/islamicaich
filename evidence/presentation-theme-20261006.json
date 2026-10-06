@@ -1,0 +1,102 @@
+{
+  "before_sha256": "ae9a7ea82be6085fedce5ca6abf763bb401201982531ad67321750e2c4692fa4",
+  "after_sha256": "890a748177ac7e712f52d4612d33a0ac15587175b2e8d7e618798f0d15e0b6f7",
+  "slides": [
+    {
+      "slide": 1,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 2,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 3,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 4,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 5,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 6,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 7,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 8,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 9,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 10,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 11,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 12,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 13,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 14,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 15,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    },
+    {
+      "slide": 16,
+      "only_colors_changed": true,
+      "notes_unchanged": true
+    }
+  ],
+  "all_embedded_images_unchanged": true,
+  "source_url": "https://islamicaich.salsabeel.ai/",
+  "observed_utc": "2026-10-06T17:00:23.775089+00:00",
+  "timestamp_basis": "Saved reference screenshot modification time; computed CSS read in the same browser inspection.",
+  "observation": "Live primary-site body computed background and text plus public root CSS tokens. This is material alignment, not a claim of a newly deployed website theme.",
+  "palette": {
+    "background": "#0d1815",
+    "panel": "#172922",
+    "gold": "#ddc087",
+    "text": "#f3f0e6",
+    "muted": "#a5b9ab",
+    "line": "#365046",
+    "accent": "#a6dab5"
+  },
+  "guide_pages": 3,
+  "scope": "Presentation and PDF guide recoloured; source evidence screenshots preserved without pixel edits."
+}
